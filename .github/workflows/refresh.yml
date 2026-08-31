@@ -1,8 +1,11 @@
 name: Refresh Garmin coach snapshot
 on:
   schedule:
-    # 18:17 UTC is 05:17 Sydney daylight time / 04:17 standard time.
-    - cron: '17 18 * * *'
+    # GitHub Actions scheduling is best-effort and only supports UTC.  Refresh
+    # every six hours, offset from the top of the hour, so a dropped scheduled
+    # run cannot leave the coaching snapshot stale for an entire day.  The
+    # 18:17 UTC run is 04:17 AEST / 05:17 AEDT, ahead of the 07:00 Sydney brief.
+    - cron: '17 0,6,12,18 * * *'
   workflow_dispatch:
 permissions:
   contents: write
