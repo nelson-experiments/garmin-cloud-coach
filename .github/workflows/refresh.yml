@@ -1,0 +1,27 @@
+name: Refresh Garmin coach snapshot
+on:
+  schedule:
+    # 18:17 UTC is 05:17 Sydney daylight time / 04:17 standard time.
+    - cron: '17 18 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -r requirements.txt
+      - run: python src/collect.py
+        env:
+          GARMIN_EMAIL: ${{ secrets.GARMIN_EMAIL }}
+          GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
+          GARMIN_TOKENS_B64: ${{ secrets.GARMIN_TOKENS_B64 }}
+      - run: |
+          git config user.name 'garmin-cloud-coach[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/latest.json
+          git diff --cached --quiet || git commit -m 'Refresh Garmin coaching snapshot'
+          git push
