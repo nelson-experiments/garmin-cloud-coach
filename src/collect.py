@@ -3,7 +3,6 @@ import base64, json, os
 from datetime import datetime, timedelta, UTC
 from pathlib import Path
 from zoneinfo import ZoneInfo
-
 from garminconnect import Garmin
 
 SYDNEY = ZoneInfo("Australia/Sydney")
@@ -56,6 +55,15 @@ def main():
     api.login(tokenstore=tokens)
     start, end, today_text = start_date.isoformat(), today.isoformat(), today.isoformat()
     sleep = call(api, "get_sleep_data", today_text)
+    # A 14-night history lets the briefing distinguish a meaningful change in
+    # overnight HR from normal night-to-night variation. Keep these summaries
+    # small; the complete raw sleep payload is retained only for last night.
+    recent_sleep_recovery = [sleep_recovery_summary(sleep, today_text)]
+    for offset in range(1, 15):
+        sleep_date = (today - timedelta(days=offset)).isoformat()
+        recent_sleep_recovery.append(
+            sleep_recovery_summary(call(api, "get_sleep_data", sleep_date), sleep_date)
+        )
     snapshot = {
       "generated_at": datetime.now(UTC).isoformat(),
       "source_timezone": "Australia/Sydney",
@@ -64,6 +72,7 @@ def main():
       "daily_summaries": [call(api, "get_user_summary", (start_date + timedelta(days=i)).isoformat()) for i in range(43)],
       "sleep": sleep,
       "overnight_sleep_recovery": sleep_recovery_summary(sleep, today_text),
+      "recent_sleep_recovery": recent_sleep_recovery,
       "heart_rate": call(api, "get_heart_rates", today_text),
       "training_readiness": call(api, "get_training_readiness", today_text),
       "training_status": call(api, "get_training_status", today_text),
