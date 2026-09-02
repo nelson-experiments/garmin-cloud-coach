@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-02T22:15:34Z",
+  "snapshot_generated_at": "2026-09-02T04:41:53.903145+00:00",
+  "status": "current",
+  "headline": "Test recovery with 20 easy minutes—or rest",
+  "summary": "The snapshot is within 36 hours, but it predates last night, so today's sleep, sleeping heart rate and morning readiness are unavailable. Four days after the marathon, a short flat test jog is reasonable only if walking, stairs, energy and posterior-tibial symptoms are all normal; otherwise rest.",
+  "recovery": [
+    {
+      "label": "Last night's sleep",
+      "value": "Not available",
+      "context": "The snapshot was generated yesterday afternoon. The latest recorded night was 7h 38m with a sleep score of 87, but it is not last night's recovery check.",
+      "status": "watch"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "Last recorded 65 bpm",
+      "context": "No value is available for last night, and the exported 14-night sleeping-HR history is null, so a recent range cannot be calculated.",
+      "status": "watch"
+    },
+    {
+      "label": "Resting HR",
+      "value": "Last recorded 62 bpm",
+      "context": "3 bpm above the then-current seven-day average of 59; no measurement is available for this morning.",
+      "status": "watch"
+    },
+    {
+      "label": "Overnight HRV",
+      "value": "Last recorded 43 ms · balanced",
+      "context": "Garmin rated the latest available HRV contribution very good, but it predates last night.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "Last recorded 26",
+      "context": "A reassuring low-to-moderate value from yesterday afternoon, not a complete-day or current-morning measure.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "Last recorded 85 on waking",
+      "context": "The latest available night added 64 points; today's waking value is unavailable.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "Last recorded 60 · moderate",
+      "context": "The score included about 24h 34m recovery time and acute load 699; it is not today's readiness reading.",
+      "status": "watch"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest day",
+    "summary": "No activity was recorded for 2 September. Across the seven days ending 2 September, running totalled 55.0 km over three runs with about 727 training-load points; including cycling, recorded activity load was about 813. The marathon supplied 513 load points and remains the dominant stress."
+  },
+  "recommendation": {
+    "title": "20-minute flat recovery test jog, only if symptom-free",
+    "details": [
+      "Before starting, require normal walking and stairs, no focal medial-ankle or arch pain, no altered gait, and no unusual fatigue or illness.",
+      "Run exactly 20 minutes on flat, predictable ground at conversational RPE 2–3; roughly 6:30–7:15/km is a ceiling guide, not a target.",
+      "Do not add strides, hills, tempo work, extra distance or loaded calf/foot strength today.",
+      "Judge the session by relaxed breathing and stable symptoms, not by forcing a generic heart-rate zone."
+    ],
+    "alternative": "Take complete rest, or walk gently for 20–30 minutes, if this morning feels worse than the latest available Garmin data or any pre-run gate is not met.",
+    "reduce_or_stop": "Stop immediately if posterior-tibial discomfort exceeds 2/10, rises as you run, becomes sharp or localised, or changes your stride. Do not run again if pain is worse later today or tomorrow morning; swelling, altered gait, illness or medical advice overrides Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Time since marathon",
+      "value": "4 days",
+      "interpretation": "A short movement test may be appropriate, but muscular and connective-tissue recovery is still incomplete even when device scores rebound."
+    },
+    {
+      "label": "Recent concentrated load",
+      "value": "55.0 km · running load ~727",
+      "interpretation": "The seven-day total includes a 42.74 km marathon plus a 6.99 km run the following day, favouring a minimal test rather than normal training."
+    },
+    {
+      "label": "Missing morning recovery",
+      "value": "Snapshot age ~17h 34m",
+      "interpretation": "It meets the 36-hour freshness rule but cannot confirm last night's sleep, sleeping HR, resting HR, Body Battery or today's readiness."
+    }
+  ],
+  "caveats": [
+    "The snapshot window ends on 2 September and does not contain last night's sleep or today's recovery metrics.",
+    "The 14-night sleeping-heart-rate export contains no valid values, so sleeping HR cannot be compared with a recent range.",
+    "The latest available sleep record contains 65 bpm in its detailed average-heart-rate field while the dedicated overnight field is null.",
+    "Wrist heart-rate data from the 31 August run are internally inconsistent (145 bpm average and 190 bpm maximum), so they are not used to set today's intensity."
+  ],
+  "run_assessments": []
+}
