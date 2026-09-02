@@ -6,8 +6,6 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from garminconnect import Garmin
-
 SYDNEY = ZoneInfo("Australia/Sydney")
 
 
@@ -42,7 +40,7 @@ def sleep_recovery_summary(sleep, sleep_date):
 
 
 def completed_overnight(summary, expected_date):
-    """True only when Garmin has finalised the requested night's sleep record."""
+    """Return true only when Garmin has finalised the requested night's sleep."""
     try:
         heart_rate = float(summary["average_sleep_heart_rate_bpm"])
     except (KeyError, TypeError, ValueError):
@@ -70,9 +68,12 @@ def call(api, name, *args):
         return {"unavailable": str(exc)}
 
 
-def main():
-    # Garmin calendar dates are local-day dates.  The overnight record ending
-    # this morning is therefore dated with today's Sydney date, not UTC's date.
+def main() -> bool:
+    # Import lazily so the pure validation functions stay independently testable.
+    from garminconnect import Garmin
+
+    # Garmin calendar dates are local-day dates. The record ending this morning
+    # is dated with today's Sydney date, not the runner's UTC date.
     today = datetime.now(SYDNEY).date()
     start_date = today - timedelta(days=42)
     tokens = token_json("GARMIN_TOKENS_B64")
@@ -83,14 +84,15 @@ def main():
     sleep = call(api, "get_sleep_data", today_text)
     overnight = sleep_recovery_summary(sleep, today_text)
 
-    # Do not replace the last valid snapshot with an incomplete night.  A
-    # non-zero exit leaves data/latest.json unchanged and makes the workflow
-    # retry at its next morning slot.
+    # An unfinished record is normal before Garmin has completed its overnight
+    # processing. It is not a workflow error: preserve the last valid snapshot
+    # and let the next scheduled retry try again.
     if not completed_overnight(overnight, today_text):
-        raise RuntimeError(
-            "Garmin has not finalised last night's Sydney sleep record "
-            f"for {today_text}; no snapshot was published."
+        print(
+            "Garmin has not finalised the Sydney overnight record for "
+            f"{today_text}; preserving the previous valid snapshot."
         )
+        return False
 
     recent_sleep_recovery = [overnight]
     for offset in range(1, 15):
@@ -119,6 +121,7 @@ def main():
     }
     Path("data").mkdir(exist_ok=True)
     Path("data/latest.json").write_text(json.dumps(snapshot, indent=2, default=str) + "\n")
+    return True
 
 
 if __name__ == "__main__":
