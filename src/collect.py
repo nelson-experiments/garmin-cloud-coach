@@ -1,11 +1,15 @@
 """Read-only Garmin Connect snapshot for a cloud-based running coach."""
-import base64, json, os
-from datetime import datetime, timedelta, UTC
+import base64
+import json
+import os
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
 from garminconnect import Garmin
 
 SYDNEY = ZoneInfo("Australia/Sydney")
+
 
 def get_path(value, *path):
     """Return a nested dict value, or None when Garmin omits that field."""
@@ -15,8 +19,9 @@ def get_path(value, *path):
         value = value.get(key)
     return value
 
+
 def sleep_recovery_summary(sleep, sleep_date):
-    """Expose the overnight heart-rate signal without hiding Garmin's raw data."""
+    """Expose the completed overnight HR signal and its source timestamps."""
     daily = get_path(sleep, "dailySleepDTO") or sleep
     spo2 = get_path(daily, "spo2SleepSummary") or {}
     return {
@@ -26,14 +31,34 @@ def sleep_recovery_summary(sleep, sleep_date):
         "average_sleep_heart_rate_bpm": (
             get_path(daily, "averageHeartRate")
             or get_path(daily, "averageHR")
+            or get_path(daily, "avgHeartRate")
             or get_path(spo2, "averageHR")
         ),
-        "resting_heart_rate_bpm": (\n            get_path(daily, "restingHeartRate")\n            or get_path(sleep, "restingHeartRate")\n        ),
+        "resting_heart_rate_bpm": (
+            get_path(daily, "restingHeartRate")
+            or get_path(sleep, "restingHeartRate")
+        ),
     }
+
+
+def completed_overnight(summary, expected_date):
+    """True only when Garmin has finalised the requested night's sleep record."""
+    try:
+        heart_rate = float(summary["average_sleep_heart_rate_bpm"])
+    except (KeyError, TypeError, ValueError):
+        return False
+    return (
+        summary.get("sleep_date") == expected_date
+        and summary.get("sleep_start_gmt") is not None
+        and summary.get("sleep_end_gmt") is not None
+        and heart_rate > 0
+    )
+
 
 def token_json(name):
     value = os.getenv(name)
     return base64.b64decode(value).decode() if value else None
+
 
 def call(api, name, *args):
     method = getattr(api, name, None)
@@ -44,42 +69,57 @@ def call(api, name, *args):
     except Exception as exc:
         return {"unavailable": str(exc)}
 
+
 def main():
-    # Garmin's calendar dates are local-day dates. At 07:45 Sydney time it is
-    # still the previous calendar day in UTC, so date.today() on the Actions
-    # runner would otherwise fetch yesterday's sleep instead of last night's.
+    # Garmin calendar dates are local-day dates.  The overnight record ending
+    # this morning is therefore dated with today's Sydney date, not UTC's date.
     today = datetime.now(SYDNEY).date()
     start_date = today - timedelta(days=42)
     tokens = token_json("GARMIN_TOKENS_B64")
     api = Garmin(os.getenv("GARMIN_EMAIL"), os.getenv("GARMIN_PASSWORD"))
     api.login(tokenstore=tokens)
+
     start, end, today_text = start_date.isoformat(), today.isoformat(), today.isoformat()
     sleep = call(api, "get_sleep_data", today_text)
-    # A 14-night history lets the briefing distinguish a meaningful change in
-    # overnight HR from normal night-to-night variation. Keep these summaries
-    # small; the complete raw sleep payload is retained only for last night.
-    recent_sleep_recovery = [sleep_recovery_summary(sleep, today_text)]
+    overnight = sleep_recovery_summary(sleep, today_text)
+
+    # Do not replace the last valid snapshot with an incomplete night.  A
+    # non-zero exit leaves data/latest.json unchanged and makes the workflow
+    # retry at its next morning slot.
+    if not completed_overnight(overnight, today_text):
+        raise RuntimeError(
+            "Garmin has not finalised last night's Sydney sleep record "
+            f"for {today_text}; no snapshot was published."
+        )
+
+    recent_sleep_recovery = [overnight]
     for offset in range(1, 15):
         sleep_date = (today - timedelta(days=offset)).isoformat()
         recent_sleep_recovery.append(
             sleep_recovery_summary(call(api, "get_sleep_data", sleep_date), sleep_date)
         )
+
     snapshot = {
-      "generated_at": datetime.now(UTC).isoformat(),
-      "source_timezone": "Australia/Sydney",
-      "window": {"start": start, "end": end},
-      "activities": call(api, "get_activities_by_date", start, end),
-      "daily_summaries": [call(api, "get_user_summary", (start_date + timedelta(days=i)).isoformat()) for i in range(43)],
-      "sleep": sleep,
-      "overnight_sleep_recovery": sleep_recovery_summary(sleep, today_text),
-      "recent_sleep_recovery": recent_sleep_recovery,
-      "heart_rate": call(api, "get_heart_rates", today_text),
-      "training_readiness": call(api, "get_training_readiness", today_text),
-      "training_status": call(api, "get_training_status", today_text),
-      "race_predictions": call(api, "get_race_predictions"),
+        "generated_at": datetime.now(UTC).isoformat(),
+        "source_timezone": "Australia/Sydney",
+        "window": {"start": start, "end": end},
+        "overnight_sleep_complete": True,
+        "activities": call(api, "get_activities_by_date", start, end),
+        "daily_summaries": [
+            call(api, "get_user_summary", (start_date + timedelta(days=i)).isoformat())
+            for i in range(43)
+        ],
+        "sleep": sleep,
+        "overnight_sleep_recovery": overnight,
+        "recent_sleep_recovery": recent_sleep_recovery,
+        "heart_rate": call(api, "get_heart_rates", today_text),
+        "training_readiness": call(api, "get_training_readiness", today_text),
+        "training_status": call(api, "get_training_status", today_text),
+        "race_predictions": call(api, "get_race_predictions"),
     }
     Path("data").mkdir(exist_ok=True)
     Path("data/latest.json").write_text(json.dumps(snapshot, indent=2, default=str) + "\n")
+
 
 if __name__ == "__main__":
     main()
