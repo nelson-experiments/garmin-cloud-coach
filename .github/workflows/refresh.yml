@@ -1,24 +1,27 @@
 name: Refresh Garmin coach snapshot
+
 on:
   schedule:
-    # GitHub Actions scheduling is best-effort and only supports UTC. Refresh
-    # every six hours, offset from the top of the hour, to keep the snapshot
-    # fresh through the day.
-    - cron: '17 0,6,12,18 * * *'
-    # One of these two runs is 07:45 Sydney time year-round; the other is a
-    # harmless fallback around daylight-saving transitions. This is late enough
-    # for the watch to sync a completed night's sleep after a ~07:00 wake-up.
-    - cron: '45 20,21 * * *'
+    # Keep three six-hourly daytime refreshes. The collector refuses to replace
+    # the last valid snapshot until Garmin has completed the current night's
+    # Sydney sleep record.
+    - cron: '17 0,6,12 * * *'
+    # One of these runs lands at 08:25 Sydney time all year. The second gives
+    # a same-morning retry across the AEST/AEDT offset change.
+    - cron: '25 21,22 * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: '3.12'}
+        with:
+          python-version: '3.12'
       - run: pip install -r requirements.txt
       - run: python src/collect.py
         env:
