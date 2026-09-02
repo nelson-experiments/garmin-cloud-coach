@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  pull_request:
+    paths:
+      - src/**
+      - tests/**
+      - .github/workflows/**
+      - requirements.txt
+  push:
+    branches: [master]
+    paths:
+      - src/**
+      - tests/**
+      - .github/workflows/**
+      - requirements.txt
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check Python syntax
+        run: python -m compileall -q src tests
+      - name: Run collector unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Lint GitHub Actions workflows
+        uses: docker://rhysd/actionlint:1.7.7
