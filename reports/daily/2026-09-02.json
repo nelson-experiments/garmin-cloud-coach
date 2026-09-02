@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T10:43:19.657Z",
+  "snapshot_generated_at": "2026-09-02T04:41:53.903145+00:00",
+  "status": "current",
+  "headline": "Good sleep helps, but keep the recovery day",
+  "summary": "Recovery markers improved markedly after two quiet days, but the marathon and Monday's extra 7 km are still the dominant training signals. Keep today as a rest day and reassess normal walking, stairs and tendon response before considering a short run tomorrow.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 38m · score 87",
+      "context": "Good sleep with excellent duration; average sleep stress was 20 (fair).",
+      "status": "good"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "65 bpm",
+      "context": "Available in the raw sleep record, but historical sleeping-HR baselines were missing because of a collector field mismatch.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "62 bpm",
+      "context": "3 bpm above the current seven-day average of 59.",
+      "status": "watch"
+    },
+    {
+      "label": "Overnight HRV",
+      "value": "43 ms · balanced",
+      "context": "Garmin rated the HRV contribution very good.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "85 on waking",
+      "context": "Up 64 points overnight; 46 at the mid-afternoon snapshot.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "60 · moderate",
+      "context": "Boosted by good sleep; about 24h 34m of recovery time remained.",
+      "status": "watch"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest day",
+    "summary": "No running activity was recorded. The quiet day allowed Body Battery and Training Readiness to rebound."
+  },
+  "recommendation": {
+    "title": "Rest; optional 20–30-minute gentle walk",
+    "details": [
+      "No running, workout or long aerobic cross-training today.",
+      "Keep any walk genuinely gentle and on flat ground.",
+      "Light mobility is fine if it does not provoke calf or medial-ankle symptoms."
+    ],
+    "alternative": "Complete rest if walking, stairs, general soreness or energy do not feel normal.",
+    "reduce_or_stop": "Stop the walk if posterior-tibial discomfort rises above mild awareness, changes your gait, or is worse as you continue. Do not run tomorrow if symptoms remain elevated afterward or the following morning."
+  },
+  "signals": [
+    {
+      "label": "Post-marathon timing",
+      "value": "Marathon + 7 km within ~30h",
+      "interpretation": "Even with improving device scores, connective-tissue and muscular recovery lag behind headline readiness."
+    },
+    {
+      "label": "Readiness rebound",
+      "value": "4 → 60",
+      "interpretation": "Good sleep and two low-load days improved short-term recovery, but the rebound is not clearance for training."
+    },
+    {
+      "label": "Acute load",
+      "value": "699 · ratio 1.2",
+      "interpretation": "Garmin now calls the load ratio optimal, yet roughly 55 km of the recent week was concentrated around the marathon."
+    }
+  ],
+  "caveats": [
+    "Historical sleeping-heart-rate values were unavailable in overnight_sleep_recovery because Garmin supplied avgHeartRate under a different field name; the collector has now been corrected for future snapshots.",
+    "Wrist heart-rate data from Monday's run remain internally inconsistent (145 bpm average, 190 bpm maximum), so intensity interpretation is cautious.",
+    "Today's stress and Body Battery values are partial because the snapshot was generated mid-afternoon."
+  ],
+  "run_assessments": [
+    {
+      "activity_id": "24178878009",
+      "summary": "6.99 km at about 6:16/km, completed roughly a day after the marathon.",
+      "assessment": "The pace was easy, but the timing made this an additional recovery cost rather than useful aerobic development. Treat its heart-rate data cautiously and allow the response to settle before the next run.",
+      "signals": [
+        {
+          "label": "Training load",
+          "value": "93",
+          "interpretation": "A meaningful extra load immediately after the marathon."
+        },
+        {
+          "label": "Heart rate",
+          "value": "145 avg · 190 max",
+          "interpretation": "The maximum is inconsistent with the run and may reflect wrist-HR error or cadence lock."
+        }
+      ]
+    }
+  ]
+}
