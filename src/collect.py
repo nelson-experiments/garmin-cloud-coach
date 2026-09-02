@@ -28,7 +28,7 @@ def sleep_recovery_summary(sleep, sleep_date):
             or get_path(daily, "averageHR")
             or get_path(spo2, "averageHR")
         ),
-        "resting_heart_rate_bpm": get_path(daily, "restingHeartRate"),
+        "resting_heart_rate_bpm": (\n            get_path(daily, "restingHeartRate")\n            or get_path(sleep, "restingHeartRate")\n        ),
     }
 
 def token_json(name):
