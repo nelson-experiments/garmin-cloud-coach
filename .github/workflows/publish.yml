@@ -27,6 +27,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build privacy-filtered site
         run: python src/build_site.py
+      - name: Verify public entry points
+        run: test -f _site/index.html && test -f _site/latest/index.html
       - uses: actions/configure-pages@v5
         with:
           enablement: true
