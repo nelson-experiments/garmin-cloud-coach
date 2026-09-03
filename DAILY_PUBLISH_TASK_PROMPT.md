@@ -14,10 +14,40 @@ If a condition fails, do not create or replace `reports/daily/YYYY-MM-DD.json`. 
 
 Only when every condition passes, generate Nelson's daily running and recovery briefing and publish it by creating or replacing `reports/daily/YYYY-MM-DD.json` on the default branch. This write triggers public-site deployment.
 
-Nelson is a 44-year-old Sydney runner progressing from a 3:45 marathon PB toward sub-3:00. He normally runs four times per week and 50–60 km, with 21–25 km long runs, and has occasional posterior-tibial tendon symptoms. He is currently in a post-marathon recovery block. After that recovery block, incorporate the already-agreed easy-pace calibration experiment rather than forcing artificially slow running solely to satisfy a generic heart-rate zone.
+Nelson is a 44-year-old Sydney runner progressing from a 3:45 marathon PB toward sub-3:00. He normally runs four times per week and 50–60 km, with 21–25 km long runs. He is currently in a post-marathon recovery block. After that recovery block, incorporate the already-agreed easy-pace calibration experiment rather than forcing artificially slow running solely to satisfy a generic heart-rate zone.
 
-Include last night's sleep and sleeping HR versus the available 7- and 14-night baseline, resting HR/HRV, stress, Body Battery, recovery time, Training Readiness, yesterday's activity, rolling seven-day load, today's exact recommendation and a lower-load alternative, the strongest quantitative signals, and a posterior-tibial reduce-or-stop rule. Add assessments for any newly recorded runs.
+Before prescribing today, review every Garmin activity from the previous Sydney calendar day. Also read the previous daily report that prescribed that day, normally `reports/daily/YYYY-MM-DD.json` for the preceding date. Compare what was prescribed with what was completed.
 
-Use the established report JSON schema. The report is public: never include GPS/route/location detail below city level, profile URLs, Garmin owner/user/device IDs, email, credentials, tokens, raw JSON, or medical diagnoses. Publish only derived training and recovery metrics needed for coaching. Pain, illness, and medical advice override Garmin scores.
+Classify adherence as exactly one of:
+
+- `followed`: the recorded workout or rest day materially matched the prescription;
+- `mostly_followed`: the main purpose was followed, with a small difference in duration, distance, or intensity;
+- `did_not_follow`: the completed training materially exceeded, contradicted, or omitted a clear prescription;
+- `not_assessable`: there was no prior prescription, the recommendation was conditional and the necessary condition is unobservable, or the Garmin data is insufficient.
+
+Judge adherence from observable evidence: activity type, start date, duration, distance, pace, heart rate, training load/effect, and recorded rest. Never claim to know perceived effort, pain, terrain, symptoms, or intent when Garmin does not show them. Treat a safer lower-load choice allowed by the prior recommendation as compliant. If multiple workouts occurred, assess both the combined day and each material session.
+
+Include:
+
+1. Last night's sleep and sleeping HR versus the available 7- and 14-night baseline, resting HR/HRV, stress, Body Battery, recovery time, and Training Readiness.
+2. Yesterday's workouts and rolling seven-day load.
+3. A clear adherence verdict explaining the prior prescription, what was completed, the evidence for the verdict, and any unobservable or missing factors.
+4. Today's exact recommendation and a lower-load alternative.
+5. The strongest quantitative signals driving the recommendation.
+6. Assessments for any newly recorded runs.
+
+In the report JSON, the `yesterday` object must include:
+
+- `title` and `summary`;
+- `adherence_verdict` using one of the four exact values above;
+- `prescribed`: a concise summary of the prior instruction, or why none was available;
+- `completed`: a concise summary of all recorded workouts or rest;
+- `adherence_assessment`: a concise explanation of the verdict;
+- `adherence_evidence`: an array of measured comparisons;
+- `adherence_caveats`: an array of factors Garmin cannot verify.
+
+Use the established report JSON schema for all other fields. Use only generic safety guidance: modify or stop for pain, illness, altered gait, or other concerning symptoms. Do not include posterior-tibial-specific advice unless Nelson reports that symptom again.
+
+The report is public: never include GPS/route/location detail below city level, profile URLs, Garmin owner/user/device IDs, email, credentials, tokens, raw JSON, or medical diagnoses. Publish only derived training and recovery metrics needed for coaching. Pain, illness, and medical advice override Garmin scores.
 
 After a successful repository write and published deployment, respond with the briefing and `https://nelson-experiments.github.io/garmin-cloud-coach/latest/`. If either write or publication fails, say so explicitly.
