@@ -1,6 +1,12 @@
 name: Publish coaching archive
 
 on:
+  pull_request:
+    paths:
+      - reports/**
+      - site/**
+      - src/build_site.py
+      - .github/workflows/publish.yml
   push:
     branches: [master]
     paths:
@@ -29,14 +35,17 @@ jobs:
         run: python src/build_site.py
       - name: Verify public entry points
         run: test -f _site/index.html && test -f _site/latest/index.html
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -46,3 +55,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify deployed latest page
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}latest/
+        run: |
+          curl --fail --silent --show-error \
+            --retry 10 --retry-all-errors --retry-delay 3 \
+            "$PAGE_URL" | grep -F "Nelson's Run Brief"
