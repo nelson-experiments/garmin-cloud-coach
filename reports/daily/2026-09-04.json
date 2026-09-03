@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-03T21:36:00Z",
+  "snapshot_generated_at": "2026-09-03T21:32:43.233269+00:00",
+  "lk": "current",
+  "headline": "Recovery remains sound; make today a rest day",
+  "summary": "Garmin has now finalised last night's record. Readiness and HRV remain reassuring, but sleep was 6h 32m and both sleeping and resting heart rate rose modestly. Yesterday's short recovery run followed the prescription well. Five days after the marathon, the best use of today is recovery rather than adding another run.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "6h 32m · score 76",
+      "context": "Fair; about 1h 18m below Garmin's 7h 50m sleep need. Deep sleep was 1h 08m and REM 1h 11m.",
+      "status": "warning"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "66 bpm",
+      "context": "About 0.9 bpm above the prior 7-night average (65.1) and 1.4 bpm above the prior 14-night average (64.6).",
+      "status": "warning"
+    },
+    {
+      "label": "Resting HR",
+      "value": "62 bpm",
+      "context": "2 bpm above Garmin's seven-day average of 60 and up from 58 yesterday.",
+      "status": "warning"
+    },
+    {
+      "label": "HRV",
+      "value": "40 ms overnight",
+      "context": "Slightly below the 42 ms weekly average; Garmin still classifies HRV as balanced and its contribution as very good.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "66 on waking",
+      "context": "Charged 46 points overnight, but did not reach yesterday's 91.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "73 · moderate",
+      "context": "Recovery time is effectively zero and acute load is 538, with Garmin's acute-to-chronic ratio at 0.9 (optimal).",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "23 so far",
+      "context": "A morning-only value; useful as current context but not comparable with a full day.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "22-minute easy recovery run",
+    "summary": "You ran 3.31 km in 22:04 at 6:40/km, average HR 136, training load 44, and Garmin aerobic-base effect 2.3. The activity recorded 27–30°C and 34 m elevation gain.",
+    "adherence_verdict": "followed",
+    "prescribed": "20–25 minutes flat and conversational at RPE 2–3, approximately 6:30–7:15/km as a /prescribedAs a guide, with no hills, strides, tempo, or extra distance.",
+    "completed": "22:04 running, 3.31 km at 6:40/km, average HR 136, load 44; Garmin classified it as aerobic base with zero anaerobic effect.",
+    "adherence_assessment": "The measurable parts matched the prescription closely: duration and pace were inside the specified ranges, training effect was low, and there was no extra distance. Warm conditions plausibly raised heart rate, so the HR reading does not count against adherence.",
+    "adherence_evidence": [
+      "22:04 completed versus 20–25 minutes prescribed.",
+      "6:40/km sat inside the 6:30–7:15/km guide.",
+      "Aerobic effect 2.3, anaerobic effect 0, and load 44 are consistent with a short easy session.",
+      "Garmin recorded 27–30°C; heat can elevate heart rate at a given easy pace."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot verify perceived effort, conversational breathing, or whether every segment was flat.",
+      "Wrist heart rate reached 171 bpm despite a 136 bpm average; this may be a brief surge or sensor artefact and should not outweigh the overall easy-session pattern.",
+      "On-watch temperature can be affected by body heat, so the 27–30°C range is environmental context rather than a precise air-temperature measurement."
+    ]
+  },
+  "recommendation": {
+    "title": "Rest day",
+    "details": [
+      "Do not run today. Yesterday supplied the planned recovery stimulus.",
+      "Optional: 20–30 minutes of easy walking or gentle flat cycling at RPE 1–2.",
+      "Prioritise food, fluids, and an earlier night; tomorrow's decision should use the next completed overnight record."
+    ],
+    "alternative": "Complete rest is equally appropriate.",
+    "reduce_or_stop": "Stop optional activity if pain changes your movement or you feel unwell. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Sleep quantity",
+      "value": "6h 32m vs 7h 50m need",
+      "interpretation": "The shortfall argues against stacking another run onto yesterday's recovery session."
+    },
+    {
+      "label": "Heart-rate recovery",
+      "value": "Sleep HR 66 · resting HR 62",
+      "interpretation": "Both rose modestly from recent values, suggesting recovery was less complete than yesterday despite a good readiness score."
+    },
+    {
+      "label": "Overall load",
+      "value": "Acute load 538 · ratio 0.9",
+      "interpretation": "Load is now in Garmin's optimal range, so a rest day consolidates recovery rather than responding to overload."
+    }
+  ],
+  "caveats": [
+    "Today's stress value covers only the morning.",
+    "Garmin cannot verify perceived effort or exact terrain for yesterday's run.",
+    "Activity temperature may be influenced by body heat; it is used as contextual evidence rather than an exact ambient measurement."
+  ],
+  "run_assessments": [
+    {
+      "activity_id": 24217979951,
+      "summary": "The recovery run followed the prescribed duration and pace in warm conditions.",
+      "assessment": "You kept the run inside the 20–25 minute duration and 6:30–7:15/km pace guides. Garmin classified it as aerobic base with no anaerobic effect. The 27–30°C recorded temperature plausibly explains some cardiovascular cost; perceived effort and exact terrain are not measurable from Garmin.",
+      "signals": [
+        {
+          "label": "Prescription match",
+          "value": "22:04 · 6:40/km",
+          "interpretation": "Both duration and pace were within the requested ranges."
+        },
+        {
+          "label": "Training effect",
+          "value": "2.3 aerobic · 0 anaerobic",
+          "interpretation": "This supports the interpretation that the session remained low intensity."
+        },
+        {
+          "label": "Heat context",
+          "value": "27–30°C recorded",
+          "interpretation": "Warm conditions can elevate heart rate at a given pace, so pace and HR should be interpreted together."
+        }
+      ]
+    }
+  ]
+}
