@@ -25,15 +25,17 @@ Classify adherence as exactly one of:
 - `did_not_follow`: the completed training materially exceeded, contradicted, or omitted a clear prescription;
 - `not_assessable`: there was no prior prescription, the recommendation was conditional and the necessary condition is unobservable, or the Garmin data is insufficient.
 
-Judge adherence from observable evidence: activity type, start date, duration, distance, pace, heart rate, training load/effect, and recorded rest. Never claim to know perceived effort, pain, terrain, symptoms, or intent when Garmin does not show them. Treat a safer lower-load choice allowed by the prior recommendation as compliant. If multiple workouts occurred, assess both the combined day and each material session.
+Judge adherence from observable evidence: activity type, start date, duration, distance, pace, heart rate, training load/effect, recorded rest, and environmental conditions. Never claim to know perceived effort, pain, terrain, symptoms, or intent when Garmin does not show them. Treat a safer lower-load choice allowed by the prior recommendation as compliant. If multiple workouts occurred, assess both the combined day and each material session.
+
+For each previous-day workout, identify heat exposure using Garmin's `minTemperature` and `maxTemperature` when present. Where a trustworthy hourly Sydney weather source is available, also consider temperature, relative humidity, and dew point at the workout time; otherwise state that humidity is unavailable. Compare pace and heart-rate response with similar recent workouts in cooler conditions where the snapshot permits. Treat heat-related pace slowing or heart-rate elevation as environmental context, not automatically as poor adherence. Do not invent exact route-level weather or confuse the activity's temperature range with air temperature if the source is ambiguous.
 
 Include:
 
 1. Last night's sleep and sleeping HR versus the available 7- and 14-night baseline, resting HR/HRV, stress, Body Battery, recovery time, and Training Readiness.
 2. Yesterday's workouts and rolling seven-day load.
 3. A clear adherence verdict explaining the prior prescription, what was completed, the evidence for the verdict, and any unobservable or missing factors.
-4. Today's exact recommendation and a lower-load alternative.
-5. The strongest quantitative signals driving the recommendation.
+4. Today's exact recommendation and a lower-load alternative, adjusted for the Sydney forecast. When heat or humidity is material, recommend an appropriate cooler time window and effort adjustment; do not prescribe a rigid universal pace penalty.
+5. The strongest quantitative signals driving the recommendation, including environmental strain when material.
 6. Assessments for any newly recorded runs.
 
 In the report JSON, the `yesterday` object must include:
@@ -44,7 +46,8 @@ In the report JSON, the `yesterday` object must include:
 - `completed`: a concise summary of all recorded workouts or rest;
 - `adherence_assessment`: a concise explanation of the verdict;
 - `adherence_evidence`: an array of measured comparisons;
-- `adherence_caveats`: an array of factors Garmin cannot verify.
+- `adherence_caveats`: an array of factors Garmin cannot verify;
+- `environment`: an object containing the observed temperature range, available humidity/dew-point context, a concise heat-impact interpretation, and data-source limitations.
 
 Use the established report JSON schema for all other fields. Use only generic safety guidance: modify or stop for pain, illness, altered gait, or other concerning symptoms. Do not include posterior-tibial-specific advice unless Nelson reports that symptom again.
 
