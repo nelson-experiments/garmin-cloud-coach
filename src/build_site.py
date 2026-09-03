@@ -143,11 +143,22 @@ def report_body(report: dict[str, Any]) -> str:
     yesterday = report.get("yesterday") if isinstance(report.get("yesterday"), dict) else {}
     recommendation = report.get("recommendation") if isinstance(report.get("recommendation"), dict) else {}
     caveats = render_items(report.get("caveats"), "caveats")
+    adherence_verdict = str(yesterday.get("adherence_verdict") or "").replace("_", " ").title()
+    adherence = ""
+    if adherence_verdict:
+        evidence = render_items(yesterday.get("adherence_evidence"))
+        adherence_caveats = render_items(yesterday.get("adherence_caveats"), "caveats")
+        adherence = f"""
+<div class="adherence"><h3>Plan adherence: {esc(adherence_verdict)}</h3>
+<p><strong>Prescribed:</strong> {esc(yesterday.get('prescribed'))}</p>
+<p><strong>Completed:</strong> {esc(yesterday.get('completed'))}</p>
+<p>{esc(yesterday.get('adherence_assessment'))}</p>
+{evidence}{adherence_caveats}</div>"""
     return f"""
 <section class="hero"><div><p class="eyebrow">Daily briefing · {date}</p><h1>{esc(report.get('headline') or 'Daily training brief')}</h1>
 <p class="lede">{esc(report.get('summary'))}</p></div><span class="status {esc(status)}">{esc(status)}</span></section>
 <section><h2>Recovery dashboard</h2>{recovery or '<p>No recovery metrics were available.</p>'}</section>
-<section class="split"><article><h2>Yesterday</h2><h3>{esc(yesterday.get('title') or 'No run recorded')}</h3><p>{esc(yesterday.get('summary'))}</p></article>
+<section class="split"><article><h2>Yesterday</h2><h3>{esc(yesterday.get('title') or 'No run recorded')}</h3><p>{esc(yesterday.get('summary'))}</p>{adherence}</article>
 <article class="prescription"><h2>Today</h2><h3>{esc(recommendation.get('title') or 'Awaiting recommendation')}</h3>
 {render_items(recommendation.get('details'))}<p><strong>Alternative:</strong> {esc(recommendation.get('alternative'))}</p>
 <p class="stop"><strong>Reduce or stop:</strong> {esc(recommendation.get('reduce_or_stop'))}</p></article></section>
