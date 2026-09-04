@@ -13,9 +13,9 @@ on:
     # the last valid snapshot until Garmin has completed the current night's
     # Sydney sleep record.
     - cron: '17 0,6,12 * * *'
-    # One of these runs lands at 08:25 Sydney time all year. The second gives
-    # a same-morning retry across the AEST/AEDT offset change.
-    - cron: '25 21,22 * * *'
+    # One of these runs lands at 07:15 Sydney time all year. The other lands at
+    # 06:15 and provides an early attempt across the AEST/AEDT offset change.
+    - cron: '15 20,21 * * *'
   workflow_dispatch:
 
 permissions:
