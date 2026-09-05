@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T03:40:01Z",
+  "snapshot_generated_at": "2026-09-05T03:38:20.657486+00:00",
+  "headline": "Severe sleep shortfall: rest today despite reassuring heart-rate recovery",
+  "summary": "Last night's sleeping heart rate, resting heart rate, and HRV are reassuring, and yesterday's prescribed rest day was followed. However, Garmin recorded only 2h 28m sleep, a sleep score of 34, Body Battery 43 on waking, and Training Readiness 22. Six days after the marathon, the large sleep deficit is the decisive signal: do not run today.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "2h 28m · score 34",
+      "context": "Poor; 5h 22m below Garmin's 7h 50m sleep need. Garmin recorded 1h 04m deep sleep and 48m REM.",
+      "status": "warning"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "59 bpm",
+      "context": "4.6 bpm below the prior 7-night average (63.6) and 5.7 bpm below the prior 14-night average (64.7). This is reassuring but cannot compensate for the very short sleep.",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "53 bpm",
+      "context": "6 bpm below Garmin's seven-day average of 59 and down from 62 yesterday.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "53 ms overnight",
+      "context": "Above Garmin's 42 ms weekly average; status remains balanced and its readiness contribution is very good.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "43 on waking",
+      "context": "Charged 31 points overnight and remained well below recent waking values of 66, 85, and 91.",
+      "status": "warning"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "22 · poor",
+      "context": "Garmin's strongest negative factor is sleep. Recovery time is about 6h 16m; acute load is 429 and the acute-to-chronic ratio is 0.8 (optimal).",
+      "status": "warning"
+    },
+    {
+      "label": "Stress",
+      "value": "35 so far",
+      "context": "An incomplete-day value captured around early afternoon; it is not directly comparable with a full day.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest day completed",
+    "summary": "Garmin recorded no workout on 4 September. Daily activity was 4,851 steps, consistent with the prescribed recovery day.",
+    "adherence_verdict": "followed",
+    "prescribed": "No running; optional 20–30 minutes of easy walking or gentle flat cycling at RPE 1–2, with complete rest also appropriate.",
+    "completed": "No Garmin workout was recorded; daily activity totalled 4,851 steps.",
+    "adherence_assessment": "You followed the central instruction not to run or add training load. Complete rest was explicitly allowed, so the absence of a recorded optional walk or ride is compliant.",
+    "adherence_evidence": [
+      "Zero Garmin activities were recorded on 4 September.",
+      "No running load or training effect was added.",
+      "The prior report explicitly allowed complete rest."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot verify unrecorded walking, mobility, perceived effort, pain, illness, or intent.",
+      "Daily steps show general movement but do not establish whether a structured recovery walk occurred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable — no recorded workout.",
+      "humidity_dew_point_context": "Not applicable; no workout time to match against hourly weather.",
+      "heat_impact_interpretation": "Environmental strain did not affect workout adherence because no workout was recorded.",
+      "limitations": "General daily conditions cannot be assigned to a workout that did not occur."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest for the remainder of today",
+    "details": [
+      "Do not run today. The 2h 28m sleep duration is the decisive recovery constraint despite favourable sleeping HR and HRV.",
+      "Optional only: 10–20 minutes of gentle indoor mobility or an easy walk after conditions cool, at RPE 1–2.",
+      "Prioritise food, fluids, a nap if naturally sleepy, and an early night. Reassess tomorrow from the next completed overnight record."
+    ],
+    "alternative": "Complete rest is preferred if you feel sleepy or depleted.",
+    "reduce_or_stop": "Stop optional activity if you feel unwell, unusually fatigued, dizzy, or if pain changes your movement. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Sleep deficit",
+      "value": "2h 28m vs 7h 50m need",
+      "interpretation": "A 5h 22m shortfall substantially reduces recovery confidence and outweighs otherwise favourable autonomic markers."
+    },
+    {
+      "label": "Autonomic recovery",
+      "value": "Sleep HR 59 · resting HR 53 · HRV 53",
+      "interpretation": "These values are reassuring relative to recent baselines, but one favourable cluster does not make very short sleep adequate for training."
+    },
+    {
+      "label": "Training load",
+      "value": "Acute load 429 · ratio 0.8",
+      "interpretation": "Load is within Garmin's optimal range and yesterday added no workout, so today's rest is driven by sleep and post-marathon recovery rather than overload."
+    },
+    {
+      "label": "Heat context",
+      "value": "Sydney about 30°C · forecast high 31°C",
+      "interpretation": "Very warm conditions and an extreme fire-weather warning make outdoor exercise a poor recovery trade-off this afternoon."
+    }
+  ],
+  "caveats": [
+    "Garmin's sleep-stage estimates are wearable-derived, but the total duration is sufficiently low to drive a conservative decision.",
+    "Today's stress and Body Battery values are incomplete and reflect the day only through the latest sync.",
+    "No humidity or dew-point measurement was needed for yesterday because there was no recorded workout.",
+    "Current Sydney weather is city-level context, not route-level measurement."
+  ],
+  "run_assessments": [],
+  "status": "current"
+}
