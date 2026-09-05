@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-05T22:09:34.719Z",
+  "snapshot_generated_at": "2026-09-05T22:07:28.259189+00:00",
+  "headline": "Short easy run completed; stop there and prioritise recovery",
+  "summary": "Yesterday's prescribed rest day was followed. This morning you completed a short 2.40 km easy run. Sleep improved from the prior night but remained 2h 39m below Garmin's 9h need, sleeping heart rate was elevated against both recent baselines, Body Battery was only 39 on waking, and Training Readiness fell from 48 at wake to 38 after the run. Do no further running today.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "6h 21m · score 62",
+      "context": "Fair; 2h 39m below Garmin's 9h sleep need. Garmin recorded 1h 56m deep sleep and 1h 01m REM.",
+      "status": "warning"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "69 bpm",
+      "context": "3.7 bpm above the prior 7-night average (65.3) and 4.5 bpm above the prior 14-night average (64.5). This is a meaningful caution signal after recent sleep disruption.",
+      "status": "warning"
+    },
+    {
+      "label": "Resting HR",
+      "value": "60 bpm",
+      "context": "1 bpm above Garmin's seven-day average of 59 and 7 bpm above yesterday's unusually low value.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "35 ms overnight",
+      "context": "Below Garmin's 41 ms weekly average, although Garmin still classifies HRV status as balanced and its readiness contribution as very good.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "39 on waking",
+      "context": "Only 34 points gained during sleep; the morning run reduced Body Battery by about 9 points.",
+      "status": "warning"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "48 at wake · 38 after run",
+      "context": "Low. Recovery time rose to about 12h 36m after this morning's run; acute load is 358 and the acute-to-chronic ratio is 0.7, classified low.",
+      "status": "warning"
+    },
+    {
+      "label": "Stress",
+      "value": "21 so far",
+      "context": "Low but incomplete morning value; overnight sleep stress averaged 33 and was rated poor.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest day followed",
+    "summary": "Garmin recorded no workout on 5 September, matching the prescribed full-rest day.",
+    "adherence_verdict": "followed",
+    "prescribed": "Do not run; optional 10–20 minutes of gentle indoor mobility or an easy walk after conditions cooled, with complete rest preferred if sleepy or depleted.",
+    "completed": "No Garmin workout was recorded on 5 September.",
+    "adherence_assessment": "You followed the central instruction not to run or add training load. Complete rest was explicitly permitted.",
+    "adherence_evidence": [
+      "Zero Garmin activities were recorded on 5 September.",
+      "No running load or training effect was added.",
+      "The prior report explicitly prescribed full rest."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot verify unrecorded walking, mobility, perceived effort, pain, illness, or intent.",
+      "The absence of a recorded workout establishes no structured training, but not complete physical inactivity."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable — no recorded workout.",
+      "humidity_dew_point_context": "Not applicable; no workout time to match against hourly weather.",
+      "heat_impact_interpretation": "Environmental strain did not affect adherence because no workout was recorded.",
+      "limitations": "General daily conditions cannot be assigned to a workout that did not occur."
+    }
+  },
+  "recommendation": {
+    "title": "No more running today",
+    "details": [
+      "This morning's 15m 52s easy run is enough. Do not extend it or add another session, hills, strides, tempo, or loaded leg work.",
+      "Prioritise food, fluids, relaxed movement, and an early night. Sydney's forecast is mild, but favourable weather does not override the recovery signals.",
+      "Reassess tomorrow from the next completed overnight record."
+    ],
+    "alternative": "Complete rest is preferred. If you feel comfortable, an optional 10–20 minute gentle walk or light mobility session is acceptable.",
+    "reduce_or_stop": "Stop optional activity for pain, illness, unusual fatigue, dizziness, altered gait, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Sleeping-HR rise",
+      "value": "69 bpm · +3.7 vs 7-night baseline",
+      "interpretation": "The simultaneous elevation versus both 7- and 14-night baselines argues for caution despite Garmin's balanced HRV label."
+    },
+    {
+      "label": "Sleep and recharge",
+      "value": "6h 21m vs 9h need · Body Battery 39",
+      "interpretation": "Sleep improved markedly from yesterday but remained substantially short, and overnight recharge was limited."
+    },
+    {
+      "label": "Today's completed load",
+      "value": "2.40 km · 15m 52s · load 30",
+      "interpretation": "The run was genuinely short and aerobically easy, but it has already supplied today's recovery stimulus."
+    },
+    {
+      "label": "Rolling seven days",
+      "value": "12.69 km · 3 runs · load 167",
+      "interpretation": "All three runs were easy/recovery-oriented. Load is now low after the marathon dropped outside the seven-day window; that supports gradual rebuilding, not adding volume today."
+    }
+  ],
+  "caveats": [
+    "Garmin's sleep stages and heart-rate measures are wearable-derived; interpret trends alongside how you feel.",
+    "Today's stress, Body Battery, and Training Readiness are incomplete and include the effect of the morning run.",
+    "The activity's 18–28°C recorded temperature range may be influenced by body heat; humidity and dew point were unavailable.",
+    "Sydney weather is city-level context, not route-level measurement."
+  ],
+  "run_assessments": [
+    {
+      "title": "6 September easy run",
+      "verdict": "Appropriately easy and short",
+      "summary": "2.40 km in 15m 52s (6:37/km), average HR 134, training load 30, aerobic effect 2.1, anaerobic effect 0.",
+      "interpretation": "The duration, pace, heart rate, and training effect are consistent with a controlled recovery run. The measured 18–28°C range is not enough to establish meaningful heat strain, and Garmin cannot verify perceived effort or terrain."
+    }
+  ],
+  "status": "current"
+}
