@@ -13,9 +13,10 @@ on:
     # the last valid snapshot until Garmin has completed the current night's
     # Sydney sleep record.
     - cron: '17 0,6,12 * * *'
-    # One of these runs lands at 07:15 Sydney time all year. The other lands at
-    # 06:15 and provides an early attempt across the AEST/AEDT offset change.
-    - cron: '15 20,21 * * *'
+    # One run lands at 07:00 Sydney time year-round: 21:00 UTC in AEST and
+    # 20:00 UTC in AEDT. The companion run is the seasonal early/late attempt.
+    # This gives the 07:30 coaching brief a nominal 30-minute refresh window.
+    - cron: '0 20,21 * * *'
   workflow_dispatch:
 
 permissions:
@@ -34,6 +35,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - run: git pull --rebase
       - run: python src/collect.py
         env:
           GARMIN_EMAIL: ${{ secrets.GARMIN_EMAIL }}
@@ -44,5 +46,4 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/latest.json
           git diff --cached --quiet || git commit -m 'Refresh Garmin coaching snapshot'
-          git pull --rebase
           git push
