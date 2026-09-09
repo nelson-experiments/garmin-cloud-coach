@@ -7,6 +7,7 @@ on:
       - src/collect.py
       - tests/test_collect.py
       - requirements.txt
+      - .github/refresh-trigger
       - .github/workflows/refresh.yml
   schedule:
     # Keep three six-hourly daytime refreshes. The collector refuses to replace
