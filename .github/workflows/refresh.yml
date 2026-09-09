@@ -16,6 +16,7 @@ on:
     # One run lands at 07:00 Sydney time year-round: 21:00 UTC in AEST and
     # 20:00 UTC in AEDT. The companion run is the seasonal early/late attempt.
     # This gives the 07:30 coaching brief a nominal 30-minute refresh window.
+    # The briefing automation also requests and verifies an on-demand refresh.
     - cron: '0 20,21 * * *'
   workflow_dispatch:
 
