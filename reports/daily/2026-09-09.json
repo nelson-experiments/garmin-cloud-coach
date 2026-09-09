@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-08T22:15:00Z",
+  "snapshot_generated_at": "2026-09-08T22:11:18.864500+00:00",
+  "headline": "Good readiness despite short sleep; run 5 km easy only",
+  "summary": "Garmin recorded 5h 57m sleep (score 75), sleeping heart rate 64 bpm, overnight HRV 41 ms, Body Battery 71 on waking, and Training Readiness 86. Yesterday was a true rest day, matching the prior prescription. Run 5 km easy today at conversational effort, with no strides or quality work; the short sleep is the reason to keep the session capped.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 57m · score 75",
+      "context": "1h 53m below Garmin's 7h 50m estimated need. Deep and light proportions were excellent, but duration and sleep stress (18) limited the score.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "64 bpm",
+      "context": "0.3 bpm above the prior 7-night average (63.7) and equal to the prior 14-night average (64.0).",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "59 bpm",
+      "context": "1 bpm above Garmin's seven-day average of 58 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "41 ms overnight",
+      "context": "Below Garmin's 44 ms weekly average, but HRV status remains balanced and its readiness factor is very good.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "71 on waking",
+      "context": "Garmin recorded a 42-point overnight gain; the refreshed morning value was 61.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "86 · High",
+      "context": "Recorded after the confirmed sleep window at 5:38 am; recovery time was 1 minute and Garmin rated recovery excellent.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "21 so far",
+      "context": "A low but incomplete morning device measure; overnight sleep stress averaged 18, slightly above Garmin's optimal range.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest-day prescription followed",
+    "summary": "The prior report prescribed no running, allowing only optional easy walking or gentle mobility. Garmin recorded no activity on 8 September.",
+    "adherence_verdict": "followed",
+    "prescribed": "No running. Optional 20–30 minutes of easy walking or 10–15 minutes of gentle mobility, RPE 1–2.",
+    "completed": "No Garmin activity was recorded on 8 September.",
+    "adherence_assessment": "You followed the measurable rest-day prescription: no recorded run or other workout occurred.",
+    "adherence_evidence": [
+      "Garmin's activity list contains no activity with a 8 September Sydney start time.",
+      "No run assessment is required because no new recorded run occurred."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot verify unrecorded walking, mobility, perceived fatigue, pain, illness, or other non-device-recorded activity."
+    ],
+    "environment": {
+      "observed_temperature_range": "No workout was recorded, so there is no Garmin activity-temperature measurement.",
+      "humidity_dew_point_context": "No route-time humidity or dew-point estimate is relevant without a recorded outdoor activity.",
+      "heat_impact_interpretation": "No heat-performance assessment is applicable.",
+      "limitations": "No recorded activity is not proof of complete inactivity."
+    }
+  },
+  "recommendation": {
+    "title": "5 km easy today",
+    "details": [
+      "Run 5 km easy, capped at 35 minutes, at RPE 2–3 with full-sentence breathing. Keep it flat if practical; no strides, hills, tempo, or pace target.",
+      "The cap reflects only 5h 57m sleep. Training Readiness 86, Body Battery 71 at wake, and very low acute load support easy aerobic movement, not quality work.",
+      "Take the rest day planned for tomorrow, then reassess the next overnight record before the planned 6 km easy run."
+    ],
+    "alternative": "If you feel unusually fatigued, sleepier than expected, or otherwise not normal during the warm-up, replace the run with 20–30 minutes of easy walking or complete rest.",
+    "reduce_or_stop": "Stop for pain, illness, dizziness, altered gait, unusual fatigue, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Readiness versus sleep",
+      "value": "Readiness 86 · sleep 5h 57m",
+      "interpretation": "Garmin's recovery composite is strong, but the short sleep justifies an easy, capped session rather than intensity."
+    },
+    {
+      "label": "Autonomic recovery",
+      "value": "Sleeping HR 64 · resting HR 59 · HRV 41 ms",
+      "interpretation": "Heart rates are near recent baselines; HRV is slightly below its weekly average but remains balanced."
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 131/477 = 0.2",
+      "interpretation": "Load is very low after the marathon. Today can restore gentle frequency, but consistency matters more than catching up."
+    },
+    {
+      "label": "Yesterday",
+      "value": "0 recorded activities",
+      "interpretation": "The rest-day instruction was followed, restoring sensible spacing after Monday's unscheduled run."
+    }
+  ],
+  "caveats": [
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, and readiness measures are wearable-derived; use trends alongside how you feel.",
+    "Today's stress and Body Battery values are incomplete morning measures.",
+    "Sleeping-heart-rate baselines exclude the current night and use the available prior seven and fourteen valid nights.",
+    "No activity-specific weather data exists for yesterday because no workout was recorded."
+  ],
+  "run_assessments": [],
+  "status": "current"
+}
