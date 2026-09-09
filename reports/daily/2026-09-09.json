@@ -2,8 +2,8 @@
   "date": "2026-09-09",
   "generated_at": "2026-09-08T22:15:00Z",
   "snapshot_generated_at": "2026-09-08T22:11:18.864500+00:00",
-  "headline": "Good readiness despite short sleep; run 5 km easy only",
-  "summary": "Garmin recorded 5h 57m sleep (score 75), sleeping heart rate 64 bpm, overnight HRV 41 ms, Body Battery 71 on waking, and Training Readiness 86. Yesterday was a true rest day, matching the prior prescription. Run 5 km easy today at conversational effort, with no strides or quality work; the short sleep is the reason to keep the session capped.",
+  "headline": "Easy session completed as planned; no further running today",
+  "summary": "Garmin recorded 5h 57m sleep (score 75), sleeping heart rate 64 bpm, overnight HRV 41 ms, Body Battery 71 on waking, and Training Readiness 86. The planned easy run is now complete: 5.25 km in 31m 22s at 5:59/km, average HR 137, training load 55, and aerobic effect 2.6. The small 0.25 km overage is immaterial; the duration remained below the 35-minute cap and Garmin classified it as aerobic base. No further running today.",
   "recovery": [
     {
       "label": "Sleep",
@@ -70,14 +70,14 @@
     }
   },
   "recommendation": {
-    "title": "5 km easy today",
+    "title": "No further running today",
     "details": [
-      "Run 5 km easy, capped at 35 minutes, at RPE 2–3 with full-sentence breathing. Keep it flat if practical; no strides, hills, tempo, or pace target.",
-      "The cap reflects only 5h 57m sleep. Training Readiness 86, Body Battery 71 at wake, and very low acute load support easy aerobic movement, not quality work.",
-      "Take the rest day planned for tomorrow, then reassess the next overnight record before the planned 6 km easy run."
+      "Today's prescribed easy run is complete. Do not add a second run, strides, hills, tempo, or make-up distance.",
+      "The completed session was 5.25 km in 31m 22s at 5:59/km, average HR 137, load 55, aerobic effect 2.6, and no recorded time in HR zones 4–5.",
+      "Take the planned rest day tomorrow, then reassess the next overnight record before the planned 6 km easy run."
     ],
-    "alternative": "If you feel unusually fatigued, sleepier than expected, or otherwise not normal during the warm-up, replace the run with 20–30 minutes of easy walking or complete rest.",
-    "reduce_or_stop": "Stop for pain, illness, dizziness, altered gait, unusual fatigue, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+    "alternative": "Optional easy walking or gentle mobility only, RPE 1–2. Complete rest is appropriate if you feel tired or sore.",
+    "reduce_or_stop": "Stop optional activity for pain, illness, dizziness, altered gait, unusual fatigue, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
   },
   "signals": [
     {
@@ -96,6 +96,11 @@
       "interpretation": "Load is very low after the marathon. Today can restore gentle frequency, but consistency matters more than catching up."
     },
     {
+      "label": "Completed easy session",
+      "value": "5.25 km · 31m 22s · HR 137 · load 55",
+      "interpretation": "The run stayed below the 35-minute cap and Garmin labelled it aerobic base. The 0.25 km overage is small; no high-intensity HR-zone time was recorded."
+    },
+    {
       "label": "Yesterday",
       "value": "0 recorded activities",
       "interpretation": "The rest-day instruction was followed, restoring sensible spacing after Monday's unscheduled run."
@@ -107,6 +112,13 @@
     "Sleeping-heart-rate baselines exclude the current night and use the available prior seven and fourteen valid nights.",
     "No activity-specific weather data exists for yesterday because no workout was recorded."
   ],
-  "run_assessments": [],
+  "run_assessments": [
+    {
+      "title": "9 September easy run",
+      "verdict": "Followed the plan",
+      "summary": "5.25 km in 31m 22s (5:59/km), average HR 137, training load 55, aerobic effect 2.6, anaerobic effect 0.",
+      "interpretation": "The run remained under the 35-minute cap and Garmin classified it as aerobic base, with no recorded HR-zone 4–5 time. Distance was 0.25 km above the 5 km target, a small deviation. Garmin recorded 17–23°C; this is a device measurement and not route-level weather. The 67 m elevation gain means the route was not flat, but flatness was conditional rather than required."
+    }
+  ],
   "status": "current"
 }
