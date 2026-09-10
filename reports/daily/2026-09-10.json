@@ -1,9 +1,9 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-09T22:48:41.286Z",
-  "snapshot_generated_at": "2026-09-09T22:44:16.746657+00:00",
-  "headline": "Recovery is strong; keep the planned rest day",
-  "summary": "Garmin recorded 8h 33m sleep (score 87), sleeping heart rate 64 bpm, overnight HRV 41 ms, Body Battery 76 on waking, and Training Readiness 96. Yesterday's 5.25 km easy run was already assessed as compliant and Garmin recorded no additional workout. Keep today's planned rest day; strong readiness supports tomorrow's 6 km easy run if the next overnight record remains reassuring.",
+  "generated_at": "2026-09-10T03:31:28.184Z",
+  "snapshot_generated_at": "2026-09-10T03:28:05.511745+00:00",
+  "headline": "Unplanned run exceeded the rest prescription; no more running today",
+  "summary": "The early-morning recommendation was a planned rest day. Garmin now records a 6.77 km run in 40m 32s at 5:59/km, average HR 154, maximum HR 179, training load 112, and aerobic effect 3.3. Because running was explicitly excluded, today's adherence verdict is did_not_follow. The run also produced materially more measured cardiovascular and training strain than yesterday at essentially the same pace. Do no more running today and do not automatically add tomorrow's planned 6 km.",
   "recovery": [
     {
       "label": "Sleep",
@@ -31,26 +31,26 @@
     },
     {
       "label": "Stress",
-      "value": "19 so far · sleep stress 20",
-      "context": "The daytime value is an incomplete early-morning Garmin measure. Overnight stress was slightly above Garmin's optimal range.",
+      "value": "19 early · 28 after the run",
+      "context": "Both are incomplete Garmin day-to-date measures. Average sleep stress was 20.",
       "status": "neutral"
     },
     {
       "label": "Body Battery",
-      "value": "76 on waking",
-      "context": "Garmin recorded a 64-point change across the sleep window; the refreshed morning value was also 76.",
+      "value": "76 on waking · 52 after the run",
+      "context": "Garmin recorded a 64-point change across sleep and a 25-point daytime drain by the post-run refresh.",
       "status": "good"
     },
     {
       "label": "Training Readiness",
-      "value": "96 · Prime",
-      "context": "Recorded after the confirmed sleep window at 6:17 am. Recovery time was 2h 54m and Garmin rated the recovery-time factor good.",
+      "value": "96 at wake · 72 post-run",
+      "context": "Readiness changed from Prime at 6:17 am to Moderate at 12:48 pm. Recovery time rose from 2h 54m to 25h 23m.",
       "status": "good"
     },
     {
       "label": "Recent load",
-      "value": "Acute/chronic 165/462 · ratio 0.3",
-      "context": "Garmin classifies the acute load as low. Yesterday's run added a modest load of 55.",
+      "value": "165/462 = 0.3 early · 307/488 = 0.6 post-run",
+      "context": "The activity added training load 112. Garmin still classifies the acute/chronic ratio as low.",
       "status": "neutral"
     }
   ],
@@ -77,38 +77,65 @@
     }
   },
   "recommendation": {
-    "title": "Planned rest day",
+    "title": "No more running today",
     "details": [
-      "Do not run today. Avoid speedwork, hills, strides, or make-up distance.",
-      "Optional recovery movement only: 20–30 minutes of easy walking or 10–15 minutes of gentle mobility at RPE 1–2.",
-      "If the 11 September overnight record remains reassuring, complete 6 km easy in approximately 35–40 minutes at conversational effort, RPE 2–3."
+      "Morning recommendation, retained for comparison: planned rest day—no running, with only optional easy walking or gentle mobility.",
+      "Completed instead: 6.77 km in 40m 32s at 5:59/km, average HR 154, maximum HR 179, training load 112, aerobic effect 3.3, and anaerobic effect 0.3.",
+      "Stop there today. Do not add a second run, strides, hills, tempo, or extra distance.",
+      "Do not automatically complete tomorrow's previously planned 6 km. Reassess the 11 September overnight record; default to rest if recovery is not clearly reassuring."
     ],
-    "alternative": "Complete rest is the safe lower-load alternative.",
-    "reduce_or_stop": "Stop optional activity for pain, illness, dizziness, altered gait, unusual fatigue, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+    "alternative": "Complete rest for the remainder of today, with normal hydration and food. Only gentle mobility if it feels comfortable.",
+    "reduce_or_stop": "Stop optional activity for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
   },
   "signals": [
     {
-      "label": "Strong overnight recovery",
-      "value": "Sleep 8h 33m · score 87 · Body Battery 76",
-      "interpretation": "Sleep exceeded Garmin's estimated need and produced a substantial recharge."
+      "label": "Morning prescription versus actual",
+      "value": "Rest prescribed · 6.77 km completed",
+      "interpretation": "This is a direct, measurable departure from the morning plan, so today's adherence verdict is did_not_follow."
     },
     {
-      "label": "Readiness with mildly mixed autonomic signals",
-      "value": "Readiness 96 · HRV 41/43 ms · resting HR 61/58 bpm",
-      "interpretation": "Garmin's composite readiness is excellent, while HRV is slightly below its weekly average and resting HR is modestly above its seven-day average."
+      "label": "Higher measured strain at the same pace",
+      "value": "5:59/km · HR 154 vs 137 yesterday · 16m 36s in zones 4–5",
+      "interpretation": "Garmin measured average HR 17 bpm higher than yesterday at essentially identical pace. The device recorded 18–26°C, so warmth is plausible context, but it does not by itself establish the cause."
     },
     {
-      "label": "Planned spacing after yesterday",
-      "value": "Yesterday 5.25 km · load 55 · acute/chronic ratio 0.3",
-      "interpretation": "Load is low, but the planned rest preserves spacing after yesterday's return-to-running session; strong readiness is better used to support tomorrow than to add an unplanned run."
+      "label": "Post-run recovery cost",
+      "value": "Load 112 · readiness 96→72 · recovery 2h54→25h23",
+      "interpretation": "The run more than doubled yesterday's training load of 55 and materially increased recovery time, supporting no further running today and a fresh decision tomorrow."
     }
   ],
   "caveats": [
     "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; use trends alongside how you feel.",
-    "Today's stress and Body Battery values are incomplete morning measures.",
-    "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
-    "No city-level route-time humidity or dew-point estimate was used for yesterday's run."
+    "Garmin's heart-rate trace may differ from another wrist device or a chest strap; no Apple Watch data was published or used in this assessment.",
+    "The 18–26°C range is a Garmin device measurement and may be affected by body heat and local exposure. No reliable city-level route-time humidity or dew-point estimate was used.",
+    "The assessment does not infer perceived effort, pain, illness, terrain intent, or why the run was completed."
   ],
-  "run_assessments": [],
+  "run_assessments": [
+    {
+      "activity_id": 24304353501,
+      "title": "10 September run",
+      "verdict": "did_not_follow",
+      "summary": "Morning plan: rest. Completed: 6.77 km in 40m 32s at 5:59/km, average HR 154, maximum HR 179, training load 112, aerobic effect 3.3, and anaerobic effect 0.3.",
+      "assessment": "The run did not follow today's explicit rest prescription. Garmin labelled it aerobic base, but its measured strain was materially above yesterday's run at the same pace: average HR was 17 bpm higher, load rose from 55 to 112, and 16m 36s was recorded in HR zones 4–5. Garmin recorded 18–26°C, which may have contributed to the higher heart rate; without route-level weather or a reference-quality HR sensor, it is not possible to assign the difference to heat, physiology, or sensor error.",
+      "interpretation": "The measurable session did not follow the rest prescription. No further running today; reassess tomorrow rather than automatically adding the planned 6 km.",
+      "signals": [
+        {
+          "label": "Plan comparison",
+          "value": "Rest vs 6.77 km",
+          "interpretation": "Running was explicitly excluded by the morning prescription."
+        },
+        {
+          "label": "Cardiovascular measure",
+          "value": "154 average · 179 maximum",
+          "interpretation": "Garmin recorded 24m 10s in zone 3 and 16m 36s in zones 4–5."
+        },
+        {
+          "label": "Training effect",
+          "value": "Load 112 · aerobic 3.3",
+          "interpretation": "Garmin classified the session as aerobic base, but it imposed more than twice yesterday's training load."
+        }
+      ]
+    }
+  ],
   "status": "current"
 }
