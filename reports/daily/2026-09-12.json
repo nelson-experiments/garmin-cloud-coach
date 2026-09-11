@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-11T22:50:05.478Z",
+  "snapshot_generated_at": "2026-09-11T22:50:34.089735+00:00",
+  "headline": "Easy aerobic run today: recovery has rebounded after yesterday's rest",
+  "summary": "Garmin recorded 6h 42m sleep (score 81), sleeping heart rate 65 bpm, resting heart rate 58 bpm, Body Battery 82 on waking, and Training Readiness 80. Yesterday contained no recorded workout and matched the prior rest prescription. The low acute load and strong recharge support one controlled easy run today, without a speed session.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "6h 42m · score 81",
+      "context": "Garmin marked the sleep window enhanced-confirmed final. Duration was 1h 08m below its 7h 50m estimated need; average sleep stress was 12.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "65 bpm",
+      "context": "0.9 bpm above the prior 7-night average (64.1) and equal to the prior 14-night average (65.0).",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "58 bpm",
+      "context": "1 bpm below Garmin's seven-day average of 59 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "Balanced · 41 ms weekly average",
+      "context": "Garmin classifies HRV as balanced and gives the HRV readiness factor 100%. The snapshot does not expose a separate overnight HRV value.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "16 so far · sleep stress 12",
+      "context": "This is an incomplete early-morning Garmin measure.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "82 on waking",
+      "context": "Garmin recorded a 69-point gain across the sleep window.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "80 · High",
+      "context": "Recorded after the confirmed sleep window. Recovery time was 1 minute.",
+      "status": "good"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 228/433 · ratio 0.5",
+      "context": "Garmin classifies the ratio as low; its current training status remains recovery.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest prescription versus no recorded workout",
+    "summary": "The prior report prescribed full rest from running, allowing only easy walking or gentle mobility. Garmin recorded no activity on 11 September.",
+    "adherence_verdict": "followed",
+    "prescribed": "No running. Optional 15–20 minutes of very easy walking or 10 minutes of gentle mobility at RPE 1–2; complete rest was the lower-load alternative.",
+    "completed": "No Garmin-recorded workout or run on 11 September.",
+    "adherence_assessment": "No recorded workout is consistent with the explicit rest prescription.",
+    "adherence_evidence": [
+      "Garmin lists no activity with an 11 September Sydney start time.",
+      "The completed-day summary contains no recorded workout."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot confirm unrecorded activity, perceived effort, pain, illness, terrain, or intent."
+    ],
+    "environment": {
+      "observed_temperature_range": "No Garmin activity temperature was available because no workout was recorded.",
+      "humidity_dew_point_context": "No route-time city humidity or dew-point estimate was needed because no workout was recorded.",
+      "heat_impact_interpretation": "Not applicable to yesterday's adherence comparison.",
+      "limitations": "A city-level forecast is distinct from Garmin device measurements and was not used to determine adherence."
+    }
+  },
+  "recommendation": {
+    "title": "One easy aerobic run",
+    "details": [
+      "Run 35–45 minutes easy and conversational, on a familiar flat-to-gently rolling route. Keep the effort deliberately controlled; no pace target.",
+      "Do not add intervals, hills, tempo running, or strides today. Finish with 5–10 minutes of easy walking if useful.",
+      "City-level Sydney forecast context: roughly 15–22°C from morning through afternoon; choose comfortable clothing and hydrate normally."
+    ],
+    "alternative": "If you feel flat during the warm-up, change to 20–30 minutes of easy walking or take complete rest.",
+    "reduce_or_stop": "Stop for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Recharge",
+      "value": "Body Battery +69 to 82 · readiness 80",
+      "interpretation": "The large overnight recharge and high readiness support a modest return to easy running."
+    },
+    {
+      "label": "Cardiovascular recovery",
+      "value": "Resting HR 58 vs 59 · sleeping HR 65 vs 64.1 bpm",
+      "interpretation": "Resting HR is slightly below its seven-day average, while sleeping HR is near its recent baseline."
+    },
+    {
+      "label": "Training demand",
+      "value": "Acute/chronic 228/433 · ratio 0.5",
+      "interpretation": "The current load is low, but Garmin still labels the broader status recovery; that supports easy volume rather than speedwork."
+    }
+  ],
+  "caveats": [
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; use trends alongside how you feel.",
+    "Today's stress and Body Battery values are incomplete morning measures.",
+    "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
+    "Sydney temperature is a city-level weather estimate, not a route-level or device measurement."
+  ],
+  "run_assessments": [],
+  "status": "current"
+}
