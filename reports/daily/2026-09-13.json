@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-12T21:31:00.000Z",
+  "snapshot_generated_at": "2026-09-12T21:30:47.477484+00:00",
+  "headline": "Easy recovery run today: strong recharge, but keep it controlled after a short night",
+  "summary": "Garmin recorded 5h 57m sleep (score 78), sleeping heart rate 61 bpm, resting heart rate 56 bpm, Body Battery 93 on waking, and Training Readiness 82. Yesterday's 38-minute easy run matched the prescribed 35–45 minutes and carried modest training load 47. The strong recovery signals support a short easy run today; the shortened sleep makes speedwork inappropriate.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 57m · score 78",
+      "context": "Garmin marked the sleep window enhanced-confirmed final. Average sleep stress was 11.",
+      "status": "caution"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "61 bpm",
+      "context": "4.0 bpm below the prior 7-night average (65.0) and 4.1 bpm below the prior 14-night average (65.1).",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "56 bpm",
+      "context": "2 bpm below Garmin's seven-day average of 58 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "Balanced · 44 ms weekly average",
+      "context": "Garmin classifies HRV as balanced and gives the HRV readiness factor 100%. The snapshot does not expose a separate overnight HRV value.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "11 so far · sleep stress 11",
+      "context": "This is an incomplete early-morning Garmin measure.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "93 on waking",
+      "context": "Garmin recorded a 58-point gain across the sleep window.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "82 · High",
+      "context": "Recorded after the confirmed sleep window. Recovery time was 1 minute.",
+      "status": "good"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 243/419 · ratio 0.5",
+      "context": "Garmin classifies the ratio as low; current training status remains recovery.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Easy-run prescription versus a 38-minute easy run",
+    "summary": "The prior report prescribed 35–45 minutes easy and conversational, without speedwork. Garmin recorded one run and no additional workout on 12 September.",
+    "adherence_verdict": "followed",
+    "prescribed": "35–45 minutes easy and conversational, with no intervals, hills, tempo running, or strides. The approved lower-load alternative was 20–30 minutes walking or rest.",
+    "completed": "One run: 5.45 km in 38m 14s at 7:01/km, average HR 139, maximum HR 173, training load 47, aerobic effect 2.4, anaerobic effect 0.0, and 29 m elevation gain.",
+    "adherence_assessment": "The duration and Garmin training effect are consistent with the prescribed easy aerobic session. No additional workout was recorded.",
+    "adherence_evidence": [
+      "Garmin lists one 12 September running activity lasting 38m 14s.",
+      "Garmin labelled the activity easy aerobic, with training load 47 and aerobic effect 2.4.",
+      "No anaerobic training effect was recorded."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot verify perceived effort, pain, terrain intent, or why the run was completed.",
+      "Garmin heart rate may differ from Apple Watch or chest-strap measurements; no alternate-sensor data was used."
+    ],
+    "environment": {
+      "observed_temperature_range": "20–29°C recorded by the Garmin device during the run.",
+      "humidity_dew_point_context": "A reliable route-time Sydney humidity and dew-point estimate was not available, so none was used.",
+      "heat_impact_interpretation": "The warmer device readings could contribute to higher heart rate or slower pace; this is context, not evidence of heat strain and did not alter the adherence verdict.",
+      "limitations": "Garmin temperature is a device measurement and may be affected by body heat and local exposure; it is not an official city observation."
+    }
+  },
+  "recommendation": {
+    "title": "Short easy recovery run",
+    "details": [
+      "Run 35–45 minutes easy and conversational on a familiar route. Keep the pace relaxed and avoid a pace target.",
+      "No intervals, hills, tempo running, strides, or make-up distance today.",
+      "Reassess after the next overnight record before adding a longer run or any faster work."
+    ],
+    "alternative": "If the warm-up feels flat, switch to 20–30 minutes of easy walking or take complete rest.",
+    "reduce_or_stop": "Stop for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Overnight recharge",
+      "value": "Body Battery +58 to 93 · readiness 82",
+      "interpretation": "High waking battery and readiness support an easy aerobic session."
+    },
+    {
+      "label": "Cardiovascular recovery",
+      "value": "Sleeping HR 61 vs 65.0 · resting HR 56 vs 58 bpm",
+      "interpretation": "Both heart-rate measures are below their recent baselines."
+    },
+    {
+      "label": "Sleep constraint",
+      "value": "5h 57m · score 78",
+      "interpretation": "The sleep duration is short enough to keep the day easy despite otherwise strong recovery signals."
+    }
+  ],
+  "caveats": [
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; use trends alongside how you feel.",
+    "Today's stress and Body Battery values are incomplete morning measures.",
+    "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
+    "Garmin device temperature and city-level weather estimates are distinct from route-level conditions."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-09-12",
+      "activity_type": "running",
+      "assessment": "The run followed the prescribed easy aerobic session: 38m 14s falls within the 35–45 minute target, with a modest training load (47), aerobic effect 2.4, and no anaerobic effect. The device's 20–29°C temperature range may provide context for pace or heart rate, but does not change adherence."
+    }
+  ],
+  "status": "current"
+}
