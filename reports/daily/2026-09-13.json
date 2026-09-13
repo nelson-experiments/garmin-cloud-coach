@@ -1,9 +1,9 @@
 {
   "date": "2026-09-13",
-  "generated_at": "2026-09-12T21:31:00.000Z",
-  "snapshot_generated_at": "2026-09-12T21:30:47.477484+00:00",
-  "headline": "Easy recovery run today: strong recharge, but keep it controlled after a short night",
-  "summary": "Garmin recorded 5h 57m sleep (score 78), sleeping heart rate 61 bpm, resting heart rate 56 bpm, Body Battery 93 on waking, and Training Readiness 82. Yesterday's 38-minute easy run matched the prescribed 35–45 minutes and carried modest training load 47. The strong recovery signals support a short easy run today; the shortened sleep makes speedwork inappropriate.",
+  "generated_at": "2026-09-13T08:06:04.068101+00:00",
+  "snapshot_generated_at": "2026-09-13T08:06:04.068101+00:00",
+  "headline": "Today complete: cycling exceeded the morning easy-run prescription",
+  "summary": "The early-morning brief recommended 35–45 minutes of easy running. Garmin later recorded a 69m 31s, 30.52 km cycling activity with training load 114, aerobic effect 3.2, and anaerobic effect 1.4. This was a meaningful training session rather than the planned easy run; do no further training today.",
   "recovery": [
     {
       "label": "Sleep",
@@ -55,53 +55,53 @@
     }
   ],
   "yesterday": {
-    "title": "Easy-run prescription versus a 38-minute easy run",
-    "summary": "The prior report prescribed 35–45 minutes easy and conversational, without speedwork. Garmin recorded one run and no additional workout on 12 September.",
-    "adherence_verdict": "followed",
-    "prescribed": "35–45 minutes easy and conversational, with no intervals, hills, tempo running, or strides. The approved lower-load alternative was 20–30 minutes walking or rest.",
-    "completed": "One run: 5.45 km in 38m 14s at 7:01/km, average HR 139, maximum HR 173, training load 47, aerobic effect 2.4, anaerobic effect 0.0, and 29 m elevation gain.",
-    "adherence_assessment": "The duration and Garmin training effect are consistent with the prescribed easy aerobic session. No additional workout was recorded.",
+    "title": "Morning easy-run prescription versus a cycling session",
+    "summary": "The early-morning report prescribed 35–45 minutes of easy conversational running, without speedwork. Garmin later recorded one cycling activity and no run on 13 September.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "35–45 minutes easy and conversational running, with no intervals, hills, tempo running, or strides. The approved lower-load alternative was 20–30 minutes walking or rest.",
+    "completed": "One cycling activity: 30.52 km in 1h 09m 31s, average HR 144, maximum HR 167, training load 114, aerobic effect 3.2, anaerobic effect 1.4, and 306 m elevation gain.",
+    "adherence_assessment": "The completed cycling session was not the prescribed easy run or an approved lower-load alternative. Its measured duration and training load were greater than the planned 35–45 minute easy session.",
     "adherence_evidence": [
-      "Garmin lists one 12 September running activity lasting 38m 14s.",
-      "Garmin labelled the activity easy aerobic, with training load 47 and aerobic effect 2.4.",
-      "No anaerobic training effect was recorded."
+      "Garmin lists one cycling activity with a 13 September Sydney start time and no run.",
+      "The ride lasted 1h 09m 31s and carried training load 114.",
+      "Garmin recorded aerobic effect 3.2 and anaerobic effect 1.4."
     ],
     "adherence_caveats": [
-      "Garmin cannot verify perceived effort, pain, terrain intent, or why the run was completed.",
-      "Garmin heart rate may differ from Apple Watch or chest-strap measurements; no alternate-sensor data was used."
+      "Garmin cannot verify perceived effort, pain, illness, terrain intent, or why the activity was completed.",
+      "Heart-rate data may differ across devices; no alternate-sensor data was used."
     ],
     "environment": {
-      "observed_temperature_range": "20–29°C recorded by the Garmin device during the run.",
+      "observed_temperature_range": "19–28°C recorded by the Garmin device during the ride.",
       "humidity_dew_point_context": "A reliable route-time Sydney humidity and dew-point estimate was not available, so none was used.",
-      "heat_impact_interpretation": "The warmer device readings could contribute to higher heart rate or slower pace; this is context, not evidence of heat strain and did not alter the adherence verdict.",
+      "heat_impact_interpretation": "The warmer device readings could contribute to heart rate or pace. That is coaching context, not proof of heat strain and not the reason for the adherence verdict.",
       "limitations": "Garmin temperature is a device measurement and may be affected by body heat and local exposure; it is not an official city observation."
     }
   },
   "recommendation": {
-    "title": "Short easy recovery run",
+    "title": "No further training today",
     "details": [
-      "Run 35–45 minutes easy and conversational on a familiar route. Keep the pace relaxed and avoid a pace target.",
-      "No intervals, hills, tempo running, strides, or make-up distance today.",
-      "Reassess after the next overnight record before adding a longer run or any faster work."
+      "The morning recommendation was 35–45 minutes of easy running. Garmin instead records a 69-minute cycling session with training load 114.",
+      "Do no further running, riding, intervals, hills, tempo work, or make-up distance today.",
+      "Optional only: 10–20 minutes of easy walking or gentle mobility if it feels restorative."
     ],
-    "alternative": "If the warm-up feels flat, switch to 20–30 minutes of easy walking or take complete rest.",
-    "reduce_or_stop": "Stop for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+    "alternative": "Complete rest is the safe lower-load alternative.",
+    "reduce_or_stop": "Stop optional activity for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
   },
   "signals": [
     {
-      "label": "Overnight recharge",
-      "value": "Body Battery +58 to 93 · readiness 82",
-      "interpretation": "High waking battery and readiness support an easy aerobic session."
+      "label": "Completed training cost",
+      "value": "Cycling 69m 31s · load 114 · aerobic 3.2 · anaerobic 1.4",
+      "interpretation": "This was a substantial enough session to make further training unnecessary today."
     },
     {
-      "label": "Cardiovascular recovery",
-      "value": "Sleeping HR 61 vs 65.0 · resting HR 56 vs 58 bpm",
-      "interpretation": "Both heart-rate measures are below their recent baselines."
+      "label": "Morning recovery",
+      "value": "Body Battery 93 · readiness 82",
+      "interpretation": "These were supportive of exercise but do not require additional work after the completed ride."
     },
     {
-      "label": "Sleep constraint",
+      "label": "Sleep",
       "value": "5h 57m · score 78",
-      "interpretation": "The sleep duration is short enough to keep the day easy despite otherwise strong recovery signals."
+      "interpretation": "Short sleep remains a reason to keep the rest of the day recovery-focused."
     }
   ],
   "caveats": [
@@ -112,10 +112,10 @@
   ],
   "run_assessments": [
     {
-      "activity_date": "2026-09-12",
-      "activity_type": "running",
-      "assessment": "The run followed the prescribed easy aerobic session: 38m 14s falls within the 35–45 minute target, with a modest training load (47), aerobic effect 2.4, and no anaerobic effect. The device's 20–29°C temperature range may provide context for pace or heart rate, but does not change adherence."
+      "activity_date": "2026-09-13",
+      "activity_type": "cycling",
+      "assessment": "The cycling session did not follow the morning prescription of 35–45 minutes easy running or its lower-load alternatives. Garmin recorded 1h 09m 31s, 30.52 km, training load 114, aerobic effect 3.2 and anaerobic effect 1.4, so it was a larger measured training stimulus than the prescribed easy session. The 19–28°C device temperature is contextual only."
     }
   ],
-  "status": "current"
+  "status": "updated"
 }
