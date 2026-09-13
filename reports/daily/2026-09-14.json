@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-13T21:34:00.003413+00:00",
+  "snapshot_generated_at": "2026-09-13T21:34:00.003413+00:00",
+  "headline": "Full rest today: Sunday’s ride was substantial and overnight recovery is poor",
+  "summary": "Garmin recorded 5h 55m sleep (score 58), sleeping heart rate 68 bpm, overnight HRV 34 ms, Body Battery 42 on waking, and Training Readiness 52. Yesterday’s 69-minute cycling session had training load 114. The shortened, fragmented sleep and limited recharge support full rest today.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 55m · score 58",
+      "context": "Garmin marked the sleep window enhanced-confirmed final. Sleep stress was 28, with 3 awake periods and 39 restless moments.",
+      "status": "caution"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "68 bpm",
+      "context": "4.1 bpm above the prior 7-night average (63.9) and 3.3 bpm above the prior 14-night average (64.7).",
+      "status": "caution"
+    },
+    {
+      "label": "Resting HR",
+      "value": "59 bpm",
+      "context": "Equal to Garmin's seven-day average.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "34 ms overnight · 42 ms weekly average",
+      "context": "Garmin classifies the broader HRV status as balanced, but overnight HRV was 8 ms below the weekly average.",
+      "status": "caution"
+    },
+    {
+      "label": "Stress",
+      "value": "27 so far · sleep stress 28",
+      "context": "The daytime value is an incomplete early-morning Garmin measure.",
+      "status": "caution"
+    },
+    {
+      "label": "Body Battery",
+      "value": "42 on waking",
+      "context": "Garmin recorded a 30-point gain across the sleep window.",
+      "status": "caution"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "52 · Moderate",
+      "context": "Sleep was the limiting factor. Recovery time was 9h 39m.",
+      "status": "caution"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 333/423 · ratio 0.7",
+      "context": "Garmin classifies the ratio as low, but yesterday's cycling carried training load 114.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Morning easy-run prescription versus a cycling session",
+    "summary": "The prior morning report prescribed 35–45 minutes easy running; its later update recorded the completed cycling session and advised no further training. Garmin recorded one cycling activity on 13 September.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "35–45 minutes easy and conversational running, with no intervals, hills, tempo running, or strides. The approved lower-load alternative was 20–30 minutes walking or rest.",
+    "completed": "One cycling activity: 30.52 km in 1h 09m 31s, average HR 144, maximum HR 167, training load 114, aerobic effect 3.2, anaerobic effect 1.4, and 306 m elevation gain.",
+    "adherence_assessment": "The ride was not the prescribed easy run or an approved lower-load alternative. Its duration and training load were greater than the planned session.",
+    "adherence_evidence": [
+      "Garmin lists one cycling activity with a 13 September Sydney start time and no run.",
+      "The ride lasted 1h 09m 31s and carried training load 114.",
+      "Garmin recorded aerobic effect 3.2 and anaerobic effect 1.4."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot verify perceived effort, pain, illness, terrain intent, or why the activity was completed.",
+      "Heart-rate data may differ across devices; no alternate-sensor data was used."
+    ],
+    "environment": {
+      "observed_temperature_range": "19–28°C recorded by the Garmin device during the ride.",
+      "humidity_dew_point_context": "A reliable route-time Sydney humidity and dew-point estimate was not available, so none was used.",
+      "heat_impact_interpretation": "Warmer device readings could contribute to heart rate or pace. This is coaching context, not proof of heat strain and did not determine adherence.",
+      "limitations": "Garmin temperature is a device measurement and may be affected by body heat and local exposure; it is not an official city observation."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest from training",
+    "details": [
+      "No running, cycling, intervals, hills, tempo work, or make-up distance today.",
+      "Optional only: 15–20 minutes of easy walking or 10 minutes of gentle mobility at RPE 1–2.",
+      "Prioritise sleep opportunity, normal meals, and hydration; reassess after the next overnight record before the next run."
+    ],
+    "alternative": "Complete rest is the safe lower-load alternative.",
+    "reduce_or_stop": "Stop optional activity for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Sleep and recharge",
+      "value": "5h 55m · score 58 · Body Battery 42",
+      "interpretation": "Short, fragmented sleep and only 30 points of overnight recharge are the main constraints today."
+    },
+    {
+      "label": "Autonomic response",
+      "value": "Sleeping HR 68 vs 63.9 · HRV 34 vs 42 ms",
+      "interpretation": "Sleeping HR is above baseline and overnight HRV is below its weekly average."
+    },
+    {
+      "label": "Yesterday's workload",
+      "value": "Cycling 69m 31s · load 114 · recovery 9h 39m",
+      "interpretation": "The ride was a meaningful aerobic and anaerobic stimulus, so there is no need to train again today."
+    }
+  ],
+  "caveats": [
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; use trends alongside how you feel.",
+    "Today's stress and Body Battery values are incomplete morning measures.",
+    "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
+    "Garmin device temperature and city-level weather estimates are distinct from route-level conditions."
+  ],
+  "run_assessments": [],
+  "status": "current"
+}
