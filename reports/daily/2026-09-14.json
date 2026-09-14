@@ -2,8 +2,8 @@
   "date": "2026-09-14",
   "generated_at": "2026-09-13T21:34:00.003413+00:00",
   "snapshot_generated_at": "2026-09-13T21:34:00.003413+00:00",
-  "headline": "Planned group tempo today, then full rest tomorrow",
-  "summary": "Garmin recorded 5h 55m sleep (score 58), sleeping heart rate 68 bpm, overnight HRV 34 ms, Body Battery 42 on waking, and Training Readiness 52. These signals supported the original rest recommendation. You have chosen to complete the planned group tempo today; the plan is amended to make Tuesday a full rest day instead.",
+  "headline": "Tempo completed as amended; full rest tomorrow",
+  "summary": "The early-morning brief recommended rest because Garmin recorded 5h 55m sleep, sleep score 58, sleeping HR 68 bpm, HRV 34 ms, Body Battery 42, and Training Readiness 52. You chose the planned group tempo and completed 5.41 km in 30m 33s. Garmin identifies 3.00 km of interval-active running in 15m 15s (5:05/km); the report preserves the earlier conservative recommendation and retains full rest for Tuesday.",
   "recovery": [
     {
       "label": "Sleep",
@@ -78,30 +78,30 @@
     }
   },
   "recommendation": {
-    "title": "Controlled group tempo today; full rest tomorrow",
+    "title": "No further training today; full rest tomorrow",
     "details": [
-      "Complete the planned group tempo today, but keep it controlled: use the planned warm-up and cool-down, do not add distance or extra repetitions, and keep the work at a sustainable tempo rather than racing the session.",
-      "If you cannot hold controlled form or the effort becomes unusually hard early, stop the tempo portion and jog/walk home. Do not make up missed work.",
-      "Tuesday 15 September: full rest from running and cycling. Optional 15–20 minutes of easy walking or gentle mobility only."
+      "The planned group tempo is complete. Do no further running, riding, strides, hills, tempo work, or make-up distance today.",
+      "Tuesday 15 September: full rest from running and cycling. Optional 15–20 minutes of easy walking or gentle mobility only.",
+      "Resume the weekly plan only after tomorrow's rest and the next overnight recovery check."
     ],
-    "alternative": "The safe lower-load alternative today is to attend the group but run only the warm-up and cool-down easily, then rest tomorrow.",
-    "reduce_or_stop": "Stop for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+    "alternative": "Complete rest for the remainder of today and tomorrow is the safe lower-load option.",
+    "reduce_or_stop": "Stop optional activity for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
   },
   "signals": [
     {
-      "label": "Sleep and recharge",
-      "value": "5h 55m · score 58 · Body Battery 42",
-      "interpretation": "These remain meaningful recovery constraints and are why the tempo should be controlled rather than extended."
+      "label": "Completed tempo",
+      "value": "3.00 km of interval work in 15m 15s · 5:05/km",
+      "interpretation": "This is the relevant pace for the planned work; the overall session pace includes warm-up, recoveries, walking, and cool-down."
     },
     {
-      "label": "Autonomic response",
-      "value": "Sleeping HR 68 vs 63.9 · HRV 34 vs 42 ms",
-      "interpretation": "Sleeping HR is above baseline and overnight HRV is below its weekly average."
+      "label": "Training cost",
+      "value": "5.41 km · 30m 33s · load 98 · aerobic effect 3.2",
+      "interpretation": "Garmin classifies the session as Tempo. Together with yesterday's cycling load of 114, it supports the planned rest day tomorrow."
     },
     {
-      "label": "Training sequence",
-      "value": "Sunday cycling load 114 · Tuesday rest",
-      "interpretation": "The rest-day swap avoids stacking further training after today's tempo."
+      "label": "Morning recovery",
+      "value": "Sleep 5h 55m · Body Battery 42 · readiness 52",
+      "interpretation": "These were the reasons the morning brief recommended rest and why no further training is recommended."
     }
   ],
   "caveats": [
@@ -109,8 +109,20 @@
     "Today's stress and Body Battery values are incomplete morning measures.",
     "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
     "Garmin device temperature and city-level weather estimates are distinct from route-level conditions.",
-    "This recommendation reflects Nelson's stated preference to complete the planned group tempo today; it replaces the earlier rest recommendation."
+    "The early-morning rest recommendation is retained as the pre-run comparison; the completed session reflects Nelson's explicit tempo override.",
+    "Garmin reports the aggregate 3.00 km interval-active block but does not expose individual repetition splits in this snapshot."
   ],
-  "run_assessments": [],
+  "run_assessments": [
+    {
+      "activity_date": "2026-09-14",
+      "activity_type": "running",
+      "assessment": "followed",
+      "morning_recommendation": "Full rest from training, based on short sleep and reduced recovery signals; optional gentle walking or mobility only.",
+      "amended_plan": "Controlled group tempo, with planned warm-up and cool-down, no added distance or repetitions, then full rest on Tuesday.",
+      "completed": "Sydney W3 Mon Tempo: 5.41 km in 30m 33s, average pace 5:39/km, average HR 154 bpm, max HR 179 bpm, training load 98, aerobic effect 3.2, anaerobic effect 0.0, and Garmin training-effect label TEMPO.",
+      "pace_assessment": "Garmin's interval-active segments total 3.00 km in 15m 15s, or 5:05/km. That is the appropriate pace measure for the work; the overall session pace is diluted by 3m 30s of interval recovery, walking, warm-up and cool-down. The interval-active block included 31.9 m of ascent, and Garmin's device temperature range was 21–27°C; those are contextual factors, not proof of heat strain.",
+      "assessment_basis": "The activity matches the amended controlled-tempo plan. The snapshot cannot verify subjective effort, whether every planned repetition was completed, or whether any non-recorded work was added."
+    }
+  ],
   "status": "updated"
 }
