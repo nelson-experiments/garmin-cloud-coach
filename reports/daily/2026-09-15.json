@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-14T21:34:14.116442+00:00",
+  "snapshot_generated_at": "2026-09-14T21:34:14.116442+00:00",
+  "headline": "Full rest day after yesterday’s controlled tempo",
+  "summary": "Garmin recorded 7h 46m sleep (score 79), sleeping heart rate 64 bpm, overnight HRV 48 ms, Body Battery 83 on waking, and Training Readiness 64. Yesterday’s 5.41 km tempo matched the amended plan. Take full rest from running and cycling today.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 46m · score 79",
+      "context": "Garmin marked the sleep window enhanced-confirmed final. Average sleep stress was 16, with two awake periods.",
+      "status": "good"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "64 bpm",
+      "context": "0.9 bpm below the prior 7-night average (64.9) and 0.5 bpm below the prior 14-night average (64.5).",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "59 bpm",
+      "context": "Equal to Garmin's seven-day average.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "48 ms overnight · 43 ms weekly average",
+      "context": "Garmin classifies HRV as balanced; overnight HRV was 5 ms above the weekly average.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "16 so far · sleep stress 16",
+      "context": "The daytime value is an incomplete early-morning Garmin measure.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "83 on waking",
+      "context": "Garmin recorded a 76-point gain across the sleep window.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "64 · Moderate",
+      "context": "Recovery time was 3h 16m. Sleep history remains the limiting readiness factor.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 391/429 · ratio 0.9",
+      "context": "Garmin classifies the ratio as optimal and reports maintaining status.",
+      "status": "good"
+    }
+  ],
+  "yesterday": {
+    "title": "Amended tempo prescription versus completed run",
+    "summary": "The preceding report was amended to allow a controlled group tempo on 14 September, then full rest today. Garmin recorded one running activity.",
+    "adherence_verdict": "followed",
+    "prescribed": "Controlled group tempo with planned warm-up and cool-down, no added distance or repetitions; stop the tempo if it became unusually hard early. Full rest from running and cycling on 15 September.",
+    "completed": "One running activity: 5.41 km in 30m 33s (5:39/km overall), average HR 154, maximum HR 179, training load 98, aerobic effect 3.2, and anaerobic effect 0.0. Garmin's interval-active segments total 3.00 km in 15m 15s (5:05/km).",
+    "adherence_assessment": "The recorded run matches the amended controlled-tempo prescription. The snapshot provides no evidence of added running after the session.",
+    "adherence_evidence": [
+      "Garmin lists one running activity on 14 September, labelled Tempo, with training load 98.",
+      "The designated interval-active segments total 3.00 km in 15m 15s.",
+      "No additional 14 September activity is recorded."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot verify perceived effort, pain, illness, terrain intent, or whether every planned repetition was completed.",
+      "Heart-rate data may differ across devices; no alternate-sensor data was used."
+    ],
+    "environment": {
+      "observed_temperature_range": "21–27°C recorded by the Garmin device during the run.",
+      "humidity_dew_point_context": "A reliable route-time Sydney humidity and dew-point estimate was not available, so none was used.",
+      "heat_impact_interpretation": "Device temperature and the 31.9 m ascent in the interval-active block are context for pace and heart rate, not proof of heat strain and did not determine adherence.",
+      "limitations": "Garmin temperature is a device measurement and may be affected by body heat and local exposure; it is not an official city observation."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest from running and cycling today",
+    "details": [
+      "Take a full rest day today: no running, cycling, intervals, hills, tempo work, strides, or make-up distance.",
+      "Optional only: 15–20 minutes of easy walking or gentle mobility, kept genuinely easy.",
+      "Tomorrow, reassess after the next overnight record before resuming the weekly plan."
+    ],
+    "alternative": "Complete rest is the safe lower-load alternative.",
+    "reduce_or_stop": "Stop optional activity for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Yesterday’s work",
+      "value": "Tempo load 98 · 3.00 km active at 5:05/km",
+      "interpretation": "The completed quality session is sufficient stimulus; today is for absorption, not further training."
+    },
+    {
+      "label": "Overnight recovery",
+      "value": "Sleep 7h 46m · HRV 48 ms · Body Battery 83",
+      "interpretation": "Recovery improved substantially, supporting a planned rest day rather than compensatory exercise."
+    },
+    {
+      "label": "Load balance",
+      "value": "Acute/chronic 391/429 · ratio 0.9",
+      "interpretation": "Garmin classifies current load as optimal; maintaining this requires avoiding a second consecutive training day."
+    }
+  ],
+  "caveats": [
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; use trends alongside how you feel.",
+    "Today's stress and Body Battery values are incomplete morning measures.",
+    "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
+    "Garmin device temperature and city-level weather estimates are distinct from route-level conditions."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-09-14",
+      "activity_type": "running",
+      "assessment": "followed — the recorded 5.41 km Tempo session included 3.00 km of interval-active work at 5:05/km, matching the amended controlled-tempo plan. The overall 5:39/km pace includes recoveries, walking, warm-up and cool-down."
+    }
+  ],
+  "status": "published"
+}
