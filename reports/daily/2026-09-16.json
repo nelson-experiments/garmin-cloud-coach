@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-15T21:33:59.747943+00:00",
+  "snapshot_generated_at": "2026-09-15T21:33:59.747943+00:00",
+  "headline": "Seven kilometres easy after a successful rest day",
+  "summary": "Garmin recorded 7h 50m sleep (score 83), sleeping heart rate 63 bpm, overnight HRV 52 ms, Body Battery 88 on waking, and Training Readiness 79. Yesterday’s prescribed full rest was followed. Run 7 km easy today at conversational effort, with no strides or faster work.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 50m · score 83",
+      "context": "Garmin marked the sleep window enhanced-confirmed final. Average sleep stress was 16, with one awake period.",
+      "status": "good"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "63 bpm",
+      "context": "1.9 bpm below the prior 7-night average (64.9) and 1.3 bpm below the prior 14-night average (64.3).",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "57 bpm",
+      "context": "2 bpm below Garmin's seven-day average of 59 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "52 ms overnight · 44 ms weekly average",
+      "context": "Garmin classifies HRV as balanced; overnight HRV was 8 ms above the weekly average.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "14 so far · sleep stress 16",
+      "context": "The daytime value is an incomplete early-morning Garmin measure.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "88 on waking",
+      "context": "Garmin recorded a 73-point change across the sleep window.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "79 · High",
+      "context": "Recovery time was effectively complete at 1 minute.",
+      "status": "good"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 325/411 · ratio 0.7",
+      "context": "Garmin classifies the ratio as low, following yesterday's full rest.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Prescribed full rest versus no recorded activity",
+    "summary": "The preceding report prescribed full rest from running and cycling on 15 September. Garmin recorded no activity.",
+    "adherence_verdict": "followed",
+    "prescribed": "Full rest from running and cycling; optional 15–20 minutes of easy walking or gentle mobility only.",
+    "completed": "No running, cycling, or other workout was recorded.",
+    "adherence_assessment": "No recorded workout is consistent with the full-rest prescription.",
+    "adherence_evidence": [
+      "Garmin lists no activity with a 15 September Sydney start time."
+    ],
+    "adherence_caveats": [
+      "Garmin cannot verify unrecorded walking, mobility, symptoms, or perceived recovery."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable because Garmin recorded no outdoor activity.",
+      "humidity_dew_point_context": "No route-time humidity or dew-point estimate was needed because there was no recorded workout.",
+      "heat_impact_interpretation": "Environmental conditions did not affect the adherence assessment.",
+      "limitations": "Absence of a Garmin activity does not prove that no unrecorded movement occurred."
+    }
+  },
+  "recommendation": {
+    "title": "7 km easy and conversational",
+    "details": [
+      "Run exactly 7 km easy, targeting about 45–50 minutes at RPE 2–3/10 and a pace at which you can speak in full sentences.",
+      "Keep the entire run steady: no strides, hills, tempo sections, intervals, or make-up distance.",
+      "Sydney's city-level forecast is approximately 11–16°C and sunny today; this is general context, not a route-level measurement."
+    ],
+    "alternative": "If the warm-up feels unusually flat, replace the run with 25–35 minutes of easy walking or take complete rest.",
+    "reduce_or_stop": "Reduce to walking or stop for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Overnight recovery",
+      "value": "Sleep 7h 50m · score 83 · Body Battery 88",
+      "interpretation": "Sleep and recharge support an easy aerobic run."
+    },
+    {
+      "label": "Autonomic recovery",
+      "value": "Sleeping HR 63 · HRV 52 ms",
+      "interpretation": "Sleeping HR is below both recent baselines and HRV is 8 ms above its weekly average."
+    },
+    {
+      "label": "Training sequence",
+      "value": "Readiness 79 · full rest yesterday · load ratio 0.7",
+      "interpretation": "Recovery and current load support easy running, but not a second quality session two days after the tempo."
+    }
+  ],
+  "caveats": [
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; use trends alongside how you feel.",
+    "Today's stress and Body Battery values are incomplete morning measures.",
+    "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
+    "Today's temperature is a city-level forecast; no route-level humidity or dew-point estimate was available."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
