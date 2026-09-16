@@ -2,8 +2,8 @@
   "date": "2026-09-16",
   "generated_at": "2026-09-15T21:33:59.747943+00:00",
   "snapshot_generated_at": "2026-09-15T21:33:59.747943+00:00",
-  "headline": "Seven kilometres easy after a successful rest day",
-  "summary": "Garmin recorded 7h 50m sleep (score 83), sleeping heart rate 63 bpm, overnight HRV 52 ms, Body Battery 88 on waking, and Training Readiness 79. Yesterday’s prescribed full rest was followed. Run 7 km easy today at conversational effort, with no strides or faster work.",
+  "headline": "Easy run completed; no further training today",
+  "summary": "The early-morning brief prescribed 7 km easy in about 45–50 minutes. Garmin later recorded 6.72 km in 39m 28s (5:52/km), with average HR 151, training load 115 and aerobic effect 3.5. This was close to the prescribed distance but shorter and faster; take no further training today.",
   "recovery": [
     {
       "label": "Sleep",
@@ -75,38 +75,44 @@
     }
   },
   "recommendation": {
-    "title": "7 km easy and conversational",
+    "title": "No further training today",
     "details": [
-      "Run exactly 7 km easy, targeting about 45–50 minutes at RPE 2–3/10 and a pace at which you can speak in full sentences.",
-      "Keep the entire run steady: no strides, hills, tempo sections, intervals, or make-up distance.",
-      "Sydney's city-level forecast is approximately 11–16°C and sunny today; this is general context, not a route-level measurement."
+      "The planned easy run is complete. Do no further running, cycling, strides, hills, tempo work, intervals, or make-up distance today.",
+      "Optional only: 10–20 minutes of gentle mobility or easy walking if it feels restorative."
     ],
-    "alternative": "If the warm-up feels unusually flat, replace the run with 25–35 minutes of easy walking or take complete rest.",
-    "reduce_or_stop": "Reduce to walking or stop for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+    "alternative": "Complete rest is the safe lower-load alternative.",
+    "reduce_or_stop": "Stop optional activity for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
   },
   "signals": [
     {
-      "label": "Overnight recovery",
-      "value": "Sleep 7h 50m · score 83 · Body Battery 88",
-      "interpretation": "Sleep and recharge support an easy aerobic run."
+      "label": "Completed run",
+      "value": "6.72 km · 39m 28s · 5:52/km · load 115",
+      "interpretation": "The run was 0.28 km short of the 7 km target and quicker than the 45–50 minute easy-session duration."
     },
     {
-      "label": "Autonomic recovery",
-      "value": "Sleeping HR 63 · HRV 52 ms",
-      "interpretation": "Sleeping HR is below both recent baselines and HRV is 8 ms above its weekly average."
+      "label": "Training effect",
+      "value": "Aerobic 3.5 · anaerobic 0.2",
+      "interpretation": "Garmin records a meaningful aerobic stimulus; no additional work is needed today."
     },
     {
-      "label": "Training sequence",
-      "value": "Readiness 79 · full rest yesterday · load ratio 0.7",
-      "interpretation": "Recovery and current load support easy running, but not a second quality session two days after the tempo."
+      "label": "Route and device context",
+      "value": "94.6 m elevation gain · Garmin temperature 16–26°C",
+      "interpretation": "Climbing and device temperature can affect pace and heart rate; they are context, not proof of effort or heat strain."
     }
   ],
   "caveats": [
     "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; use trends alongside how you feel.",
     "Today's stress and Body Battery values are incomplete morning measures.",
     "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
-    "Today's temperature is a city-level forecast; no route-level humidity or dew-point estimate was available."
+    "Today's temperature is a city-level forecast; no route-level humidity or dew-point estimate was available.",
+    "The morning 7 km easy recommendation is retained in this report as the comparison point for the completed run."
   ],
-  "run_assessments": [],
-  "status": "published"
+  "run_assessments": [
+    {
+      "activity_date": "2026-09-16",
+      "activity_type": "running",
+      "assessment": "mostly_followed — Garmin recorded 6.72 km in 39m 28s (5:52/km), average HR 151, maximum HR 167, training load 115, aerobic effect 3.5 and anaerobic effect 0.2. This was close to the prescribed 7 km easy run but 0.28 km shorter and quicker than the 45–50 minute target. The route gained 94.6 m and Garmin recorded 16–26°C; those are device/route context only."
+    }
+  ],
+  "status": "updated"
 }
