@@ -1,114 +1,113 @@
 {
   "date": "2026-09-20",
-  "generated_at": "2026-09-19T21:31:14.681Z",
-  "snapshot_generated_at": "2026-09-19T21:30:06.594134+00:00",
-  "headline": "Easy long run after Saturday’s pool swim",
-  "summary": "Garmin recorded 7h 11m sleep (score 80), sleeping heart rate 64 bpm, overnight HRV 42 ms, Body Battery 80 on waking, and Training Readiness 75. Saturday's 1.05 km pool swim was useful lower-impact training but did not match the prescribed easy run or approved alternative. Run 75–90 minutes easy today, approximately 11–14 km, with no quality work.",
+  "generated_at": "2026-09-20T21:34:54.612Z",
+  "snapshot_generated_at": "2026-09-20T11:25:16.244652+00:00",
+  "headline": "Conditional arrival-day trail run in California",
+  "summary": "Garmin's latest completed sleep remains the pre-flight Sydney sleep: 7h 11m, score 80, sleeping heart rate 64 bpm, overnight HRV 42 ms, Body Battery 80 on waking, and Training Readiness 75. These values predate the long-haul flight and do not measure current flight fatigue. If alert, steady, hydrated, and symptom-free after arrival, run 10 km easy on the hilly trail at RPE 2–3, hike steep climbs, control descents, and cap the outing at about 75 minutes.",
   "recovery": [
     {
       "label": "Sleep",
       "value": "7h 11m · score 80",
-      "context": "Garmin recorded a complete sleep window with one awakening. Average sleep stress was 17.",
-      "status": "neutral"
+      "context": "Latest completed Garmin sleep was the pre-flight Sydney sleep. UTC window: 19 September 11:41–19:02, equivalent to 04:41–12:02 PDT; Garmin labels it 20 September in the still-Sydney source timezone.",
+      "status": "caution"
     },
     {
       "label": "Sleeping HR",
       "value": "64 bpm",
-      "context": "0.7 bpm below the prior 7-night average (64.7) and 0.9 bpm below the prior 14-night average (64.9).",
+      "context": "0.7 bpm below the prior 7-night average (64.7) and 0.9 bpm below the prior 14-night average (64.9). This was measured before the flight.",
       "status": "neutral"
     },
     {
       "label": "Resting HR",
       "value": "57 bpm",
-      "context": "2 bpm below Garmin's seven-day average of 59 bpm.",
+      "context": "2 bpm below Garmin's seven-day average of 59 bpm, measured before departure.",
       "status": "neutral"
     },
     {
       "label": "HRV",
       "value": "42 ms overnight · 42 ms weekly average",
-      "context": "Garmin classifies HRV as balanced.",
+      "context": "Garmin classifies HRV as balanced, but the overnight value predates the flight.",
       "status": "neutral"
     },
     {
       "label": "Stress",
       "value": "15 so far · sleep stress 17",
-      "context": "The daytime value is an incomplete early-morning Garmin measure.",
-      "status": "neutral"
+      "context": "These are incomplete source-day measures collected before or during travel and are not a reliable summary of California arrival-day stress.",
+      "status": "caution"
     },
     {
       "label": "Body Battery",
       "value": "80 on waking",
-      "context": "Garmin recorded a 60-point gain across the sleep window.",
-      "status": "neutral"
+      "context": "Garmin recorded a 60-point gain across the pre-flight sleep window; current post-flight charge may differ.",
+      "status": "caution"
     },
     {
       "label": "Training Readiness",
       "value": "75 · High",
-      "context": "Garmin reported 1 minute of recovery time after waking.",
-      "status": "neutral"
+      "context": "Garmin reported 1 minute of recovery time after the pre-flight sleep. Do not let this score override sleepiness, dizziness, dehydration, unsteadiness, pain, or illness after the flight.",
+      "status": "caution"
     },
     {
       "label": "Recent load",
       "value": "Acute/chronic 337/409 · ratio 0.8",
-      "context": "Garmin classifies the acute-to-chronic load ratio as optimal.",
+      "context": "Garmin classifies the load ratio as optimal. No make-up mileage is needed during travel.",
       "status": "neutral"
     }
   ],
   "yesterday": {
-    "title": "Saturday easy-run prescription versus completed pool swim",
-    "summary": "The prescription was 35–45 minutes of easy running, with easy walking or complete rest as the lower-load alternative. Garmin recorded one pool swim instead.",
-    "adherence_verdict": "did_not_follow",
-    "prescribed": "Run 35–45 minutes easy, approximately 6–7 km, with no strides, hills, tempo work, intervals, or added distance. Approved lower-load alternative: 25–30 minutes of easy walking or full rest.",
-    "completed": "One lap-swimming activity: 1.05 km in 25m 54s, Garmin moving pace approximately 1:50/100 m (2:28/100 m including rests), average HR 123, maximum HR 161, training load 56, aerobic effect 2.1, and anaerobic effect 2.0.",
-    "adherence_assessment": "The swim supplied a modest lower-impact training stimulus, but it was neither the prescribed easy run nor the approved walking/rest alternative. The anaerobic training effect also means it cannot be assumed to have been entirely easy.",
+    "title": "Date-line transition before California arrival",
+    "summary": "The prior California calendar day occurred while Nelson was still in Sydney or in transit, so the former Sydney weekday prescription cannot be compared directly. Garmin recorded no activity in the 19 September PDT interval.",
+    "adherence_verdict": "not_assessable",
+    "prescribed": "No directly comparable California-day prescription existed for 19 September; the temporary travel plan begins with the conditional arrival-day run on Sunday 20 September PDT.",
+    "completed": "No activity was recorded between 19 September 00:00 and 23:59 PDT.",
+    "adherence_assessment": "Adherence cannot be assessed because the timezone transition changes the calendar-day mapping and the old Sydney schedule must not be applied day-for-day.",
     "adherence_evidence": [
-      "Garmin lists one lap-swimming activity with a 19 September Sydney start time.",
-      "The swim lasted 25m 54s and recorded training load 56, aerobic effect 2.1, and anaerobic effect 2.0.",
-      "No running or walking activity was recorded on 19 September."
+      "The post-refresh Garmin snapshot contains no activity with a UTC start between 19 September 07:00 and 20 September 07:00.",
+      "Nelson departed Sydney on 20 September local time and arrived in California on 20 September local time, crossing the date line."
     ],
     "adherence_caveats": [
-      "Garmin cannot verify perceived effort, pain, illness, swim-set structure, or intent.",
-      "The moving pace excludes rest time; the elapsed-equivalent pace includes it."
+      "Unrecorded activity cannot be assessed from Garmin.",
+      "Garmin's source timezone remains Australia/Sydney, so local labels are not reliable for California-day assignment during travel."
     ],
     "environment": {
-      "observed_temperature_range": "No reliable temperature measurement was present for the pool swim.",
-      "humidity_dew_point_context": "City-level humidity and dew point were not used because this was a pool activity and route-level outdoor exposure was not established.",
-      "heat_impact_interpretation": "No heat-related performance inference was made.",
-      "limitations": "The Garmin activity identifies lap swimming but does not establish indoor versus outdoor pool conditions."
+      "observed_temperature_range": "Not applicable because no activity was recorded for the prior California calendar day.",
+      "humidity_dew_point_context": "No route-time weather estimate was required.",
+      "heat_impact_interpretation": "No environmental performance inference was made.",
+      "limitations": "Travel-local day assignment was reconciled from UTC rather than Garmin's Sydney local timestamps."
     }
   },
   "recommendation": {
-    "title": "75–90 minutes easy today",
+    "title": "Conditional 10 km easy hilly trail run after arrival",
     "details": [
-      "Run 75–90 minutes at conversational effort, approximately 11–14 km if pace naturally falls in your recent easy range.",
-      "Keep the whole run easy: no fast finish, strides, hills, tempo work, intervals, or make-up pace.",
-      "Fuel and hydrate normally, and shorten the run if effort or heart rate is unusually high during the first 15–20 minutes."
+      "Only if alert, steady, hydrated, and free of concerning symptoms: run 10 km easy at RPE 2–3 and cap total time at about 75 minutes.",
+      "Hike steep climbs, keep the effort conversational, and control descents; do not add strides, tempo work, intervals, fast finishing, or make-up mileage.",
+      "Treat the first 10–15 minutes as an assessment. Flight fatigue and coordination matter more than the pre-flight Garmin readiness score."
     ],
-    "alternative": "Run 45–60 minutes easy, approximately 7–9 km, or take 30–45 minutes of easy walking or full rest if you do not feel well recovered.",
-    "reduce_or_stop": "Reduce or stop for pain, illness, dizziness, altered gait, unusual fatigue, chest symptoms, or other concerning symptoms. Symptoms and medical advice override Garmin scores."
+    "alternative": "Reduce to 5–7 km easy, switch to daylight walking, or take full rest if markedly sleepy, dizzy, dehydrated, unsteady, ill, or experiencing posterior-tibial pain.",
+    "reduce_or_stop": "Stop for posterior-tibial pain, altered gait, dizziness, unsteadiness, unusual sleepiness, dehydration symptoms, illness, chest symptoms, or other concerning symptoms. Medical advice and current symptoms override Garmin scores."
   },
   "signals": [
     {
-      "label": "Autonomic recovery",
-      "value": "Sleeping HR 64 vs 64.7 · resting HR 57 vs 59",
-      "interpretation": "Both sleeping and resting heart rate are at or below recent baselines."
-    },
-    {
-      "label": "Sleep and readiness",
+      "label": "Pre-flight recovery",
       "value": "7h 11m · score 80 · readiness 75",
-      "interpretation": "Good sleep and high Training Readiness support an easy endurance session."
+      "interpretation": "The recorded night was reassuring but occurred before the long-haul flight, so it cannot clear the run by itself."
     },
     {
-      "label": "Load and prior activity",
-      "value": "Load ratio 0.8 · swim load 56",
-      "interpretation": "Recent load remains optimal and Saturday's swim added only a modest measured stimulus, supporting easy duration without quality work."
+      "label": "Autonomic baseline",
+      "value": "Sleeping HR 64 vs 64.7 · HRV 42 vs 42 ms",
+      "interpretation": "Pre-flight heart-rate and HRV measures were near or better than baseline."
+    },
+    {
+      "label": "Travel constraint",
+      "value": "Long-haul flight plus date-line crossing",
+      "interpretation": "Post-flight alertness, hydration, balance, and symptoms determine whether the conditional run is appropriate; no make-up training is required."
     }
   ],
   "caveats": [
-    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; use trends alongside how you feel.",
-    "Today's stress and Body Battery values are incomplete morning measures.",
-    "Sleeping-heart-rate baselines exclude the current night and use the prior seven and fourteen valid nights.",
-    "Swimming pace depends on whether rest time is included; both moving and elapsed-equivalent figures are stated."
+    "Garmin's source timezone remains Australia/Sydney; UTC timestamps were used to reconcile the California-local date.",
+    "The latest completed sleep and readiness data predate the flight and may overstate current recovery.",
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load measures are wearable-derived; current symptoms and medical advice take priority.",
+    "No sensor source was identified for a run because no prior-day run was recorded."
   ],
   "run_assessments": [],
   "status": "published"
