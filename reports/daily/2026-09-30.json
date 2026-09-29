@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-29T21:35:24.025Z",
+  "snapshot_generated_at": "2026-09-29T21:33:41.236072+00:00",
+  "headline": "Rest today before Thursday's group easy run",
+  "summary": "Garmin recorded 6h 15m of confirmed sleep with a score of 73. Sleeping heart rate was 68 bpm, near recent baselines, but overnight HRV fell to 33 ms versus a 38 ms weekly average and Body Battery was only 42 on waking. Take full rest from running and cycling today so Thursday's regular group easy run remains available if the next overnight record and symptoms are acceptable.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "6h 15m · score 73",
+      "context": "Confirmed Sydney sleep window: 29 September 21:37–30 September 03:55 UTC, equivalent to 07:37–13:55 Sydney source time. Garmin estimated 7h 50m of sleep need, leaving a 1h 35m shortfall.",
+      "status": "caution"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "68 bpm",
+      "context": "0.2 bpm below the prior 7-night valid-sample average of 68.2 and 0.6 bpm above the prior 14-night valid-sample average of 67.4. Baselines use available valid nights only.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "63 bpm",
+      "context": "Equal to Garmin's seven-day average of 63 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "33 ms overnight · 38 ms weekly average",
+      "context": "The overnight value is 5 ms below the weekly average. Garmin still classifies HRV as balanced, but the daily dip supports reduced load.",
+      "status": "caution"
+    },
+    {
+      "label": "Stress",
+      "value": "30 so far · sleep stress 25",
+      "context": "Today's stress is an incomplete early-morning device measurement; sleep stress was above Garmin's optimal range.",
+      "status": "caution"
+    },
+    {
+      "label": "Body Battery",
+      "value": "42 on waking",
+      "context": "Garmin recorded a 30-point overnight charge and 33 points gained during sleep; waking reserve remained limited.",
+      "status": "caution"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "69 · Moderate",
+      "context": "Garmin reported 1 minute of recovery time, but the lower HRV and Body Battery carry more weight for today's prescription.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 80/297 · ratio 0.2",
+      "context": "Garmin classifies the ratio as low after travel. Low load is not a reason to add make-up mileage when recovery signals are subdued.",
+      "status": "caution"
+    }
+  ],
+  "yesterday": {
+    "title": "Tuesday's approved lower-load alternative",
+    "summary": "The prescription was 30–40 minutes easy, with easy walking or full rest explicitly approved as the lower-load alternative. Garmin recorded no workout on 29 September.",
+    "adherence_verdict": "followed",
+    "prescribed": "30–40 minutes easy at RPE 2–3, with 20–30 minutes of easy walking or full rest as an approved lower-load alternative.",
+    "completed": "No recorded running, cycling, or other workout on 29 September Sydney time.",
+    "adherence_assessment": "Followed. Full rest was an explicitly approved lower-load alternative, and Garmin recorded no additional workout.",
+    "adherence_evidence": [
+      "The 29 September report explicitly allowed full rest as the lower-load alternative.",
+      "The post-refresh Garmin snapshot contains no activity dated 29 September in Sydney."
+    ],
+    "adherence_caveats": [
+      "Unrecorded activity cannot be assessed from Garmin.",
+      "No perceived effort, pain, symptoms, terrain, sensor source, or intent is inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable because no activity was recorded on 29 September.",
+      "humidity_dew_point_context": "No route-time city weather estimate was required.",
+      "heat_impact_interpretation": "No environmental performance inference was made.",
+      "limitations": "Environmental context is omitted when there is no recorded activity to assess."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest from running and cycling",
+    "details": [
+      "Do not run or cycle today. Optional only: 20–30 minutes of easy walking or 10–15 minutes of gentle mobility.",
+      "Do not add tempo work, intervals, hills, strides, a fast finish, or make-up distance despite the low acute load.",
+      "If Thursday's overnight record is reassuring and there are no concerning symptoms, the regular Thursday group easy run can be the next session: approximately 7–8 km at conversational RPE 2–3."
+    ],
+    "alternative": "Full rest with normal daily movement is the lower-load choice; skip even optional walking if unusually sleepy, dizzy, dehydrated, ill, or if movement aggravates pain.",
+    "reduce_or_stop": "Stop optional movement for pain that changes gait, dizziness, unusual sleepiness, dehydration symptoms, illness, chest symptoms, or any other concerning symptom. Current symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Limited overnight recharge",
+      "value": "Body Battery 42 on waking",
+      "interpretation": "The low waking reserve argues for absorbing travel and sleep disruption rather than training today."
+    },
+    {
+      "label": "HRV dip",
+      "value": "33 ms overnight vs 38 ms weekly",
+      "interpretation": "Although Garmin still labels HRV balanced, the daily value is materially below the weekly average."
+    },
+    {
+      "label": "Short sleep",
+      "value": "6h 15m · score 73 · 1h 35m below need",
+      "interpretation": "Sleep remained incomplete, reinforcing rest before the regular Thursday group session."
+    }
+  ],
+  "caveats": [
+    "Sleeping-HR baselines use valid prior nights only because Garmin supplied no valid overnight record for 27 September.",
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, and load values are device measurements; coaching interpretation is stated separately.",
+    "No sensor-source inference was made because no prior-day activity was recorded.",
+    "The temporary travel schedule has expired; recent long-haul disruption is still considered as recovery context."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
