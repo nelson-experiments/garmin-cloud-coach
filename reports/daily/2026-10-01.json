@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-09-30T21:33:51.560Z",
+  "snapshot_generated_at": "2026-09-30T21:31:54.101196+00:00",
+  "headline": "Full rest after severe sleep loss and Wednesday's run",
+  "summary": "Garmin recorded only 3h 10m of sleep with a score of 30. Sleeping heart rate rose to 72 bpm, overnight HRV was 34 ms and unbalanced, Body Battery was 17 on waking, Training Readiness was 5, and recovery time was 44h 51m. Do not join today's Thursday group run; take full rest from running and cycling.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "3h 10m · score 30",
+      "context": "Confirmed Sydney sleep window: approximately 1 October 05:41–09:23, with 3h 10m scored as sleep. Garmin estimated 8h 20m of sleep need, leaving a 5h 10m shortfall.",
+      "status": "caution"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "72 bpm",
+      "context": "3.7 bpm above the prior 7-night valid-sample average of 68.3 and 4.2 bpm above the prior 14-night valid-sample average of 67.8.",
+      "status": "caution"
+    },
+    {
+      "label": "Resting HR",
+      "value": "66 bpm",
+      "context": "2 bpm above Garmin's seven-day average of 64 bpm.",
+      "status": "caution"
+    },
+    {
+      "label": "HRV",
+      "value": "34 ms overnight · 37 ms weekly average",
+      "context": "The overnight value is 3 ms below the weekly average, and Garmin classifies HRV as unbalanced.",
+      "status": "caution"
+    },
+    {
+      "label": "Stress",
+      "value": "27 so far · sleep stress 41",
+      "context": "Today's average stress is an incomplete early-morning device measurement; sleep stress was high.",
+      "status": "caution"
+    },
+    {
+      "label": "Body Battery",
+      "value": "17 on waking",
+      "context": "Garmin recorded only a 10-point overnight charge and 12 points gained during sleep.",
+      "status": "caution"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "5 · Poor",
+      "context": "Garmin reported 44h 51m of recovery time. This strongly supports full rest.",
+      "status": "caution"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 215/312 · ratio 0.6",
+      "context": "Garmin still classifies the ratio as low, but Wednesday's run added load 142. Low ratio does not justify training through severe sleep loss.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Wednesday run against a full-rest prescription",
+    "summary": "The prescription was full rest from running and cycling. Garmin recorded an 8.33 km run in 49m 40s at 5:58/km, average HR 152, maximum HR 172, load 142, aerobic effect 4.0 and anaerobic effect 0.0.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "Full rest from running and cycling, with only optional easy walking or gentle mobility.",
+    "completed": "Running · 8.33 km · 49m 40s · 5:58/km · average HR 152 · maximum HR 172 · load 142 · aerobic effect 4.0 · anaerobic effect 0.0 · elevation gain 80 m.",
+    "adherence_assessment": "Did not follow. A 49-minute run with load 142 and aerobic effect 4.0 was materially different from the prescribed full-rest day.",
+    "adherence_evidence": [
+      "The 30 September report explicitly said not to run or cycle.",
+      "Garmin recorded one run on 30 September: 8.33 km in 49m 40s with activity training load 142."
+    ],
+    "adherence_caveats": [
+      "Garmin did not identify the heart-rate sensor source in the available activity summary, so chest-strap use is not assumed.",
+      "No perceived effort, pain, terrain, symptoms or intent is inferred.",
+      "Plausible heat-related HR elevation is contextual and does not change the mismatch with a rest prescription."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device measurement: 22–28°C during the run.",
+      "humidity_dew_point_context": "A reliable route-time Sydney humidity/dew-point estimate was not available, so none is reported.",
+      "heat_impact_interpretation": "Coaching inference: the warm device-temperature range could have contributed to elevated heart rate, but the size of any effect cannot be quantified from these data.",
+      "limitations": "Garmin temperature is a device measurement and may differ from shaded ambient air temperature."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest from running and cycling",
+    "details": [
+      "Skip today's Thursday group run. Do not run, cycle, perform strength work, or add make-up mileage.",
+      "Prioritise sleep, regular meals and hydration. Optional only if fully alert and steady: 10–20 minutes of gentle daylight walking or mobility.",
+      "Reassess after the next completed overnight record; do not pre-commit to Friday quality or distance."
+    ],
+    "alternative": "Complete rest with normal essential daily movement. Skip optional walking if unusually sleepy, dizzy, dehydrated, ill, unsteady or if movement aggravates pain.",
+    "reduce_or_stop": "Stop optional movement for pain that changes gait, dizziness, unusual sleepiness, dehydration symptoms, illness, chest symptoms or any other concerning symptom. Current symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Severe sleep deficit",
+      "value": "3h 10m · score 30 · 5h 10m below need",
+      "interpretation": "This is the decisive constraint and rules out the group run."
+    },
+    {
+      "label": "Very low recovery reserve",
+      "value": "Body Battery 17 · readiness 5 · recovery 44h 51m",
+      "interpretation": "Multiple Garmin recovery measures independently indicate full rest."
+    },
+    {
+      "label": "Autonomic strain",
+      "value": "Sleeping HR 72 vs 68.3 · resting HR 66 vs 64 · HRV unbalanced",
+      "interpretation": "Heart-rate and HRV signals moved in the wrong direction after Wednesday's run."
+    }
+  ],
+  "caveats": [
+    "Sleeping-HR baselines use valid prior nights only because Garmin supplied no valid overnight record for 27 September.",
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, recovery-time and load values are device measurements; coaching interpretation is stated separately.",
+    "The available activity summary did not identify the heart-rate sensor source.",
+    "Today is Nelson's usual Thursday group-run day, but the quantified recovery signals override the routine."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-09-30",
+      "activity_type": "running",
+      "assessment": "did_not_follow — 8.33 km in 49m 40s (5:58/km), average HR 152, maximum HR 172, training load 142, aerobic effect 4.0 and anaerobic effect 0.0, with 80 m elevation gain. Garmin recorded a 22–28°C device-temperature range; warmth may contextualise heart rate but does not change the mismatch with the prescribed full-rest day."
+    }
+  ],
+  "status": "published"
+}
