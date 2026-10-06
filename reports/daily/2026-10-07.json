@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-06T20:36:32.498Z",
+  "snapshot_generated_at": "2026-10-06T20:35:01.960787+00:00",
+  "headline": "Full rest after Tuesday's tempo-labelled run and fragmented sleep",
+  "summary": "Garmin recorded 8h 19m of sleep, but the score was only 67 because the sleep was discontinuous. Training Readiness is 35 (Low), recovery time is 11h 30m, and Tuesday's run added load 143 with aerobic effect 3.5. Take full rest from training today.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "8h 19m · score 67",
+      "context": "Confirmed Sydney sleep window: approximately 6 October 20:31–7 October 06:11. Garmin scored 8h 19m as sleep within the 9h 40m window and described it as long but discontinuous; the estimated need was 9h.",
+      "status": "caution"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "68 bpm",
+      "context": "1.0 bpm above the prior 7-night valid-sample average of 67.0 and 0.5 bpm above the prior 14-night valid-sample average of 67.5 (13 valid nights).",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "59 bpm",
+      "context": "1 bpm below Garmin's seven-day average of 60 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "39 ms overnight · 40 ms weekly average",
+      "context": "The overnight value is 1 ms below the weekly average, and Garmin classifies HRV as balanced.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "19 so far · sleep stress 23",
+      "context": "Today's average stress is an incomplete early-morning device measurement; Garmin's average sleep stress was 23.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "70 on waking",
+      "context": "Garmin recorded 44 points charged overnight and a 47-point sleep impact.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "35 · Low",
+      "context": "Garmin reported 11h 30m of recovery time and advises focusing on sleep quality.",
+      "status": "caution"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 465/338 · ratio 1.3",
+      "context": "Garmin classifies the ratio as optimal, but Tuesday's run added load 143 and the acute load has risen materially.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Tuesday run without a published daily prescription",
+    "summary": "Garmin recorded one run: 5.28 km in 29m 29s at 5:35/km, average HR 158, maximum HR 179, load 143, aerobic effect 3.5 and anaerobic effect 2.0. Garmin labelled the training effect TEMPO.",
+    "adherence_verdict": "not_assessable",
+    "prescribed": "No daily report was published for 6 October because the required overnight-data gate did not pass, so there was no valid daily prescription to assess.",
+    "completed": "Running · 5.28 km · 29m 29s · 5:35/km · average HR 158 · maximum HR 179 · load 143 · aerobic effect 3.5 · anaerobic effect 2.0 · elevation gain 43 m.",
+    "adherence_assessment": "Not assessable. The run is fully described, but there was no published 6 October prescription against which to judge adherence.",
+    "adherence_evidence": [
+      "The archive contains no daily report for 6 October.",
+      "Garmin recorded one run on 6 October: 5.28 km in 29m 29s with activity training load 143."
+    ],
+    "adherence_caveats": [
+      "Garmin did not identify the heart-rate sensor source in the available activity summary, so chest-strap use is not assumed.",
+      "No perceived effort, pain, terrain, symptoms or intent is inferred.",
+      "Warm conditions may contextualise heart rate, but the size of any heat effect cannot be quantified from these data."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device measurement: 24–29°C during the run.",
+      "humidity_dew_point_context": "A reliable route-time Sydney hourly humidity/dew-point estimate was not available, so none is reported.",
+      "heat_impact_interpretation": "Coaching inference: the warm device-temperature range could have contributed to elevated heart rate, but it does not by itself establish excessive effort or poor adherence.",
+      "limitations": "Garmin temperature is a device measurement and may differ from shaded ambient air temperature."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest from running and cycling",
+    "details": [
+      "Do not run, cycle, perform strength work, or add make-up mileage today.",
+      "Optional only: 20–30 minutes of very easy walking or 10–15 minutes of gentle mobility, provided you feel alert and movement is comfortable.",
+      "Reassess after the next completed overnight record before deciding on Thursday's usual group easy run."
+    ],
+    "alternative": "Complete rest with normal essential daily movement.",
+    "reduce_or_stop": "Stop optional movement for pain that changes gait, dizziness, unusual sleepiness, dehydration symptoms, illness, chest symptoms or any other concerning symptom. Current symptoms and medical advice override Garmin scores."
+  },
+  "signals": [
+    {
+      "label": "Low readiness",
+      "value": "35 · Low · recovery 11h 30m",
+      "interpretation": "Garmin's combined recovery assessment does not support another training session today."
+    },
+    {
+      "label": "Tuesday training dose",
+      "value": "Load 143 · aerobic effect 3.5 · anaerobic effect 2.0",
+      "interpretation": "The short run still delivered a substantial mixed training stimulus and should be absorbed before the next session."
+    },
+    {
+      "label": "Sleep quality",
+      "value": "8h 19m · score 67 · discontinuous",
+      "interpretation": "Duration was adequate, but fragmentation and only fair sleep quality limit confidence in recovery."
+    }
+  ],
+  "caveats": [
+    "Sleeping-HR baselines use valid prior nights only because Garmin supplied no valid overnight record for 27 September.",
+    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, recovery-time and load values are device measurements; coaching interpretation is stated separately.",
+    "The available activity summary did not identify the heart-rate sensor source.",
+    "No daily report was published from 2–6 October, so 6 October adherence is not assessable."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-06",
+      "activity_type": "running",
+      "assessment": "not_assessable — 5.28 km in 29m 29s (5:35/km), average HR 158, maximum HR 179, training load 143, aerobic effect 3.5 and anaerobic effect 2.0, with 43 m elevation gain. Garmin labelled the training effect TEMPO and recorded a 24–29°C device-temperature range. No 6 October prescription was published."
+    }
+  ],
+  "status": "published"
+}
