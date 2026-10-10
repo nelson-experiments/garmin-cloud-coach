@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T06:49:20.822Z",
+  "snapshot_generated_at": "2026-10-10T06:45:52.121607+00:00",
+  "headline": "18 km long run completed — recovery starts now",
+  "summary": "Today’s 18.14 km long run was easy aerobic work, but it added load 125. No more training today; take full rest tomorrow.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 22m · score 80",
+      "context": "Confirmed overnight record.",
+      "status": "good"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "65 bpm",
+      "context": "Device measurement.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "59 bpm",
+      "context": "Matches the seven-day average.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "43 ms weekly average",
+      "context": "Garmin classifies the recovery input as very good.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "82 on waking",
+      "context": "Device measurement.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "37 · Low after the run",
+      "context": "Garmin now shows 41h 05m recovery.",
+      "status": "caution"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 654/416 · ratio 1.5",
+      "context": "High workload ratio after the long run.",
+      "status": "caution"
+    }
+  ],
+  "yesterday": {
+    "title": "Friday",
+    "summary": "No workout recorded.",
+    "adherence_verdict": "not_assessable",
+    "prescribed": "No 9 October report was published at the time.",
+    "completed": "No activity recorded.",
+    "adherence_assessment": "Not assessable: there was no published 9 October prescription.",
+    "adherence_evidence": [
+      "Garmin shows no 9 October workout."
+    ],
+    "adherence_caveats": [
+      "No intent or symptoms inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable.",
+      "humidity_dew_point_context": "Not applicable.",
+      "heat_impact_interpretation": "Not assessed.",
+      "limitations": "No activity."
+    }
+  },
+  "recommendation": {
+    "title": "Recovery for the rest of today; full rest Sunday",
+    "details": [
+      "The long run is complete: do no more training today.",
+      "Tomorrow: full rest from running and cycling; normal walking is enough.",
+      "Resume only after a completed overnight record supports it."
+    ],
+    "alternative": "If stiff or tired, choose complete rest and normal daily movement.",
+    "reduce_or_stop": "Stop activity for pain that changes gait, dizziness, illness, chest symptoms or other concerning symptoms."
+  },
+  "signals": [
+    {
+      "label": "Long run",
+      "value": "18.14 km · 2h 10m 38s · 7:12/km · load 125",
+      "interpretation": "Garmin labelled it aerobic base; average HR was 140 bpm."
+    },
+    {
+      "label": "Post-run recovery",
+      "value": "Readiness 37 · recovery 41h 05m",
+      "interpretation": "No additional training is warranted."
+    },
+    {
+      "label": "Recent load",
+      "value": "654/416 · ratio 1.5",
+      "interpretation": "High load supports a rest day tomorrow."
+    }
+  ],
+  "caveats": [
+    "Garmin recorded 19–26°C device temperature during the run.",
+    "The heart-rate sensor source is not identified; no sensor assumption is made."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-10",
+      "activity_type": "running",
+      "assessment": "completed — 18.14 km in 2h 10m 38s (7:12/km), average HR 140, maximum HR 180, load 125, aerobic effect 3.6, anaerobic effect 0.0 and 98 m elevation gain. Garmin labelled the effect AEROBIC_BASE and recorded 19–26°C device temperature."
+    }
+  ],
+  "status": "published"
+}
