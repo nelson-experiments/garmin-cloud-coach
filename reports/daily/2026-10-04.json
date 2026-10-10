@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-10T06:49:20.822Z",
+  "snapshot_generated_at": "2026-10-04T12:23:20.436376+00:00",
+  "headline": "Rest day: short sleep and high load",
+  "summary": "Sleep was short, readiness was 11, and load was high. Take full rest.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 52m · score 57",
+      "context": "Garmin completed overnight record.",
+      "status": "caution"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "68 bpm",
+      "context": "Device measurement.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "59 bpm",
+      "context": "Seven-day average: 62 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "38 ms weekly average",
+      "context": "Garmin recovery metric.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "66 on waking",
+      "context": "Device measurement.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "11 · Poor · recovery 36h 14m",
+      "context": "Garmin recovery metric.",
+      "status": "caution"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 485/332 · ratio 1.4",
+      "context": "Garmin classification: high.",
+      "status": "caution"
+    }
+  ],
+  "yesterday": {
+    "title": "Previous-day activity — 2026-10-03",
+    "summary": "No activity recorded",
+    "adherence_verdict": "followed",
+    "prescribed": "No prior report was available at the time of assessment.",
+    "completed": "No activity recorded",
+    "adherence_assessment": "No activity was recorded; this matches a rest day.",
+    "adherence_evidence": [
+      "Garmin snapshot retained for repair after delayed overnight sync."
+    ],
+    "adherence_caveats": [
+      "No perceived effort, symptoms or intent is inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not reported.",
+      "humidity_dew_point_context": "Not reported.",
+      "heat_impact_interpretation": "Not assessed.",
+      "limitations": "Historical repair from Garmin snapshot."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest",
+    "details": [
+      "No run, ride, strength work or make-up mileage.",
+      "Use normal walking only and prioritise food, fluids and sleep."
+    ],
+    "alternative": "Full rest.",
+    "reduce_or_stop": "Stop for pain that changes gait, dizziness, illness, chest symptoms or other concerning symptoms."
+  },
+  "signals": [
+    {
+      "label": "Sleep",
+      "value": "5h 52m · score 57",
+      "interpretation": "Device measurement."
+    },
+    {
+      "label": "Readiness",
+      "value": "11 · Poor",
+      "interpretation": "Garmin recovery signal."
+    },
+    {
+      "label": "Load",
+      "value": "485/332 · 1.4",
+      "interpretation": "Use this with sleep and how you feel."
+    }
+  ],
+  "caveats": [
+    "Backfilled after Garmin later supplied the completed overnight record.",
+    "Garmin measurements are device data; coaching interpretation is separate."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
