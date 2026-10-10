@@ -1,20 +1,20 @@
 {
   "date": "2026-10-07",
-  "generated_at": "2026-10-06T20:36:32.498Z",
+  "generated_at": "2026-10-10T06:49:20.822Z",
   "snapshot_generated_at": "2026-10-06T20:35:01.960787+00:00",
-  "headline": "Full rest after Tuesday's tempo-labelled run and fragmented sleep",
-  "summary": "Garmin recorded 8h 19m of sleep, but the score was only 67 because the sleep was discontinuous. Training Readiness is 35 (Low), recovery time is 11h 30m, and Tuesday's run added load 143 with aerobic effect 3.5. Take full rest from training today.",
+  "headline": "Rest after Tuesday’s hard run",
+  "summary": "Sleep was fragmented, readiness 35 and Tuesday added load 143. Take full rest.",
   "recovery": [
     {
       "label": "Sleep",
       "value": "8h 19m · score 67",
-      "context": "Confirmed Sydney sleep window: approximately 6 October 20:31–7 October 06:11. Garmin scored 8h 19m as sleep within the 9h 40m window and described it as long but discontinuous; the estimated need was 9h.",
+      "context": "Confirmed Sydney sleep window: approximately 6 October 20:31–7 October 06:11.",
       "status": "caution"
     },
     {
       "label": "Sleeping HR",
       "value": "68 bpm",
-      "context": "1.0 bpm above the prior 7-night valid-sample average of 67.0 and 0.5 bpm above the prior 14-night valid-sample average of 67.5 (13 valid nights).",
+      "context": "1.",
       "status": "neutral"
     },
     {
@@ -80,11 +80,11 @@
   "recommendation": {
     "title": "Full rest from running and cycling",
     "details": [
-      "Do not run, cycle, perform strength work, or add make-up mileage today.",
-      "Optional only: 20–30 minutes of very easy walking or 10–15 minutes of gentle mobility, provided you feel alert and movement is comfortable.",
-      "Reassess after the next completed overnight record before deciding on Thursday's usual group easy run."
+      "No running, cycling, strength work or make-up mileage.",
+      "Optional: 10–20 minutes easy walking or gentle mobility.",
+      "Prioritise sleep, food and fluids."
     ],
-    "alternative": "Complete rest with normal essential daily movement.",
+    "alternative": "Full rest is the lower-load option.",
     "reduce_or_stop": "Stop optional movement for pain that changes gait, dizziness, unusual sleepiness, dehydration symptoms, illness, chest symptoms or any other concerning symptom. Current symptoms and medical advice override Garmin scores."
   },
   "signals": [
@@ -105,10 +105,8 @@
     }
   ],
   "caveats": [
-    "Sleeping-HR baselines use valid prior nights only because Garmin supplied no valid overnight record for 27 September.",
-    "Garmin sleep, heart-rate, HRV, stress, Body Battery, readiness, recovery-time and load values are device measurements; coaching interpretation is stated separately.",
-    "The available activity summary did not identify the heart-rate sensor source.",
-    "No daily report was published from 2–6 October, so 6 October adherence is not assessable."
+    "Garmin values are device measurements; coaching interpretation is separate.",
+    "No sensor source, symptoms or intent is assumed."
   ],
   "run_assessments": [
     {
