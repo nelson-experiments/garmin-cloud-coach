@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-12T20:33:37.642Z",
+  "snapshot_generated_at": "2026-10-12T20:32:42.734734+00:00",
+  "headline": "Easy aerobic run; no quality work",
+  "summary": "Recovery improved after 7h 51m of sleep. Run 35–45 minutes easy today, with no tempo, intervals or fast finish.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 51m · score 86",
+      "context": "Confirmed overnight record; Garmin estimated 7h 50m of sleep need.",
+      "status": "good"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "63 bpm",
+      "context": "2.3 bpm below the prior 7-night average of 65.3 and 3.5 bpm below the prior 14-night average of 66.5.",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "57 bpm",
+      "context": "2 bpm below Garmin’s seven-day average of 59 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "51 ms overnight · 42 ms weekly",
+      "context": "Garmin classifies HRV as balanced.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "12 so far · sleep stress 15",
+      "context": "Today’s stress value is an incomplete morning measurement.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "92 on waking",
+      "context": "Device measurement.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "66 · Moderate",
+      "context": "Recovery time is effectively complete; recent sleep history still limits the score.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 455/417 · ratio 1.0",
+      "context": "Garmin classifies the ratio as optimal.",
+      "status": "good"
+    }
+  ],
+  "yesterday": {
+    "title": "Short run on a prescribed rest day",
+    "summary": "Garmin recorded 3.31 km in 23m 56s at 7:14/km, average HR 130, maximum HR 154 and load 35.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "Full rest from training; optional only 15–20 minutes of easy walking or mobility.",
+    "completed": "Running · 3.31 km · 23m 56s · 7:14/km · average HR 130 · maximum HR 154 · load 35 · aerobic effect 2.2 · anaerobic effect 0.0 · elevation gain 16 m.",
+    "adherence_assessment": "Did not follow. The run was easy and low-load, but it was not the prescribed rest or approved walking alternative.",
+    "adherence_evidence": [
+      "The 12 October report prescribed full rest from running and cycling.",
+      "Garmin recorded a 3.31 km run on 12 October."
+    ],
+    "adherence_caveats": [
+      "Garmin does not identify the heart-rate sensor source in the available summary.",
+      "No perceived effort, symptoms, terrain or intent is inferred.",
+      "Warm conditions may contextualise heart rate but do not change the adherence verdict."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device measurement: 26–29°C.",
+      "humidity_dew_point_context": "A reliable route-time Sydney humidity/dew-point estimate was not available.",
+      "heat_impact_interpretation": "The warm device-temperature range could have raised heart rate; the size of the effect cannot be quantified.",
+      "limitations": "Device temperature may differ from shaded ambient temperature."
+    }
+  },
+  "recommendation": {
+    "title": "35–45 minutes easy",
+    "details": [
+      "Run at conversational effort, RPE 2–3; roughly 5–7 km.",
+      "Keep the route flat or gently rolling. No tempo, intervals, hills, strides or fast finish.",
+      "Finish early if effort or heart rate rises unusually for the conditions."
+    ],
+    "alternative": "20–30 minutes of easy walking or full rest.",
+    "reduce_or_stop": "Reduce or stop for pain that changes gait, dizziness, unusual fatigue, illness, chest symptoms or other concerning symptoms."
+  },
+  "signals": [
+    {
+      "label": "Recovered overnight",
+      "value": "7h 51m · score 86 · Body Battery 92",
+      "interpretation": "Sleep duration and overnight recharge support an easy run."
+    },
+    {
+      "label": "Favourable autonomic signals",
+      "value": "Sleeping HR 63 · HRV 51 ms",
+      "interpretation": "Both are better than recent baselines."
+    },
+    {
+      "label": "Balanced load",
+      "value": "455/417 · ratio 1.0",
+      "interpretation": "Load has returned to Garmin’s optimal range, but recent inconsistency argues against quality work."
+    }
+  ],
+  "caveats": [
+    "Garmin measurements are device data; coaching interpretation is separate.",
+    "The heart-rate sensor source was not available.",
+    "Current symptoms and medical advice override device scores."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-12",
+      "activity_type": "running",
+      "assessment": "did_not_follow — 3.31 km in 23m 56s (7:14/km), average HR 130, maximum HR 154, load 35, aerobic effect 2.2, anaerobic effect 0.0 and 16 m elevation gain. Garmin recorded 26–29°C. The prescribed session was full rest."
+    }
+  ],
+  "status": "published"
+}
