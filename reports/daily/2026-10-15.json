@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-14T20:35:30.000Z",
+  "snapshot_generated_at": "2026-10-14T20:34:48.754381+00:00",
+  "headline": "Easy Thursday group run",
+  "summary": "Recovery is strong after a rest day. Run 40–50 minutes easy with the group; keep the effort conversational and do not add quality work.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 22m · score 81",
+      "context": "Confirmed overnight record; Garmin estimated 7h 50m of sleep need.",
+      "status": "good"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "62 bpm",
+      "context": "2.3 bpm below the prior 7-night average of 64.3 and 3.6 bpm below the prior 14-night average of 65.6.",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "56 bpm",
+      "context": "3 bpm below Garmin’s seven-day average of 59 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "48 ms overnight · 44 ms weekly",
+      "context": "Garmin classifies HRV as balanced.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "13 so far · sleep stress 15",
+      "context": "Today’s stress value is an incomplete morning measurement.",
+      "status": "good"
+    },
+    {
+      "label": "Body Battery",
+      "value": "96 on waking",
+      "context": "Device measurement after a 72-point overnight recharge.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "83 · High",
+      "context": "Recovery time is effectively complete.",
+      "status": "good"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 263/400 · ratio 0.6",
+      "context": "Garmin classifies the ratio as low; do not use this to add unplanned quality work.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest day completed",
+    "summary": "Garmin recorded no activity on 14 October.",
+    "adherence_verdict": "followed",
+    "prescribed": "Full rest from training; optional 20–30 minutes of easy walking or mobility.",
+    "completed": "No activity recorded.",
+    "adherence_assessment": "Followed. No recorded training is consistent with the prescribed full-rest day.",
+    "adherence_evidence": [
+      "The 14 October report prescribed full rest.",
+      "The post-refresh Garmin snapshot contains no activity dated 14 October."
+    ],
+    "adherence_caveats": [
+      "Unrecorded walking or mobility cannot be verified from Garmin.",
+      "No perceived effort, symptoms or intent is inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable; no activity was recorded.",
+      "humidity_dew_point_context": "Not applicable.",
+      "heat_impact_interpretation": "No activity was available for environmental assessment.",
+      "limitations": "Unrecorded activity cannot be assessed."
+    }
+  },
+  "recommendation": {
+    "title": "40–50 minutes easy with the group",
+    "details": [
+      "Run at conversational effort, RPE 2–3; roughly 6–8 km.",
+      "Stay relaxed on hills and do not add a tempo segment, strides, intervals or a fast finish.",
+      "Finish early if effort or heart rate rises unusually for the conditions."
+    ],
+    "alternative": "25–30 minutes of easy walking, or full rest.",
+    "reduce_or_stop": "Reduce or stop for pain that changes gait, dizziness, unusual fatigue, illness, chest symptoms or other concerning symptoms."
+  },
+  "signals": [
+    {
+      "label": "Recharged overnight",
+      "value": "7h 22m · score 81 · Body Battery 96",
+      "interpretation": "Sleep and recharge support an easy group run."
+    },
+    {
+      "label": "Favourable recovery markers",
+      "value": "Sleeping HR 62 · HRV 48 ms",
+      "interpretation": "Both are better than recent baselines and HRV is balanced."
+    },
+    {
+      "label": "Low recent load",
+      "value": "263/400 · ratio 0.6",
+      "interpretation": "The rest day lowered load; maintain routine rather than adding intensity."
+    }
+  ],
+  "caveats": [
+    "Garmin measurements are device data; coaching interpretation is separate.",
+    "The heart-rate sensor source for any future activity is not known from this snapshot.",
+    "Current symptoms and medical advice override device scores."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
