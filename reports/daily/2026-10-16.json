@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-15T20:34:30.000Z",
+  "snapshot_generated_at": "2026-10-15T20:32:44.423709+00:00",
+  "headline": "Rest today after Thursday’s tempo session",
+  "summary": "Thursday was a hard tempo-interval run. Rest today; do not add the optional Friday run or make up easy mileage.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 12m · score 70",
+      "context": "Confirmed overnight record; 38 minutes below Garmin’s 7h 50m sleep need.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "66 bpm",
+      "context": "1.9 bpm above the prior 7-night average of 64.1 and 1.1 bpm above the prior 14-night average of 64.9.",
+      "status": "caution"
+    },
+    {
+      "label": "Resting HR",
+      "value": "60 bpm",
+      "context": "2 bpm above Garmin’s seven-day average of 58 bpm.",
+      "status": "caution"
+    },
+    {
+      "label": "HRV",
+      "value": "41 ms overnight · 45 ms weekly",
+      "context": "Garmin classifies HRV as balanced, but overnight HRV is below the weekly average.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "20 so far · sleep stress 20",
+      "context": "Today’s stress value is an incomplete morning measurement.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "73 on waking",
+      "context": "Device measurement after a 42-point overnight recharge.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "65 · Moderate",
+      "context": "Garmin shows 13h 54m recovery time remaining after yesterday’s session.",
+      "status": "caution"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 365/429 · ratio 0.8",
+      "context": "Garmin classifies the ratio as optimal.",
+      "status": "good"
+    }
+  ],
+  "yesterday": {
+    "title": "Tempo workout instead of easy group run",
+    "summary": "Garmin recorded a 7.22 km tempo-interval run in 40m 16s at 5:35/km, average HR 157, maximum HR 182 and load 161.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "40–50 minutes easy with the group at conversational RPE 2–3; no tempo, intervals, strides or fast finish.",
+    "completed": "Running · 7.22 km · 40m 16s · 5:35/km · average HR 157 · maximum HR 182 · load 161 · aerobic effect 3.9 · anaerobic effect 0.6 · elevation gain 181 m.",
+    "adherence_assessment": "Did not follow. Garmin classifies the recorded activity as a tempo workout with intensity intervals, rather than the prescribed easy group run.",
+    "adherence_evidence": [
+      "The 15 October report prescribed an easy group run with no tempo or intervals.",
+      "Garmin named the activity “Tempo 2km Repeats” and recorded training effect “TEMPO” with intensity intervals."
+    ],
+    "adherence_caveats": [
+      "Garmin does not identify the heart-rate sensor source in the available summary.",
+      "No perceived effort, symptoms, terrain or intent is inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device measurement: 15–24°C.",
+      "humidity_dew_point_context": "A reliable route-time Sydney humidity/dew-point estimate was not available.",
+      "heat_impact_interpretation": "The device temperature range provides context only; no heat effect is inferred.",
+      "limitations": "Device temperature may differ from shaded ambient temperature."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest from running and cycling",
+    "details": [
+      "Optional: 20–30 minutes of easy walking or gentle mobility.",
+      "Do not add the optional Friday run or make up missed mileage.",
+      "Resume only when the recovery timer and how you feel support it."
+    ],
+    "alternative": "Full rest is preferred; optional easy walking or mobility only.",
+    "reduce_or_stop": "Stop activity for pain that changes gait, dizziness, unusual fatigue, illness, chest symptoms or other concerning symptoms."
+  },
+  "signals": [
+    {
+      "label": "Hard session yesterday",
+      "value": "Tempo intervals · load 161 · 37 vigorous minutes",
+      "interpretation": "This was substantial work and needs a recovery day."
+    },
+    {
+      "label": "Recovery still in progress",
+      "value": "13h 54m remaining · readiness 65",
+      "interpretation": "Garmin’s recovery timer supports rest today."
+    },
+    {
+      "label": "Overnight markers softer",
+      "value": "Sleeping HR 66 · HRV 41 ms · Body Battery 73",
+      "interpretation": "These are adequate but not a reason to add training."
+    }
+  ],
+  "caveats": [
+    "Garmin measurements are device data; coaching interpretation is separate.",
+    "The heart-rate sensor source was not available.",
+    "Current symptoms and medical advice override device scores."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-15",
+      "activity_type": "running",
+      "assessment": "did_not_follow — 7.22 km in 40m 16s (5:35/km), average HR 157, maximum HR 182, load 161, aerobic effect 3.9, anaerobic effect 0.6 and 181 m elevation gain. Garmin recorded 15–24°C. The prescribed session was an easy group run; Garmin classified the recorded activity as tempo intervals."
+    }
+  ],
+  "status": "published"
+}
