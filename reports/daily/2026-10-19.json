@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-18T20:30:09.000Z",
+  "snapshot_generated_at": "2026-10-18T20:29:57.394968+00:00",
+  "headline": "Rest today after Sunday’s high-load ride",
+  "summary": "Sunday’s 1h 52m ride added a large load. With 5h 45m sleep, readiness 29 and 33h 01m recovery remaining, take a full rest day.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 45m · score 72",
+      "context": "Confirmed overnight record; 2h 05m below Garmin’s 7h 50m sleep need.",
+      "status": "caution"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "63 bpm",
+      "context": "1.9 bpm below the prior 7-night average of 64.9 and 2.1 bpm below the prior 14-night average of 65.1.",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "60 bpm",
+      "context": "1 bpm above Garmin’s seven-day average of 59 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "39 ms overnight · 43 ms weekly",
+      "context": "Garmin classifies HRV as balanced; overnight HRV is below the weekly average.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "16 so far · sleep stress not separately reported",
+      "context": "Today’s stress value is an incomplete early-morning device measurement.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "78 on waking",
+      "context": "Device measurement after a 54-point overnight recharge.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "29 · Low",
+      "context": "Garmin shows 33h 01m recovery time remaining.",
+      "status": "caution"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 566/474 · ratio 1.1",
+      "context": "Garmin classifies the ratio as optimal, but the one-day recovery timer remains substantial.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "High-load ride on a prescribed rest day",
+    "summary": "Garmin recorded a 43.28 km ride in 1h 51m 54s, average HR 145, maximum HR 187 and load 261.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "Full rest from running and cycling; optional 20–30 minutes of easy walking or gentle mobility.",
+    "completed": "Cycling · 43.28 km · 1h 51m 54s · average HR 145 · maximum HR 187 · load 261 · aerobic effect 3.9 · anaerobic effect 3.5.",
+    "adherence_assessment": "Did not follow. Garmin recorded a substantial cycling session despite the prescribed full rest day.",
+    "adherence_evidence": [
+      "The 18 October report prescribed full rest from running and cycling.",
+      "Garmin recorded a cycling activity on 18 October with load 261."
+    ],
+    "adherence_caveats": [
+      "Garmin does not identify the heart-rate sensor source in the available summary.",
+      "No perceived effort, symptoms, terrain or intent is inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device measurement: 15–27°C.",
+      "humidity_dew_point_context": "A reliable route-time Sydney humidity/dew-point estimate was not available.",
+      "heat_impact_interpretation": "The device temperature range provides context only; no heat effect is inferred.",
+      "limitations": "Device temperature may differ from shaded ambient temperature."
+    }
+  },
+  "recommendation": {
+    "title": "Full rest from running and cycling",
+    "details": [
+      "Optional: 20–30 minutes of easy walking or gentle mobility.",
+      "Do not make up missed runs or add cross-training today.",
+      "Prioritise sleep, food and hydration; resume only after recovery improves."
+    ],
+    "alternative": "Full rest is preferred; optional easy walking or mobility only.",
+    "reduce_or_stop": "Stop activity for pain that changes gait, dizziness, unusual fatigue, illness, chest symptoms or other concerning symptoms."
+  },
+  "signals": [
+    {
+      "label": "Recovery timer",
+      "value": "33h 01m remaining · readiness 29",
+      "interpretation": "Garmin’s current recovery assessment strongly supports rest."
+    },
+    {
+      "label": "Short sleep",
+      "value": "5h 45m · score 72",
+      "interpretation": "Sleep duration is well below Garmin’s stated need."
+    },
+    {
+      "label": "Sunday cycling load",
+      "value": "1h 52m · load 261 · aerobic effect 3.9",
+      "interpretation": "This was a substantial training stress, not a recovery spin."
+    }
+  ],
+  "caveats": [
+    "Garmin measurements are device data; coaching interpretation is separate.",
+    "The heart-rate sensor source was not available.",
+    "Current symptoms and medical advice override device scores."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
