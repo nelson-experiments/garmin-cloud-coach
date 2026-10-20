@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-20T20:29:44Z",
+  "snapshot_generated_at": "2026-10-20T20:28:49.304016+00:00",
+  "headline": "Recovery is improving; keep today restful",
+  "summary": "Tuesday’s rest helped: readiness rose from 10 to 50 and Body Battery reached 93. Take one more day off running and cycling after Sunday’s ride and Monday’s hard run.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "6h 53m · score 81",
+      "context": "Completed overnight record; 57 minutes below Garmin’s 7h 50m sleep need.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "63 bpm",
+      "context": "Below the prior 7-night baseline of 65.1 bpm and 14-night baseline of 65.2 bpm, excluding the current night.",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "58 bpm",
+      "context": "1 bpm below Garmin’s seven-day average of 59.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "48 ms overnight · 41 ms weekly",
+      "context": "Balanced; overnight HRV rose from 38 ms yesterday.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "11 so far",
+      "context": "Partial morning measurement, not a full-day stress score.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "93 on waking",
+      "context": "Up from 67 yesterday; sleep recharge was 67 points.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "50 · Moderate",
+      "context": "Up from 10 yesterday. Recovery time is 29h 52m at the 06:01 reading.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 646/511 · ratio 1.2",
+      "context": "Garmin classifies the ratio as optimal; acute load fell from 756.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest day completed",
+    "summary": "No activities were recorded for Tuesday 20 October.",
+    "adherence_verdict": "followed",
+    "prescribed": "Full rest from running and cycling; optional 20–30 minutes of easy walking or gentle mobility.",
+    "completed": "No recorded running, cycling or other workouts.",
+    "adherence_assessment": "The available activity record matches the prescribed rest day.",
+    "adherence_evidence": [
+      "The 20 October report prescribed rest from running and cycling.",
+      "The refreshed snapshot contains no activities starting on 20 October in Sydney time."
+    ],
+    "adherence_caveats": [
+      "Unrecorded walking, mobility or other activity cannot be verified."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable: no recorded workout.",
+      "humidity_dew_point_context": "Not applicable: no recorded workout.",
+      "heat_impact_interpretation": "No activity-related heat assessment.",
+      "limitations": "No workout environmental measurements to assess."
+    }
+  },
+  "recommendation": {
+    "title": "Rest from running and cycling today",
+    "details": [
+      "Optional: 20–30 minutes of relaxed walking at RPE 1–2, with gentle mobility.",
+      "No tempo, intervals, hills or make-up mileage.",
+      "Reassess tomorrow before the Thursday group run; do not commit to a hard session."
+    ],
+    "alternative": "Complete rest if tired, sore or unwell; walking is optional.",
+    "reduce_or_stop": "Stop for pain that changes gait, illness, unusual fatigue or dizziness. Seek urgent care for chest pain, fainting or severe breathlessness."
+  },
+  "signals": [
+    {
+      "label": "Recovery improving",
+      "value": "Readiness 10 → 50 · Body Battery 67 → 93",
+      "interpretation": "Rest helped, but improved scores do not require adding training immediately."
+    },
+    {
+      "label": "Recent hard work",
+      "value": "Sunday cycling load 261 · Monday running load 248",
+      "interpretation": "These consecutive high-load sessions support another low-load day."
+    },
+    {
+      "label": "Sleep still short",
+      "value": "6h 53m vs 7h 50m need",
+      "interpretation": "Prioritise a longer night before resuming normal training."
+    }
+  ],
+  "caveats": [
+    "Device measurements and classifications are Garmin data; the recommendation is coaching judgment.",
+    "Garmin’s recovery timer estimates readiness for another hard effort; it is not a ban on all movement.",
+    "Current symptoms and medical advice override device scores."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
