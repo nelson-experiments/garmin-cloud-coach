@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-22T20:26:45Z",
+  "snapshot_generated_at": "2026-10-22T20:26:04.256152+00:00",
+  "headline": "Rest today after two consecutive running days",
+  "summary": "Thursday’s 5.26 km run followed Wednesday’s 11.12 km long run. Readiness has improved to 53, but sleep was 1h 23m short of need and acute load remains 1.3 times chronic load. Rest from running and cycling today.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "6h 27m · score 79",
+      "context": "Completed overnight record; 1h 23m below Garmin’s 7h 50m sleep need.",
+      "status": "poor"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "65 bpm",
+      "context": "Below the prior 7-night baseline of 66.0 bpm and close to the 14-night baseline of 65.1 bpm, excluding the current night.",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "58 bpm",
+      "context": "2 bpm below Garmin’s seven-day average of 60 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "41 ms overnight · 40 ms weekly",
+      "context": "Garmin classifies HRV as balanced.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "16 so far",
+      "context": "Partial morning measurement, not a full-day stress score.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "76 on waking",
+      "context": "Sleep recharge was 60 points.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "53 · Moderate",
+      "context": "Recovery time is 16h 18m at the 06:21 reading.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 723/553 · ratio 1.3",
+      "context": "Garmin classifies the ratio as optimal, but acute load remains elevated.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Base run on a prescribed rest day",
+    "summary": "Garmin recorded a 5.26 km run in 31m 19s at 5:58/km, average HR 146, maximum HR 162 and load 91.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "Rest from running and cycling; skip the Thursday group run. Optional 20–30 minutes of relaxed walking and gentle mobility.",
+    "completed": "Running · 5.26 km · 31m 19s · 5:58/km · average HR 146 · maximum HR 162 · load 91 · aerobic effect 3.2 · anaerobic effect 0.0. Garmin classified the activity as aerobic base.",
+    "adherence_assessment": "Did not follow. A run was recorded despite the prescribed rest day.",
+    "adherence_evidence": [
+      "The 22 October report prescribed rest from running and cycling and explicitly recommended skipping the group run.",
+      "Garmin recorded the run on 22 October in Sydney time."
+    ],
+    "adherence_caveats": [
+      "Garmin does not identify the heart-rate sensor source in the available summary.",
+      "No perceived effort, symptoms, terrain or intent is inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device measurement: 22–25°C.",
+      "humidity_dew_point_context": "A reliable route-time Sydney humidity/dew-point estimate was not available.",
+      "heat_impact_interpretation": "The warm device reading provides context only; no heat effect is inferred.",
+      "limitations": "Device temperature may differ from shaded ambient temperature."
+    }
+  },
+  "recommendation": {
+    "title": "Rest from running and cycling today",
+    "details": [
+      "Optional: 20–30 minutes of relaxed walking at RPE 1–2, plus gentle mobility.",
+      "No tempo, intervals, hills or make-up mileage.",
+      "Reassess tomorrow; do not plan a long or hard run unless sleep and symptoms are clearly improved."
+    ],
+    "alternative": "Complete rest if tired, sore or unwell; walking is optional.",
+    "reduce_or_stop": "Stop for pain that changes gait, illness, unusual fatigue or dizziness. Seek urgent care for chest pain, fainting or severe breathlessness."
+  },
+  "signals": [
+    {
+      "label": "Short sleep",
+      "value": "6h 27m vs 7h 50m need",
+      "interpretation": "The 1h 23m deficit weakens the case for adding another run today."
+    },
+    {
+      "label": "Back-to-back running",
+      "value": "11.12 km Wednesday · 5.26 km Thursday",
+      "interpretation": "A recovery day now protects adaptation from two consecutive running days."
+    },
+    {
+      "label": "Elevated recent load",
+      "value": "723 acute / 553 chronic · ratio 1.3",
+      "interpretation": "Garmin calls the ratio optimal, but the recent workload supports holding today easy."
+    }
+  ],
+  "caveats": [
+    "Device measurements and classifications are Garmin data; the recommendation is coaching judgment.",
+    "Garmin’s recovery timer estimates readiness for another hard effort; it is not a ban on all movement.",
+    "Current symptoms and medical advice override device scores."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-22",
+      "activity_type": "running",
+      "assessment": "did_not_follow — 5.26 km in 31m 19s (5:58/km), average HR 146, maximum HR 162, load 91, aerobic effect 3.2 and anaerobic effect 0.0. Garmin classified the activity as aerobic base and recorded 22–25°C. The prescribed session was rest from running and cycling."
+    }
+  ],
+  "status": "published"
+}
