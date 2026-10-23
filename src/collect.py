@@ -90,6 +90,12 @@ def main() -> bool:
         # Do not log API exception text, which can contain authentication data.
         print("Historical backfill incomplete; completed months will be retried/resumed.")
 
+    from lap_backfill import backfill_laps
+    try:
+        backfill_laps(api)
+    except Exception:
+        print("Lap backfill incomplete; preserving completed records for resume.")
+
     start, end, today_text = start_date.isoformat(), today.isoformat(), today.isoformat()
     sleep = call(api, "get_sleep_data", today_text)
     overnight = sleep_recovery_summary(sleep, today_text)
