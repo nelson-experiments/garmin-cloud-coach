@@ -47,5 +47,6 @@ jobs:
           git config user.name 'garmin-cloud-coach[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/latest.json
+          if [ -d data/history ]; then git add data/history; fi
           git diff --cached --quiet || git commit -m 'Refresh Garmin coaching snapshot'
           git push
