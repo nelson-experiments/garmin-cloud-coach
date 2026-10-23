@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-23T20:35:05Z",
+  "snapshot_generated_at": "2026-10-23T20:34:19.830942+00:00",
+  "headline": "Keep today short and easy after a five-hour night",
+  "summary": "Friday’s rest reduced acute load and recovery time is nearly complete. However, sleep was only 5h 09m and Training Readiness is low at 37. If alert and symptom-free, run 30–40 minutes very easy; otherwise walk or rest.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 09m · score 53",
+      "context": "Completed overnight record; 3h 11m below Garmin’s 8h 20m sleep need.",
+      "status": "poor"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "65 bpm",
+      "context": "Below the prior 7-night baseline of 65.9 bpm and close to the 14-night baseline of 65.1 bpm, excluding the current night.",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "57 bpm",
+      "context": "2 bpm below Garmin’s seven-day average of 59 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "49 ms overnight · 42 ms weekly",
+      "context": "Garmin classifies HRV as balanced.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "11 so far",
+      "context": "Partial morning measurement, not a full-day stress score.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "93 on waking",
+      "context": "Sleep recharge was 42 points.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "37 · Low",
+      "context": "Recovery time is 1h 42m at the 07:23 reading; short sleep is the main constraint.",
+      "status": "poor"
+    },
+    {
+      "label": "Recent load",
+      "value": "Acute/chronic 592/545 · ratio 1.0",
+      "context": "Garmin classifies the ratio as optimal; acute load fell after Friday’s rest.",
+      "status": "good"
+    }
+  ],
+  "yesterday": {
+    "title": "Recovery day completed",
+    "summary": "No workouts were recorded for Friday 23 October.",
+    "adherence_verdict": "followed",
+    "prescribed": "Rest from running and cycling; optional 20–30 minutes of relaxed walking and gentle mobility.",
+    "completed": "No recorded running, cycling or other workouts.",
+    "adherence_assessment": "Followed. The available activity record matches the prescribed recovery day.",
+    "adherence_evidence": [
+      "The 23 October report prescribed rest from running and cycling.",
+      "The refreshed snapshot contains no activities starting on 23 October in Sydney time."
+    ],
+    "adherence_caveats": [
+      "Unrecorded walking, mobility or other activity cannot be verified."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable: no recorded workout.",
+      "humidity_dew_point_context": "Not applicable: no recorded workout.",
+      "heat_impact_interpretation": "No activity-related heat assessment.",
+      "limitations": "No workout environmental measurements to assess."
+    }
+  },
+  "recommendation": {
+    "title": "Run 30–40 minutes very easy only if alert",
+    "details": [
+      "Aim for roughly 5–6 km on a flat or gently rolling route at RPE 2.",
+      "Keep the whole run conversational; no tempo, intervals, strides, hills or fast finish.",
+      "Do not extend it into a long run or add make-up mileage."
+    ],
+    "alternative": "Walk easily for 20–30 minutes or take full rest if sleepy, sore, unwell or reluctant to run.",
+    "reduce_or_stop": "Stop for pain that changes gait, illness, unusual fatigue or dizziness. Seek urgent care for chest pain, fainting or severe breathlessness."
+  },
+  "signals": [
+    {
+      "label": "Severely short sleep",
+      "value": "5h 09m vs 8h 20m need",
+      "interpretation": "A 3h 11m deficit rules out a long or quality session."
+    },
+    {
+      "label": "Recovery timer nearly clear",
+      "value": "1h 42m",
+      "interpretation": "Recent hard-work recovery is nearly complete, supporting only light movement—not quality training."
+    },
+    {
+      "label": "Load normalized",
+      "value": "592 acute / 545 chronic · ratio 1.0",
+      "interpretation": "Friday’s rest lowered acute load, so a short easy run is reasonable if alertness is good."
+    }
+  ],
+  "caveats": [
+    "Device measurements and classifications are Garmin data; the recommendation is coaching judgment.",
+    "Garmin’s recovery timer estimates readiness for another hard effort; it is not a ban on all movement.",
+    "Current alertness, symptoms and medical advice override device scores."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
