@@ -80,6 +80,11 @@ def main() -> bool:
     api = Garmin(os.getenv("GARMIN_EMAIL"), os.getenv("GARMIN_PASSWORD"))
     api.login(tokenstore=tokens)
 
+    # Historical summaries are stored separately and resumed month by month.
+    # Refresh the current month; completed older months require no API calls.
+    from historical_backfill import backfill
+    backfill(api, end=today)
+
     start, end, today_text = start_date.isoformat(), today.isoformat(), today.isoformat()
     sleep = call(api, "get_sleep_data", today_text)
     overnight = sleep_recovery_summary(sleep, today_text)
