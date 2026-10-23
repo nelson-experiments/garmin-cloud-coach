@@ -83,7 +83,12 @@ def main() -> bool:
     # Historical summaries are stored separately and resumed month by month.
     # Refresh the current month; completed older months require no API calls.
     from historical_backfill import backfill
-    backfill(api, end=today)
+    try:
+        backfill(api, end=today)
+    except Exception:
+        # Preserve completed monthly checkpoints and keep daily coaching alive.
+        # Do not log API exception text, which can contain authentication data.
+        print("Historical backfill incomplete; completed months will be retried/resumed.")
 
     start, end, today_text = start_date.isoformat(), today.isoformat(), today.isoformat()
     sleep = call(api, "get_sleep_data", today_text)
