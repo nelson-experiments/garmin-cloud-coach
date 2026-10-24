@@ -1,9 +1,9 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-23T20:35:05Z",
-  "snapshot_generated_at": "2026-10-23T20:34:19.830942+00:00",
-  "headline": "Keep today short and easy after a five-hour night",
-  "summary": "Friday’s rest reduced acute load and recovery time is nearly complete. However, sleep was only 5h 09m and Training Readiness is low at 37. If alert and symptom-free, run 30–40 minutes very easy; otherwise walk or rest.",
+  "generated_at": "2026-10-24T03:54:00Z",
+  "snapshot_generated_at": "2026-10-24T03:51:01.429200+00:00",
+  "headline": "18 km completed: recover now, not more mileage",
+  "summary": "Post-run update: 18.07 km in 1h 50m 50s at 6:08/km, average HR 157 and maximum 174 using a chest strap confirmed by Nelson. Garmin load was 228 and aerobic effect 4.6. This was a substantial session after only 5h 09m sleep, not the short easy run recommended this morning.",
   "recovery": [
     {
       "label": "Sleep",
@@ -43,14 +43,14 @@
     },
     {
       "label": "Training Readiness",
-      "value": "37 · Low",
-      "context": "Recovery time is 1h 42m at the 07:23 reading; short sleep is the main constraint.",
+      "value": "1 post-run · morning 37",
+      "context": "At 14:15 Garmin reported 62h 26m recovery remaining, versus 1h 42m this morning. This is a hard-effort recovery estimate, not a ban on gentle movement.",
       "status": "poor"
     },
     {
       "label": "Recent load",
       "value": "Acute/chronic 592/545 · ratio 1.0",
-      "context": "Garmin classifies the ratio as optimal; acute load fell after Friday’s rest.",
+      "context": "Garmin classifies the ratio as optimal; acute load fell after Friday’s rest. These are morning values, before today’s run added activity load 228; do not treat them as post-run totals.",
       "status": "good"
     }
   ],
@@ -76,37 +76,46 @@
     }
   },
   "recommendation": {
-    "title": "Run 30–40 minutes very easy only if alert",
+    "title": "No more training today; prioritize recovery",
     "details": [
-      "Aim for roughly 5–6 km on a flat or gently rolling route at RPE 2.",
-      "Keep the whole run conversational; no tempo, intervals, strides, hills or fast finish.",
-      "Do not extend it into a long run or add make-up mileage."
+      "No additional running or cycling today. Eat a normal carbohydrate-rich meal with protein, drink to thirst and cool down comfortably.",
+      "Tomorrow: recovery day with optional 20–30 minutes relaxed walking at RPE 1–2; reassess after a full night’s sleep.",
+      "Do not add a long run, quality work or make-up distance this weekend."
     ],
-    "alternative": "Walk easily for 20–30 minutes or take full rest if sleepy, sore, unwell or reluctant to run.",
+    "alternative": "Complete rest if tired, sore or unwell; walking is optional.",
     "reduce_or_stop": "Stop for pain that changes gait, illness, unusual fatigue or dizziness. Seek urgent care for chest pain, fainting or severe breathlessness."
   },
   "signals": [
     {
-      "label": "Severely short sleep",
-      "value": "5h 09m vs 8h 20m need",
-      "interpretation": "A 3h 11m deficit rules out a long or quality session."
+      "label": "Large session after short sleep",
+      "value": "1h 50m 50s running · 5h 09m sleep",
+      "interpretation": "Today’s duration was almost three times the morning 40-minute cap; recovery takes priority."
     },
     {
-      "label": "Recovery timer nearly clear",
-      "value": "1h 42m",
-      "interpretation": "Recent hard-work recovery is nearly complete, supporting only light movement—not quality training."
+      "label": "Substantial physiological cost",
+      "value": "Load 228 · aerobic effect 4.6 · post-run readiness 1",
+      "interpretation": "Garmin classifies the run as lactate threshold. This is not proof of actual threshold intensity throughout, but it was not a low-cost recovery run."
     },
     {
-      "label": "Load normalized",
-      "value": "592 acute / 545 chronic · ratio 1.0",
-      "interpretation": "Friday’s rest lowered acute load, so a short easy run is reasonable if alertness is good."
+      "label": "Historical fitness comparison",
+      "value": "2024: 6:19/km at 160 bpm; 2025: 5:43/km at 141 bpm",
+      "interpretation": "Today’s 6:08/km at 157 bpm is broadly encouraging against October 2024 but less efficient than the selected October 2025 runs. Temperature, duration, route and unknown historical sensor sources prevent a quantified fitness change."
     }
   ],
   "caveats": [
     "Device measurements and classifications are Garmin data; the recommendation is coaching judgment.",
     "Garmin’s recovery timer estimates readiness for another hard effort; it is not a ban on all movement.",
-    "Current alertness, symptoms and medical advice override device scores."
+    "Current alertness, symptoms and medical advice override device scores.",
+    "Chest-strap use today is user-confirmed; historical sensor sources are unverified. Historical comparisons use selected September–November 2024/2025 Sydney runs of 14–22 km, not controlled tests.",
+    "Weather source: https://www.bom.gov.au/products/IDN60901/IDN60901.94768.shtml — 24 October 2026, 12:30 AEDT; station conditions do not establish conditions along the entire route.",
+    "Fitness assessment: treat today as endurance training with high recovery cost. Repeated comparable cool-weather, rested, chest-strap runs are needed to separate fitness from heat and fatigue."
   ],
-  "run_assessments": [],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-24",
+      "activity_type": "running",
+      "assessment": "18.07 km in 1h 50m 50s (6:08/km), average HR 157, maximum 174, ascent 101 m, load 228, aerobic effect 4.6 and anaerobic effect 0.0. Nelson confirms chest-strap HR for this run; take the elevated HR seriously rather than dismissing it as wrist-sensor error. The 30–40 minute conditional easy recommendation was exceeded substantially; perceived effort and symptoms are unknown. Garmin recorded 26–30°C. BOM Observatory Hill at 12:30 measured 22.5°C, humidity 71% and dew point 17.0°C: a city-station observation near the start, not a route-wide measurement. Humidity and warmth plausibly increased cardiovascular demand; no fixed heat correction or measured cardiac drift can be established from the available summary. Historical spring Sydney comparators: 17 Oct 2024, 21.23 km, 6:19/km, HR 160, ascent 83 m, device 22–28°C; 8 Oct 2025, 18.01 km, 5:43/km, HR 141, ascent 84 m, device 23–27°C; 15 Oct 2025, 20.01 km, 5:36/km, HR 139, ascent 97 m, device 22–29°C. Today was 11 sec/km faster and 3 bpm lower than the 2024 example, but 25–32 sec/km slower and 16–18 bpm higher than these 2025 examples. Different durations and unidentified older HR sensors limit inference. Endurance is intact, but this single heat-affected run does not establish improvement or a return to 2025 aerobic efficiency."
+    }
+  ],
   "status": "published"
 }
