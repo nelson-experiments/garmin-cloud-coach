@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-25T20:30:01.632Z",
+  "snapshot_generated_at": "2026-10-25T20:29:06.886615+00:00",
+  "headline": "Recovery is improving; prioritize sleep today",
+  "summary": "Sunday’s rest helped: Body Battery rose to 83 and readiness to 37. But sleep was only 5h 22m, following two short nights. Rest from running and cycling today; optional gentle walking only.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 22m · score 70",
+      "context": "Completed overnight record; third consecutive night below six hours.",
+      "status": "poor"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "62 bpm",
+      "context": "Below prior 7-/14-night baselines of 64.6/64.7 bpm, excluding tonight.",
+      "status": "good"
+    },
+    {
+      "label": "Resting HR",
+      "value": "57 bpm",
+      "context": "Seven-day average 59 bpm.",
+      "status": "good"
+    },
+    {
+      "label": "HRV",
+      "value": "47 ms overnight · 43 ms weekly",
+      "context": "Balanced; overnight HRV improved from 40 ms.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "9 so far",
+      "context": "Partial morning measurement.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "83 on waking",
+      "context": "Up from 61 yesterday.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "37 · Low",
+      "context": "19h 32m recovery at 06:37; timer estimates recovery for another hard effort, not a ban on movement.",
+      "status": "poor"
+    },
+    {
+      "label": "Recent load",
+      "value": "582/583 · Garmin ratio 0.9",
+      "context": "Garmin classifies load as optimal. Reported ratio is retained as supplied, rather than recalculated from rounded loads.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Rest day completed",
+    "summary": "No workouts were recorded for Sunday 25 October.",
+    "adherence_verdict": "followed",
+    "prescribed": "Rest from running and cycling; optional 20–30 minutes relaxed walking.",
+    "completed": "No recorded running, cycling or other workouts.",
+    "adherence_assessment": "The available record matches the recovery-day prescription.",
+    "adherence_evidence": [
+      "The 25 October report prescribed rest.",
+      "No activities started on 25 October in Sydney time."
+    ],
+    "adherence_caveats": [
+      "Unrecorded walking or mobility cannot be verified."
+    ],
+    "environment": {
+      "observed_temperature_range": "Not applicable: no recorded workout.",
+      "humidity_dew_point_context": "Not applicable: no recorded workout.",
+      "heat_impact_interpretation": "No exercise-related heat assessment.",
+      "limitations": "No workout environmental measurements."
+    }
+  },
+  "recommendation": {
+    "title": "Rest from running and cycling today",
+    "details": [
+      "Optional: 20–30 minutes relaxed walking at RPE 1–2 and gentle mobility.",
+      "No tempo, intervals, long run or make-up mileage. Prioritize a longer night before reassessing tomorrow."
+    ],
+    "alternative": "Complete rest if tired, sore or unwell; walking is optional.",
+    "reduce_or_stop": "Stop for pain that changes gait, illness, unusual fatigue or dizziness. Seek urgent care for chest pain, fainting or severe breathlessness."
+  },
+  "signals": [
+    {
+      "label": "Repeated short sleep",
+      "value": "5h 09m → 5h 35m → 5h 22m",
+      "interpretation": "Accumulating short nights remains the main reason not to add training."
+    },
+    {
+      "label": "Recovery improving",
+      "value": "Readiness 5 → 37 · Body Battery 61 → 83",
+      "interpretation": "Rest is helping, but these gains do not require immediately adding mileage."
+    },
+    {
+      "label": "Recent long-run cost",
+      "value": "Saturday 18.07 km · load 228",
+      "interpretation": "Another low-load day allows recovery without stacking further endurance work."
+    }
+  ],
+  "caveats": [
+    "Device measurements and classifications are Garmin data; the recommendation is coaching judgment.",
+    "Garmin’s recovery timer concerns another hard effort, not all movement.",
+    "Pain, illness, unusual sleepiness, dizziness and medical advice override device scores."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
