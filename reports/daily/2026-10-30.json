@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-29T20:30:36.852Z",
+  "snapshot_generated_at": "2026-10-29T20:29:39.995098+00:00",
+  "headline": "Rest today after two consecutive running days",
+  "summary": "Sleep improved to 7h 19m, but overnight HRV is 38 ms against a weekly average of 46, and Body Battery is 61. After 20 km across Wednesday and Thursday, rest from running and cycling today.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 19m · score 79",
+      "context": "Completed overnight record; improved from 5h 07m yesterday.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "65 bpm",
+      "context": "Prior 7-/14-night baselines 63.3/64.6 bpm, excluding current night.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "60 bpm",
+      "context": "2 bpm above seven-day average of 58.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "38 ms overnight · 46 ms weekly",
+      "context": "Overnight value is 8 ms below weekly average; Garmin status remains balanced.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "20 so far",
+      "context": "Partial morning reading.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "61 on waking",
+      "context": "Recovery remains incomplete despite longer sleep.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "67 · Moderate",
+      "context": "Recovery time 14h 01m at 06:33; timer concerns another hard effort.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "621/648 · Garmin ratio 0.9",
+      "context": "Garmin classifies load as optimal; this does not override recovery signals.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "8 km steady run after Wednesday’s 12 km",
+    "summary": "8.01 km in 46:52 at 5:51/km; HR 150 average / 174 maximum, load 148, aerobic effect 3.7 and anaerobic 0.0.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "The 28 October post-run assessment recommended Thursday rest/walking, or 25–35 minutes easy if joining the group. No 29 October daily report was published because overnight data was missing.",
+    "completed": "Running: 8.01 km, 46:52, 5:51/km, HR 150 average / 174 maximum, load 148, aerobic effect 3.7 / anaerobic 0.0.",
+    "adherence_assessment": "Duration exceeded the conditional 35-minute cap. The verdict is based on duration; perceived effort and intent are unknown.",
+    "adherence_evidence": [
+      "The preceding published daily report is 28 October; its Thursday guidance was supplemented by the post-run conversation.",
+      "Thursday running lasted 46:52, exceeding the conversational alternative’s 35-minute cap."
+    ],
+    "adherence_caveats": [
+      "Sensor source is not identified. Saturday’s confirmed strap use does not establish Thursday’s source.",
+      "The workout name alone does not establish hill repeats."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device: 23–28°C.",
+      "humidity_dew_point_context": "BOM Observatory Hill, 29 October 12:30 AEDT: 24.5°C, humidity 39%, dew point 9.6°C, as verified in yesterday’s assessment.",
+      "heat_impact_interpretation": "Warm conditions plausibly increased HR; no numerical correction applied.",
+      "limitations": "City-station conditions are not route measurements. Source: https://www.bom.gov.au/products/IDN60901/IDN60901.94768.shtml"
+    }
+  },
+  "recommendation": {
+    "title": "Rest from running and cycling today",
+    "details": [
+      "Optional: 20–30 minutes relaxed walking at RPE 1–2 and gentle mobility.",
+      "Prioritize sleep and normal meals. Reassess tomorrow before choosing weekend distance; no make-up mileage."
+    ],
+    "alternative": "Complete rest if tired, sore or unwell; walking is optional.",
+    "reduce_or_stop": "Stop for pain that changes gait, illness, unusual fatigue or dizziness. Seek urgent care for chest pain, fainting or severe breathlessness."
+  },
+  "signals": [
+    {
+      "label": "Back-to-back running",
+      "value": "12.01 km Wednesday + 8.01 km Thursday",
+      "interpretation": "Allow recovery after 20 km over two days."
+    },
+    {
+      "label": "Lower overnight HRV",
+      "value": "38 ms vs 46 ms weekly",
+      "interpretation": "Together with Body Battery 61, supports a recovery day."
+    },
+    {
+      "label": "Recovery ongoing",
+      "value": "14h 01m · readiness 67",
+      "interpretation": "Moderate readiness is compatible with rest; no need to add another session."
+    }
+  ],
+  "caveats": [
+    "Device measurements and classifications are Garmin data; the recommendation is coaching judgment.",
+    "Garmin’s recovery timer concerns another hard effort, not all movement.",
+    "Pain, illness, unusual sleepiness, dizziness and medical advice override device scores."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-28",
+      "activity_type": "running",
+      "assessment": "12.01 km in 1:13:49 (6:09/km), HR 141 average / 164 maximum, load 115, aerobic effect 3.3, anaerobic 0.1, device 19–27°C. Predominantly Garmin Zone 2; substantial aerobic duration on a prescribed rest day. Sensor and perceived effort unknown."
+    },
+    {
+      "activity_date": "2026-10-29",
+      "activity_type": "running",
+      "assessment": "8.01 km in 46:52 at 5:51/km; HR 150 average / 174 maximum, load 148, aerobic effect 3.7 and anaerobic 0.0. Garmin classified it as tempo. Duration exceeded the conditional 35-minute alternative given in the post-run conversation. Sensor source and perceived effort unknown."
+    }
+  ],
+  "status": "published"
+}
