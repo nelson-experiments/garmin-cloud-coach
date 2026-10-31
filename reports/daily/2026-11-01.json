@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-10-31T20:29:40.449Z",
+  "snapshot_generated_at": "2026-10-31T20:28:37.917406+00:00",
+  "headline": "Rest after yesterday’s long run",
+  "summary": "Yesterday’s 22.03 km run and a short night point to recovery today. Rest from running; a gentle walk is optional.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 17m · score 64",
+      "context": "Garmin recorded a completed night; 3h 23m below its 8h 40m sleep need.",
+      "status": "poor"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "67 bpm",
+      "context": "Prior 7-night average 63.1 bpm; prior 14-night average 64.0 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "62 bpm",
+      "context": "Three beats above Garmin’s seven-day average of 59 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "32 ms overnight · 44 ms weekly",
+      "context": "Garmin reports balanced weekly status; overnight is below the weekly average.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "25 so far",
+      "context": "Partial morning average; sleep stress 27.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "35 on waking",
+      "context": "Garmin estimates a 30-point increase during sleep.",
+      "status": "poor"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "54 · moderate",
+      "context": "Recovery time 691 minutes (11h 31m) at 06:35; an estimate for demanding training.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "577 acute · 651 chronic",
+      "context": "Garmin ratio 0.8; status maintaining.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "22.03 km long run",
+    "summary": "2h 41m 16s at 7:19/km; average HR 142 bpm. Garmin load 156, aerobic effect 3.7 and anaerobic effect 0.4.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "40–50 minutes easy, RPE 2–3, roughly 6–8 km; walking or rest if tired.",
+    "completed": "A 22.03 km run in 2h 41m 16s; no other activities recorded.",
+    "adherence_assessment": "Recorded duration and distance exceeded the prescribed limits. This describes the comparison, not intent or a judgment of effort.",
+    "adherence_evidence": [
+      "The prior report capped the run at 50 minutes.",
+      "The run lasted 161 minutes and covered 22.03 km."
+    ],
+    "adherence_caveats": [
+      "Perceived effort, pain and sensor source are not confirmed by the activity summary."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device: 22–30°C.",
+      "humidity_dew_point_context": "Reliable hourly city-level humidity and dew point were unavailable.",
+      "heat_impact_interpretation": "Heat is a plausible contributor to higher heart rate and slowing, but the device range does not prove conditions or cause.",
+      "limitations": "Device temperature is not a calibrated city weather observation; terrain and hydration effects cannot be isolated."
+    }
+  },
+  "recommendation": {
+    "title": "Rest from running",
+    "details": [
+      "Take the day off running and intense exercise.",
+      "If comfortable, walk gently for 20–30 minutes at RPE 1–2; prioritise sleep and normal food and fluids."
+    ],
+    "alternative": "Complete rest if tired, sore or unwell; the walk is optional.",
+    "reduce_or_stop": "Stop activity for pain that changes gait, dizziness or illness; follow medical advice."
+  },
+  "signals": [
+    {
+      "label": "Long-run load",
+      "value": "22.03 km · 2h 41m",
+      "interpretation": "A substantial session warrants recovery rather than extra mileage."
+    },
+    {
+      "label": "Short sleep",
+      "value": "5h 17m · score 64",
+      "interpretation": "A short night limits confidence in recovery."
+    },
+    {
+      "label": "Recovery signals",
+      "value": "Body Battery 35 · HRV 32 vs weekly 44 ms",
+      "interpretation": "Low waking charge and lower overnight HRV support a rest day."
+    }
+  ],
+  "caveats": [
+    "Device measurements are Garmin estimates; the recommendation is coaching judgment.",
+    "The 31 October report was generated before the run and is the basis for the adherence comparison.",
+    "Chest straps can improve HR reliability; this activity’s sensor source is unconfirmed."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-31",
+      "activity_type": "running",
+      "assessment": "22.03 km in 2:41:16 (7:19/km), average HR 142 bpm, load 156, aerobic effect 3.7, anaerobic 0.4. Device temperature 22–30°C. Kilometres 5–10 averaged approximately 6:41/km and 144 bpm; kilometres 17–22 averaged 7:26/km and 152 bpm. Heat may have contributed to slowing and HR rise; route, pacing and other factors cannot be separated. Sensor source unconfirmed."
+    }
+  ],
+  "status": "published"
+}
