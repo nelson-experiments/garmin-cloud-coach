@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-02T20:27:57.648Z",
+  "snapshot_generated_at": "2026-11-02T20:27:14.104486+00:00",
+  "headline": "Recover after yesterday’s tempo",
+  "summary": "Rest from running today; an easy walk is optional after yesterday’s hard 7 km run.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 20m · score 82",
+      "context": "Completed night.",
+      "status": "good"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "64 bpm",
+      "context": "Prior 7-night average 63.7 bpm; 14-night average 64.1 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "60 bpm",
+      "context": "Seven-day average 59 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "44 ms overnight · 43 ms weekly",
+      "context": "Near weekly average.",
+      "status": "good"
+    },
+    {
+      "label": "Stress",
+      "value": "18 so far",
+      "context": "Partial morning; overnight stress 21.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "71 on waking",
+      "context": "Garmin device estimate.",
+      "status": "good"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "67 · moderate",
+      "context": "Recovery time 757 minutes (12h 37m) at 06:35.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "546 acute",
+      "context": "Garmin readiness reading.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "7 km tempo",
+    "summary": "7.01 km in 36:37 (5:14/km); average HR 159, maximum 178. Load 163; aerobic effect 3.8, anaerobic 0.4.",
+    "adherence_verdict": "did_not_follow",
+    "prescribed": "35–40 minutes conversational easy at RPE 2–3; walk or rest if needed.",
+    "completed": "7.01 km in 36:37 with five faster kilometres; Nelson reported going hard.",
+    "adherence_assessment": "Duration matched, but reported hard effort differed from the easy prescription.",
+    "adherence_evidence": [
+      "The previous brief prescribed conversational easy running.",
+      "Nelson described the completed run as hard."
+    ],
+    "adherence_caveats": [
+      "No judgment about intent; HR sensor source is unconfirmed."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device: 23–26°C.",
+      "humidity_dew_point_context": "Reliable hourly city humidity and dew point unavailable.",
+      "heat_impact_interpretation": "Heat may have increased cardiovascular strain.",
+      "limitations": "Device temperature is not a city weather observation; cause cannot be isolated."
+    }
+  },
+  "recommendation": {
+    "title": "Rest from running",
+    "details": [
+      "Take a rest day after the hard run and Saturday’s long run.",
+      "Optional 20–30 minute walk at RPE 1–2."
+    ],
+    "alternative": "Complete rest if tired, sore or unwell.",
+    "reduce_or_stop": "Stop for pain that changes gait, illness or dizziness; follow medical advice."
+  },
+  "signals": [
+    {
+      "label": "Yesterday’s training",
+      "value": "7.01 km · load 163",
+      "interpretation": "A hard session calls for recovery."
+    },
+    {
+      "label": "Recovery timer",
+      "value": "12h 37m",
+      "interpretation": "Garmin estimates remaining recovery from hard training."
+    },
+    {
+      "label": "Sleep",
+      "value": "7h 20m · score 82",
+      "interpretation": "A better night supports recovery but does not require another workout."
+    }
+  ],
+  "caveats": [
+    "Garmin values are estimates; symptoms and medical advice take precedence.",
+    "Sensor source is not confirmed."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-11-02",
+      "activity_type": "running",
+      "assessment": "7.01 km in 36:37 (5:14/km), average HR 159, max 178, load 163, aerobic 3.8, anaerobic 0.4. Five faster laps averaged roughly 4:56/km; HR rose to 173 bpm on the last. Garmin device 23–26°C; heat is plausible context, not a quantified cause. Sensor source unconfirmed."
+    }
+  ],
+  "status": "published"
+}
