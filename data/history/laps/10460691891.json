@@ -1,0 +1,779 @@
+{
+  "generated_at": "2026-11-03T06:48:41.617092+00:00",
+  "activity": {
+    "activityId": 10460691891,
+    "activityName": "Sydney - Base",
+    "startTimeLocal": "2023-02-07 18:47:09",
+    "startTimeGMT": "2023-02-07 07:47:09",
+    "activityType": {
+      "typeId": 1,
+      "typeKey": "running",
+      "parentTypeId": 17,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventType": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "isFavorite": false,
+    "isPR": false,
+    "isAutoCalcCalories": false,
+    "isParent": false,
+    "distance": 2704.830078125,
+    "duration": 1203.718017578125,
+    "elapsedDuration": 1203.718017578125,
+    "movingDuration": 1203.718017578125,
+    "elevationGain": 8.379999995231628,
+    "elevationLoss": 34.17000000178814,
+    "averageSpeed": 2.246999979019165,
+    "maxSpeed": 3.4619998931884766,
+    "startLatitude": -33.89329609461129,
+    "startLongitude": 151.09007307328284,
+    "hasPolyline": true,
+    "hasImages": false,
+    "ownerId": 48013387,
+    "ownerDisplayName": "nelson.tam",
+    "ownerFullName": "Nelson Tam",
+    "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+    "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+    "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+    "calories": 188.0,
+    "bmrCalories": 26.0,
+    "averageHR": 135.0,
+    "maxHR": 152.0,
+    "averageRunningCadenceInStepsPerMinute": 137.875,
+    "maxRunningCadenceInStepsPerMinute": 174.0,
+    "steps": 2894,
+    "userRoles": [
+      "SCOPE_ATP_READ",
+      "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+      "SCOPE_GCX_KID_WRITE",
+      "SCOPE_CIQ_APPSTORE_SERVICES_CREATE",
+      "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+      "SCOPE_COMMUNITY_COURSE_WRITE",
+      "SCOPE_GCX_KID_ADMIN_READ",
+      "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+      "SCOPE_ACTIVITY_DETECTION_READ",
+      "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+      "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+      "SCOPE_CONNECT_READ",
+      "SCOPE_GCX_PET_READ",
+      "SCOPE_GOLF_API_READ",
+      "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+      "SCOPE_GCX_PET_WRITE",
+      "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+      "SCOPE_DIVE_API_WRITE",
+      "SCOPE_DIVE_API_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_READ",
+      "SCOPE_CONNECT_WRITE",
+      "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+      "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+      "SCOPE_MESSAGE_GENERATION_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+      "SCOPE_GCS_RACEINSIGHTS_ADMIN_READ",
+      "SCOPE_GCX_PET_ADMIN_READ",
+      "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+      "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+      "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+      "SCOPE_ATP_WRITE",
+      "SCOPE_GCX_KID_READ",
+      "ROLE_CONNECTUSER",
+      "ROLE_FITNESS_USER",
+      "ROLE_WELLNESS_USER",
+      "ROLE_OUTDOOR_USER",
+      "ROLE_CONNECT_2_USER",
+      "ROLE_GARMIN_USER",
+      "ROLE_GCM_USER"
+    ],
+    "privacy": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "userPro": false,
+    "hasVideo": false,
+    "isPurposeful": false,
+    "timeZoneId": 140,
+    "beginTimestamp": 1675756029000,
+    "sportTypeId": 1,
+    "avgPower": 206.0,
+    "maxPower": 380.0,
+    "aerobicTrainingEffect": 2.299999952316284,
+    "anaerobicTrainingEffect": 0.0,
+    "normPower": 231.0,
+    "avgStrideLength": 97.7869613356026,
+    "vO2MaxValue": 48.0,
+    "deviceId": 3403878522,
+    "minTemperature": 25.0,
+    "maxTemperature": 28.0,
+    "minElevation": 7.400000095367432,
+    "maxElevation": 34.599998474121094,
+    "maxDoubleCadence": 174.0,
+    "isElevationCorrected": false,
+    "isDecoDive": false,
+    "summarizedDiveInfo": {
+      "summarizedDiveGases": []
+    },
+    "maxVerticalSpeed": 1.0,
+    "manufacturer": "GARMIN",
+    "locationName": "Sydney",
+    "lapCount": 1,
+    "endLatitude": -33.8986764382571,
+    "endLongitude": 151.08818898908794,
+    "isAtpActivity": false,
+    "waterEstimated": 259.0,
+    "trainingEffectLabel": "RECOVERY",
+    "activityTrainingLoad": 37.2359619140625,
+    "minActivityLapDuration": 1203.718017578125,
+    "aerobicTrainingEffectMessage": "MINOR_AEROBIC_BENEFIT_0",
+    "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+    "splitSummaries": [
+      {
+        "noOfSplits": 1,
+        "totalAscent": 8.379999995231628,
+        "duration": 1203.718017578125,
+        "splitType": "INTERVAL_ACTIVE",
+        "numClimbSends": 0,
+        "numClimbsAttempted": 0,
+        "numClimbsCompleted": 0,
+        "maxElevationGain": 8.379999995231628,
+        "averageElevationGain": 8.379999995231628,
+        "maxDistance": 2704,
+        "distance": 2704.830078125,
+        "averageSpeed": 2.246999979019165,
+        "maxSpeed": 3.4619998931884766,
+        "numFalls": 0
+      },
+      {
+        "noOfSplits": 1,
+        "totalAscent": 0.0,
+        "duration": 3.0,
+        "splitType": "RWD_STAND",
+        "numClimbSends": 0,
+        "numClimbsAttempted": 0,
+        "numClimbsCompleted": 0,
+        "maxElevationGain": 0.0,
+        "averageElevationGain": 0.0,
+        "maxDistance": 9,
+        "distance": 9.369999885559082,
+        "averageSpeed": 3.122999906539917,
+        "maxSpeed": 2.565999984741211,
+        "numFalls": 0
+      },
+      {
+        "noOfSplits": 10,
+        "totalAscent": 8.379999995231628,
+        "duration": 838.0,
+        "splitType": "RWD_RUN",
+        "numClimbSends": 0,
+        "numClimbsAttempted": 0,
+        "numClimbsCompleted": 0,
+        "maxElevationGain": 2.3400000035762787,
+        "averageElevationGain": 0.8100000023841858,
+        "maxDistance": 468,
+        "distance": 2100.9599609375,
+        "averageSpeed": 2.506999969482422,
+        "maxSpeed": 3.4619998931884766,
+        "numFalls": 0
+      },
+      {
+        "noOfSplits": 10,
+        "totalAscent": 0.0,
+        "duration": 365.5509948730469,
+        "splitType": "RWD_WALK",
+        "numClimbSends": 0,
+        "numClimbsAttempted": 0,
+        "numClimbsCompleted": 0,
+        "maxElevationGain": 0.0,
+        "averageElevationGain": 0.0,
+        "maxDistance": 198,
+        "distance": 594.5,
+        "averageSpeed": 1.6260000467300415,
+        "maxSpeed": 2.6689999103546143,
+        "numFalls": 0
+      }
+    ],
+    "hasSplits": true,
+    "isManualActivity": false,
+    "moderateIntensityMinutes": 2,
+    "vigorousIntensityMinutes": 16,
+    "avgGradeAdjustedSpeed": 2.260999917984009,
+    "hasHeatMap": false,
+    "endTimeGMT": "2023-02-07 08:07:12",
+    "qualifyingDive": false,
+    "activityUUID": "7b0626eb-e779-45e6-abb2-9e9fe96f38a2",
+    "purposeful": false,
+    "manualActivity": false,
+    "autoCalcCalories": false,
+    "favorite": false,
+    "decoDive": false,
+    "elevationCorrected": false,
+    "atpActivity": false,
+    "pr": false,
+    "parent": false
+  },
+  "splits": {
+    "activityId": 10460691891,
+    "lapDTOs": [
+      {
+        "startTimeGMT": "2023-02-07T07:47:09.0",
+        "startLatitude": -33.89329609461129,
+        "startLongitude": 151.09007307328284,
+        "distance": 2704.83,
+        "duration": 1203.718,
+        "movingDuration": 1203.718,
+        "elapsedDuration": 1203.718,
+        "elevationGain": 8.38,
+        "elevationLoss": 34.17,
+        "maxElevation": 34.6,
+        "minElevation": 7.4,
+        "averageSpeed": 2.246999979019165,
+        "averageMovingSpeed": 2.2470628823577017,
+        "maxSpeed": 3.4619998931884766,
+        "calories": 188.0,
+        "bmrCalories": 26.0,
+        "averageHR": 135.0,
+        "maxHR": 152.0,
+        "averageRunCadence": 137.875,
+        "maxRunCadence": 174.0,
+        "averageTemperature": 26.0,
+        "maxTemperature": 28.0,
+        "minTemperature": 25.0,
+        "averagePower": 206.0,
+        "maxPower": 380.0,
+        "minPower": 0.0,
+        "normalizedPower": 231.0,
+        "totalWork": 59.42692397649654,
+        "strideLength": 97.78696133560261,
+        "endLatitude": -33.8986764382571,
+        "endLongitude": 151.08818898908794,
+        "maxVerticalSpeed": 1.0,
+        "avgGradeAdjustedSpeed": 2.260999917984009,
+        "lapIndex": 1,
+        "wktStepIndex": 0,
+        "lengthDTOs": [],
+        "wktIndex": 0,
+        "connectIQMeasurement": [],
+        "intensityType": "INTERVAL",
+        "messageIndex": 0
+      }
+    ],
+    "eventDTOs": [
+      {
+        "startTimeGMT": "2023-02-07T07:47:08.0",
+        "startTimeGMTDoubleValue": 1675756028000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:47:08.0",
+        "startTimeGMTDoubleValue": 1675756028000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:47:08.0",
+        "startTimeGMTDoubleValue": 1675756028000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:47:09.0",
+        "startTimeGMTDoubleValue": 1675756029000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:48:19.0",
+        "startTimeGMTDoubleValue": 1675756099000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:48:24.0",
+        "startTimeGMTDoubleValue": 1675756104000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:48:55.0",
+        "startTimeGMTDoubleValue": 1675756135000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:49:48.0",
+        "startTimeGMTDoubleValue": 1675756188000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:50:20.0",
+        "startTimeGMTDoubleValue": 1675756220000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:50:29.0",
+        "startTimeGMTDoubleValue": 1675756229000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:51:10.0",
+        "startTimeGMTDoubleValue": 1675756270000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:51:13.0",
+        "startTimeGMTDoubleValue": 1675756273000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:52:12.0",
+        "startTimeGMTDoubleValue": 1675756332000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:52:19.0",
+        "startTimeGMTDoubleValue": 1675756339000.0,
+        "sectionTypeDTO": {
+          "id": 10,
+          "key": "speedHighAlert",
+          "sectionTypeKey": "SPEED_HIGH_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:53:29.0",
+        "startTimeGMTDoubleValue": 1675756409000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:53:47.0",
+        "startTimeGMTDoubleValue": 1675756427000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:56:41.0",
+        "startTimeGMTDoubleValue": 1675756601000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:56:53.0",
+        "startTimeGMTDoubleValue": 1675756613000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:58:00.0",
+        "startTimeGMTDoubleValue": 1675756680000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T07:58:06.0",
+        "startTimeGMTDoubleValue": 1675756686000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T08:00:00.0",
+        "startTimeGMTDoubleValue": 1675756800000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T08:01:02.0",
+        "startTimeGMTDoubleValue": 1675756862000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T08:04:18.0",
+        "startTimeGMTDoubleValue": 1675757058000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T08:04:21.0",
+        "startTimeGMTDoubleValue": 1675757061000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T08:05:12.0",
+        "startTimeGMTDoubleValue": 1675757112000.0,
+        "sectionTypeDTO": {
+          "id": 11,
+          "key": "speedLowAlert",
+          "sectionTypeKey": "SPEED_LOW_ALERT"
+        }
+      },
+      {
+        "startTimeGMT": "2023-02-07T08:07:13.0",
+        "startTimeGMTDoubleValue": 1675757233000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "activityId": 10460691891,
+    "activityUUID": {
+      "uuid": "7b0626eb-e779-45e6-abb2-9e9fe96f38a2"
+    },
+    "activityName": "Sydney - Base",
+    "userProfileId": 48013387,
+    "isMultiSportParent": false,
+    "activityTypeDTO": {
+      "typeId": 1,
+      "typeKey": "running",
+      "parentTypeId": 17,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventTypeDTO": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "accessControlRuleDTO": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "timeZoneUnitDTO": {
+      "unitId": 140,
+      "unitKey": "Australia/Sydney",
+      "factor": 0.0,
+      "timeZone": "Australia/Sydney"
+    },
+    "metadataDTO": {
+      "isOriginal": true,
+      "deviceApplicationInstallationId": 914270,
+      "agentApplicationInstallationId": null,
+      "agentString": null,
+      "fileFormat": {
+        "formatId": 7,
+        "formatKey": "fit"
+      },
+      "associatedCourseId": null,
+      "lastUpdateDate": "2023-02-07T08:25:38.0",
+      "uploadedDate": "2023-02-07T08:25:37.0",
+      "videoUrl": null,
+      "hasPolyline": true,
+      "hasChartData": true,
+      "hasHrTimeInZones": true,
+      "hasPowerTimeInZones": true,
+      "userInfoDto": {
+        "userProfilePk": 48013387,
+        "displayname": "nelson.tam",
+        "fullname": "Nelson Tam",
+        "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+        "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+        "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+        "userPro": false
+      },
+      "childIds": [],
+      "childActivityTypes": [],
+      "sensors": [],
+      "activityImages": [],
+      "manufacturer": "GARMIN",
+      "diveNumber": null,
+      "lapCount": 1,
+      "associatedWorkoutId": null,
+      "isAtpActivity": null,
+      "deviceMetaDataDTO": {
+        "deviceId": "3403878522",
+        "deviceTypePk": 36910,
+        "deviceVersionPk": 914270
+      },
+      "hasIntensityIntervals": false,
+      "hasSplits": true,
+      "eBikeMaxAssistModes": null,
+      "eBikeBatteryUsage": null,
+      "eBikeBatteryRemaining": null,
+      "eBikeAssistModeInfoDTOList": null,
+      "hasRunPowerWindData": null,
+      "calendarEventInfo": null,
+      "groupRideUUID": null,
+      "hasHeatMap": false,
+      "hasMultiDayActivities": false,
+      "thirdPartyGymEquipment": [],
+      "personalRecord": false,
+      "gcj02": false,
+      "runPowerWindDataEnabled": true,
+      "manualActivity": false,
+      "autoCalcCalories": false,
+      "favorite": false,
+      "trimmed": false,
+      "elevationCorrected": false
+    },
+    "summaryDTO": {
+      "startTimeLocal": "2023-02-07T18:47:09.0",
+      "startTimeGMT": "2023-02-07T07:47:09.0",
+      "startLatitude": -33.89329609461129,
+      "startLongitude": 151.09007307328284,
+      "distance": 2704.83,
+      "duration": 1203.718,
+      "movingDuration": 1203.718,
+      "elapsedDuration": 1203.718,
+      "elevationGain": 8.38,
+      "elevationLoss": 34.17,
+      "maxElevation": 34.6,
+      "minElevation": 7.4,
+      "averageSpeed": 2.246999979019165,
+      "averageMovingSpeed": 2.2470628823577017,
+      "maxSpeed": 3.4619998931884766,
+      "calories": 188.0,
+      "bmrCalories": 26.0,
+      "averageHR": 135.0,
+      "maxHR": 152.0,
+      "minHR": 88.0,
+      "averageRunCadence": 137.875,
+      "maxRunCadence": 174.0,
+      "averageTemperature": 26.0,
+      "maxTemperature": 28.0,
+      "minTemperature": 25.0,
+      "averagePower": 206.0,
+      "maxPower": 380.0,
+      "minPower": 0.0,
+      "normalizedPower": 231.0,
+      "totalWork": 59.42692397649654,
+      "strideLength": 97.7869613356026,
+      "trainingEffect": 2.299999952316284,
+      "anaerobicTrainingEffect": 0.0,
+      "aerobicTrainingEffectMessage": "MINOR_AEROBIC_BENEFIT_0",
+      "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+      "endLatitude": -33.8986764382571,
+      "endLongitude": 151.08818898908794,
+      "maxVerticalSpeed": 1.0,
+      "waterEstimated": 259.0,
+      "trainingEffectLabel": "RECOVERY",
+      "activityTrainingLoad": 37.2359619140625,
+      "minActivityLapDuration": 1203.718,
+      "directWorkoutFeel": 50,
+      "directWorkoutRpe": 30,
+      "moderateIntensityMinutes": 2,
+      "vigorousIntensityMinutes": 16,
+      "steps": 2894,
+      "recoveryHeartRate": 14,
+      "beginPotentialStamina": 100.0,
+      "endPotentialStamina": 83.0,
+      "minAvailableStamina": 83.0,
+      "avgGradeAdjustedSpeed": 2.260999917984009
+    },
+    "locationName": "Sydney",
+    "splitSummaries": [
+      {
+        "distance": 2704.83,
+        "duration": 1203.718,
+        "movingDuration": 1202.0,
+        "elevationGain": 8.38,
+        "elevationLoss": 34.17,
+        "averageSpeed": 2.246999979019165,
+        "averageMovingSpeed": 2.250274607425125,
+        "maxSpeed": 3.4619998931884766,
+        "calories": 188.0,
+        "bmrCalories": 26.0,
+        "averageHR": 135.0,
+        "maxHR": 152.0,
+        "averageRunCadence": 137.859375,
+        "maxRunCadence": 174.0,
+        "averageTemperature": 26.0,
+        "maxTemperature": 28.0,
+        "minTemperature": 25.0,
+        "averagePower": 206.0,
+        "maxPower": 380.0,
+        "normalizedPower": 231.0,
+        "strideLength": 97.79804452287854,
+        "totalExerciseReps": 0,
+        "avgVerticalSpeed": 0.0,
+        "avgGradeAdjustedSpeed": 2.2630906831999984,
+        "splitType": "INTERVAL_ACTIVE",
+        "noOfSplits": 1,
+        "maxElevationGain": 8.38,
+        "averageElevationGain": 8.38,
+        "maxDistance": 2704,
+        "maxDistanceWithPrecision": 2704.83,
+        "avgStepFrequency": 137.859375
+      },
+      {
+        "distance": 9.37,
+        "duration": 3.0,
+        "movingDuration": 0.0,
+        "elevationGain": 0.0,
+        "elevationLoss": 0.0,
+        "averageSpeed": 3.122999906539917,
+        "maxSpeed": 2.565999984741211,
+        "calories": 0.0,
+        "bmrCalories": 0.0,
+        "averageHR": 89.0,
+        "maxHR": 90.0,
+        "averageRunCadence": 138.328125,
+        "maxRunCadence": 167.0,
+        "averageTemperature": 28.0,
+        "maxTemperature": 28.0,
+        "minTemperature": 28.0,
+        "averagePower": 216.0,
+        "maxPower": 271.0,
+        "strideLength": 135.4749785780597,
+        "totalExerciseReps": 0,
+        "avgVerticalSpeed": 0.0,
+        "splitType": "RWD_STAND",
+        "noOfSplits": 1,
+        "maxElevationGain": 0.0,
+        "averageElevationGain": 0.0,
+        "maxDistance": 9,
+        "maxDistanceWithPrecision": 9.37,
+        "avgStepFrequency": 138.328125
+      },
+      {
+        "distance": 2100.96,
+        "duration": 838.0,
+        "movingDuration": 815.0,
+        "elevationGain": 8.38,
+        "elevationLoss": 28.26,
+        "averageSpeed": 2.506999969482422,
+        "averageMovingSpeed": 2.5773864203456203,
+        "maxSpeed": 3.4619998931884766,
+        "calories": 147.0,
+        "bmrCalories": 18.0,
+        "averageHR": 137.0,
+        "maxHR": 152.0,
+        "averageRunCadence": 151.4375,
+        "maxRunCadence": 174.0,
+        "averageTemperature": 26.0,
+        "maxTemperature": 28.0,
+        "minTemperature": 25.0,
+        "averagePower": 247.0,
+        "maxPower": 380.0,
+        "normalizedPower": 248.0,
+        "strideLength": 99.54357524583321,
+        "totalExerciseReps": 0,
+        "avgVerticalSpeed": 0.0,
+        "avgGradeAdjustedSpeed": 2.560969697122016,
+        "splitType": "RWD_RUN",
+        "noOfSplits": 10,
+        "maxElevationGain": 2.34,
+        "averageElevationGain": 0.81,
+        "maxDistance": 468,
+        "maxDistanceWithPrecision": 468.98,
+        "avgStepFrequency": 151.4375
+      },
+      {
+        "distance": 594.5,
+        "duration": 365.551,
+        "movingDuration": 347.0,
+        "elevationGain": 0.0,
+        "elevationLoss": 6.91,
+        "averageSpeed": 1.6260000467300417,
+        "averageMovingSpeed": 1.7341386681055266,
+        "maxSpeed": 2.668999910354614,
+        "calories": 41.0,
+        "bmrCalories": 8.0,
+        "averageHR": 130.0,
+        "maxHR": 149.0,
+        "averageRunCadence": 106.953125,
+        "maxRunCadence": 161.0,
+        "averageTemperature": 26.0,
+        "maxTemperature": 27.0,
+        "minTemperature": 26.0,
+        "averagePower": 115.0,
+        "maxPower": 294.0,
+        "normalizedPower": 162.0,
+        "strideLength": 93.18431271583287,
+        "totalExerciseReps": 0,
+        "avgVerticalSpeed": 0.0,
+        "avgGradeAdjustedSpeed": 1.6113753673584768,
+        "splitType": "RWD_WALK",
+        "noOfSplits": 10,
+        "maxElevationGain": 0.0,
+        "averageElevationGain": 0.0,
+        "maxDistance": 198,
+        "maxDistanceWithPrecision": 198.32,
+        "avgStepFrequency": 106.953125
+      }
+    ]
+  }
+}
