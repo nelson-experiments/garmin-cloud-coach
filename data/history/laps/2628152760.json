@@ -1,0 +1,580 @@
+{
+  "generated_at": "2026-11-05T00:39:41.731955+00:00",
+  "activity": {
+    "activityId": 2628152760,
+    "activityName": "Sydney Road Cycling",
+    "startTimeLocal": "2018-04-16 20:06:34",
+    "startTimeGMT": "2018-04-16 10:06:34",
+    "activityType": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventType": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "isFavorite": false,
+    "isPR": false,
+    "isAutoCalcCalories": false,
+    "isParent": false,
+    "distance": 24785.55078125,
+    "duration": 3609.85888671875,
+    "elapsedDuration": 3747.842041015625,
+    "movingDuration": 3592.0,
+    "elevationGain": 135.0,
+    "elevationLoss": 125.0,
+    "averageSpeed": 6.866000175476074,
+    "maxSpeed": 12.75500011444092,
+    "startLatitude": -33.84690636768937,
+    "startLongitude": 151.06591382995248,
+    "hasPolyline": true,
+    "hasImages": false,
+    "ownerId": 48013387,
+    "ownerDisplayName": "nelson.tam",
+    "ownerFullName": "Nelson Tam",
+    "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+    "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+    "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+    "calories": 785.0,
+    "averageBikingCadenceInRevPerMinute": 78.0,
+    "maxBikingCadenceInRevPerMinute": 120.0,
+    "userRoles": [
+      "SCOPE_ATP_READ",
+      "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+      "SCOPE_GCX_KID_WRITE",
+      "SCOPE_CIQ_APPSTORE_SERVICES_CREATE",
+      "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+      "SCOPE_COMMUNITY_COURSE_WRITE",
+      "SCOPE_GCX_KID_ADMIN_READ",
+      "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+      "SCOPE_ACTIVITY_DETECTION_READ",
+      "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+      "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+      "SCOPE_CONNECT_READ",
+      "SCOPE_GCX_PET_READ",
+      "SCOPE_GOLF_API_READ",
+      "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+      "SCOPE_GCX_PET_WRITE",
+      "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+      "SCOPE_DIVE_API_WRITE",
+      "SCOPE_DIVE_API_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_READ",
+      "SCOPE_CONNECT_WRITE",
+      "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+      "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+      "SCOPE_MESSAGE_GENERATION_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+      "SCOPE_GCS_RACEINSIGHTS_ADMIN_READ",
+      "SCOPE_GCX_PET_ADMIN_READ",
+      "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+      "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+      "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+      "SCOPE_ATP_WRITE",
+      "SCOPE_GCX_KID_READ",
+      "ROLE_CONNECTUSER",
+      "ROLE_FITNESS_USER",
+      "ROLE_WELLNESS_USER",
+      "ROLE_OUTDOOR_USER",
+      "ROLE_CONNECT_2_USER",
+      "ROLE_GARMIN_USER",
+      "ROLE_GCM_USER"
+    ],
+    "privacy": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "userPro": false,
+    "hasVideo": false,
+    "isPurposeful": false,
+    "timeZoneId": 140,
+    "beginTimestamp": 1523873194000,
+    "sportTypeId": 0,
+    "strokes": 3930.0,
+    "deviceId": 3943292122,
+    "minTemperature": 20.0,
+    "maxTemperature": 21.0,
+    "minElevation": -76.0,
+    "maxElevation": -55.400001525878906,
+    "isElevationCorrected": false,
+    "summarizedExerciseSets": [],
+    "summarizedDiveInfo": {
+      "summarizedDiveGases": [],
+      "totalSurfaceTime": 0
+    },
+    "maxVerticalSpeed": 0.5999984741210938,
+    "locationName": "Sydney",
+    "lapCount": 6,
+    "isAtpActivity": false,
+    "splitSummaries": [],
+    "isManualActivity": false,
+    "hasHeatMap": false,
+    "endTimeGMT": "2018-04-16 11:09:01",
+    "qualifyingDive": false,
+    "activityUUID": "f0c9495f-36d0-4807-8954-b43f19d60ca9",
+    "autoCalcCalories": false,
+    "elevationCorrected": false,
+    "atpActivity": false,
+    "favorite": false,
+    "manualActivity": false,
+    "purposeful": false,
+    "pr": false,
+    "parent": false
+  },
+  "splits": {
+    "activityId": 2628152760,
+    "lapDTOs": [
+      {
+        "startTimeGMT": "2018-04-16T10:06:34.0",
+        "startLatitude": -33.84690636768937,
+        "startLongitude": 151.06591382995248,
+        "distance": 4889.07,
+        "duration": 792.853,
+        "movingDuration": 790.0,
+        "elapsedDuration": 791.0,
+        "elevationGain": 28.0,
+        "elevationLoss": 25.0,
+        "maxElevation": -55.4,
+        "minElevation": -70.0,
+        "averageSpeed": 6.165999889373779,
+        "averageMovingSpeed": 6.188695980023735,
+        "maxSpeed": 10.142000198364258,
+        "calories": 641.0,
+        "averageBikeCadence": 68.0,
+        "maxBikeCadence": 94.0,
+        "averageTemperature": 21.0,
+        "maxTemperature": 21.0,
+        "minTemperature": 20.0,
+        "totalNumberOfStrokes": 749,
+        "endLatitude": -33.84683260694146,
+        "endLongitude": 151.06586890295148,
+        "maxVerticalSpeed": 0.5,
+        "lapIndex": 1,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:19:48.0",
+        "startLatitude": -33.8467700779438,
+        "startLongitude": 151.06582120992243,
+        "distance": 4977.51,
+        "duration": 763.003,
+        "movingDuration": 753.0,
+        "elapsedDuration": 858.0,
+        "elevationGain": 28.0,
+        "elevationLoss": 27.0,
+        "maxElevation": -56.2,
+        "minElevation": -72.0,
+        "averageSpeed": 6.52400016784668,
+        "averageMovingSpeed": 6.610238732569722,
+        "maxSpeed": 10.02999973297119,
+        "calories": 654.0,
+        "averageBikeCadence": 76.0,
+        "maxBikeCadence": 98.0,
+        "averageTemperature": 21.0,
+        "maxTemperature": 21.0,
+        "minTemperature": 21.0,
+        "totalNumberOfStrokes": 785,
+        "endLatitude": -33.84682221338153,
+        "endLongitude": 151.06584736146033,
+        "maxVerticalSpeed": 0.5999984741210938,
+        "lapIndex": 2,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:34:10.0",
+        "startLatitude": -33.84677208960056,
+        "startLongitude": 151.06580612249672,
+        "distance": 4982.11,
+        "duration": 796.011,
+        "movingDuration": 784.0,
+        "elapsedDuration": 812.0,
+        "elevationGain": 30.0,
+        "elevationLoss": 28.0,
+        "maxElevation": -57.8,
+        "minElevation": -73.4,
+        "averageSpeed": 6.258999824523926,
+        "averageMovingSpeed": 6.354731968470982,
+        "maxSpeed": 10.170000076293945,
+        "calories": 633.0,
+        "averageBikeCadence": 75.0,
+        "maxBikeCadence": 100.0,
+        "averageTemperature": 20.57987421383648,
+        "maxTemperature": 21.0,
+        "minTemperature": 20.0,
+        "totalNumberOfStrokes": 814,
+        "endLatitude": -33.84684660471976,
+        "endLongitude": 151.06586622074246,
+        "maxVerticalSpeed": 0.2666676839192708,
+        "lapIndex": 3,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:47:43.0",
+        "startLatitude": -33.84679061360657,
+        "startLongitude": 151.065822718665,
+        "distance": 4972.65,
+        "duration": 685.001,
+        "movingDuration": 685.0,
+        "elapsedDuration": 685.0,
+        "elevationGain": 23.0,
+        "elevationLoss": 22.0,
+        "maxElevation": -60.0,
+        "minElevation": -74.4,
+        "averageSpeed": 7.258999824523926,
+        "averageMovingSpeed": 7.259342923129562,
+        "maxSpeed": 11.88700008392334,
+        "calories": 641.0,
+        "averageBikeCadence": 84.0,
+        "maxBikeCadence": 108.0,
+        "averageTemperature": 20.0,
+        "maxTemperature": 20.0,
+        "minTemperature": 20.0,
+        "totalNumberOfStrokes": 829,
+        "endLatitude": -33.84680561721325,
+        "endLongitude": 151.06581249274313,
+        "maxVerticalSpeed": 0.40000025431315106,
+        "lapIndex": 4,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:59:08.0",
+        "startLatitude": -33.846716517582536,
+        "startLongitude": 151.06574434787035,
+        "distance": 4953.73,
+        "duration": 572.0,
+        "movingDuration": 571.0,
+        "elapsedDuration": 592.0,
+        "elevationGain": 26.0,
+        "elevationLoss": 23.0,
+        "maxElevation": -60.4,
+        "minElevation": -76.0,
+        "averageSpeed": 8.65999984741211,
+        "averageMovingSpeed": 8.675534116407619,
+        "maxSpeed": 12.75500011444092,
+        "calories": 721.0,
+        "averageBikeCadence": 94.0,
+        "maxBikeCadence": 120.0,
+        "averageTemperature": 20.0,
+        "maxTemperature": 20.0,
+        "minTemperature": 20.0,
+        "totalNumberOfStrokes": 753,
+        "endLatitude": -33.84679346345365,
+        "endLongitude": 151.06581341475248,
+        "maxVerticalSpeed": 0.5,
+        "lapIndex": 5,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      },
+      {
+        "startTimeGMT": "2018-04-16T11:09:01.0",
+        "startLatitude": -33.84671660140157,
+        "startLongitude": 151.0657497961074,
+        "distance": 10.49,
+        "duration": 0.991,
+        "elevationGain": 0.0,
+        "elevationLoss": 0.0,
+        "averageSpeed": 10.583000183105469,
+        "maxSpeed": 10.48799991607666,
+        "calories": 0.0,
+        "averageBikeCadence": 74.0,
+        "maxBikeCadence": 74.0,
+        "totalNumberOfStrokes": 1,
+        "endLatitude": -33.84671660140157,
+        "endLongitude": 151.0657497961074,
+        "lapIndex": 6,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      }
+    ],
+    "eventDTOs": [
+      {
+        "startTimeGMT": "2018-04-16T10:06:34.0",
+        "startTimeGMTDoubleValue": 1523873194000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:09:45.0",
+        "startTimeGMTDoubleValue": 1523873385000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:09:46.0",
+        "startTimeGMTDoubleValue": 1523873386000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:28:47.0",
+        "startTimeGMTDoubleValue": 1523874527000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:29:19.0",
+        "startTimeGMTDoubleValue": 1523874559000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:32:40.0",
+        "startTimeGMTDoubleValue": 1523874760000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:33:47.0",
+        "startTimeGMTDoubleValue": 1523874827000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:43:40.0",
+        "startTimeGMTDoubleValue": 1523875420000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:43:42.0",
+        "startTimeGMTDoubleValue": 1523875422000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:43:43.0",
+        "startTimeGMTDoubleValue": 1523875423000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T10:43:58.0",
+        "startTimeGMTDoubleValue": 1523875438000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T11:06:10.0",
+        "startTimeGMTDoubleValue": 1523876770000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2018-04-16T11:06:31.0",
+        "startTimeGMTDoubleValue": 1523876791000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "activityId": 2628152760,
+    "activityUUID": {
+      "uuid": "f0c9495f-36d0-4807-8954-b43f19d60ca9"
+    },
+    "activityName": "Sydney Road Cycling",
+    "userProfileId": 48013387,
+    "isMultiSportParent": false,
+    "activityTypeDTO": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventTypeDTO": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "accessControlRuleDTO": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "timeZoneUnitDTO": {
+      "unitId": 140,
+      "unitKey": "Australia/Sydney",
+      "factor": 0.0,
+      "timeZone": "Australia/Sydney"
+    },
+    "metadataDTO": {
+      "isOriginal": true,
+      "deviceApplicationInstallationId": 841401,
+      "agentApplicationInstallationId": null,
+      "agentString": null,
+      "fileFormat": {
+        "formatId": 7,
+        "formatKey": "fit"
+      },
+      "associatedCourseId": null,
+      "lastUpdateDate": "2018-04-16T06:09:42.0",
+      "uploadedDate": "2018-04-16T06:09:42.0",
+      "videoUrl": null,
+      "hasPolyline": true,
+      "hasChartData": true,
+      "hasHrTimeInZones": false,
+      "hasPowerTimeInZones": false,
+      "userInfoDto": {
+        "userProfilePk": 48013387,
+        "displayname": "nelson.tam",
+        "fullname": "Nelson Tam",
+        "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+        "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+        "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+        "userPro": false
+      },
+      "childIds": [],
+      "childActivityTypes": [],
+      "sensors": [
+        {
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8935010,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED"
+        },
+        {
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8906429,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE",
+          "batteryStatus": "OK"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8906429,
+          "sku": "006-B0010-00",
+          "fitProductNumber": 10,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE",
+          "softwareVersion": 2.3,
+          "batteryStatus": "OK"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8935010,
+          "sku": "006-B0009-00",
+          "fitProductNumber": 9,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED",
+          "softwareVersion": 2.5,
+          "batteryStatus": "OK"
+        }
+      ],
+      "activityImages": [],
+      "manufacturer": "GARMIN",
+      "diveNumber": null,
+      "lapCount": 6,
+      "associatedWorkoutId": null,
+      "isAtpActivity": null,
+      "deviceMetaDataDTO": {
+        "deviceId": "3943292122",
+        "deviceTypePk": 33956,
+        "deviceVersionPk": 841401
+      },
+      "hasIntensityIntervals": false,
+      "hasSplits": false,
+      "eBikeMaxAssistModes": null,
+      "eBikeBatteryUsage": null,
+      "eBikeBatteryRemaining": null,
+      "eBikeAssistModeInfoDTOList": null,
+      "hasRunPowerWindData": null,
+      "calendarEventInfo": null,
+      "groupRideUUID": null,
+      "hasHeatMap": false,
+      "hasMultiDayActivities": false,
+      "thirdPartyGymEquipment": [],
+      "personalRecord": false,
+      "gcj02": false,
+      "runPowerWindDataEnabled": null,
+      "trimmed": false,
+      "manualActivity": false,
+      "autoCalcCalories": false,
+      "favorite": false,
+      "elevationCorrected": false
+    },
+    "summaryDTO": {
+      "startTimeLocal": "2018-04-16T20:06:34.0",
+      "startTimeGMT": "2018-04-16T10:06:34.0",
+      "startLatitude": -33.84690636768937,
+      "startLongitude": 151.06591382995248,
+      "distance": 24785.55,
+      "duration": 3609.859,
+      "movingDuration": 3592.0,
+      "elapsedDuration": 3747.842,
+      "elevationGain": 135.0,
+      "elevationLoss": 125.0,
+      "maxElevation": -55.4,
+      "minElevation": -76.0,
+      "averageSpeed": 6.866000175476074,
+      "averageMovingSpeed": 6.90020901482461,
+      "maxSpeed": 12.75500011444092,
+      "calories": 784.960453649386,
+      "averageBikeCadence": 78.0,
+      "maxBikeCadence": 120.0,
+      "averageTemperature": 20.55860349127182,
+      "maxTemperature": 21.0,
+      "minTemperature": 20.0,
+      "totalNumberOfStrokes": 3930,
+      "endLatitude": -33.84671660140157,
+      "endLongitude": 151.0657497961074,
+      "maxVerticalSpeed": 0.5999984741210938
+    },
+    "locationName": "Sydney"
+  }
+}
