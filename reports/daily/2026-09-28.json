@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-11-05T21:22:23.337Z",
+  "snapshot_generated_at": "2026-09-27T22:42:25.893684+00:00",
+  "headline": "Retrospective recovery record",
+  "summary": "Backfilled after the fact from an archived Garmin snapshot; no same-day coaching was issued.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "7h 48m · score 73",
+      "context": "Garmin completed overnight record.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "69 bpm",
+      "context": "Prior 7 nights 68.4 bpm; prior 14 nights 67.0 bpm; available records only.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "65 bpm",
+      "context": "Garmin estimate.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "41 ms overnight · 39 ms weekly",
+      "context": "Garmin measurement.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "22",
+      "context": "Snapshot average, may be partial.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "74 on waking",
+      "context": "Garmin estimate.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "65",
+      "context": "Recovery time 1 minutes at reading.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "145 acute",
+      "context": "Garmin estimate.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Previous day",
+    "summary": "No recorded activities.",
+    "adherence_verdict": "not_assessable",
+    "prescribed": "No previous report available",
+    "completed": "No recorded activities.",
+    "adherence_assessment": "No preceding report is available.",
+    "adherence_evidence": [
+      "Comparison with 2026-09-27 report and recorded activity."
+    ],
+    "adherence_caveats": [
+      "Unrecorded activity, perceived effort and sensor source cannot be inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin activity temperature where available above.",
+      "humidity_dew_point_context": "Hourly weather unavailable.",
+      "heat_impact_interpretation": "Heat may affect HR and pace; causation cannot be determined.",
+      "limitations": "Device measurements are not city weather estimates."
+    }
+  },
+  "recommendation": {
+    "title": "Historical record only",
+    "details": [
+      "This entry was reconstructed retrospectively; it was not a recommendation issued on this date."
+    ],
+    "alternative": "Not applicable to a past date.",
+    "reduce_or_stop": "Not applicable to a past date."
+  },
+  "signals": [],
+  "caveats": [
+    "Backfilled from archived data; incomplete values are marked unavailable.",
+    "Historical entry does not create a retroactive training prescription."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
