@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-05T20:28:37.208Z",
+  "snapshot_generated_at": "2026-11-05T20:27:38.527239+00:00",
+  "headline": "Rest after two consecutive runs",
+  "summary": "Take today off running after Wednesday’s 12 km and Thursday’s 9.17 km. A gentle walk is optional.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "8h 10m · score 80",
+      "context": "Completed overnight record.",
+      "status": "good"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "66 bpm",
+      "context": "Prior seven nights 64.3 bpm; prior 14 nights 63.8 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "62 bpm",
+      "context": "Seven-day average 59 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "35 ms overnight · 43 ms weekly",
+      "context": "Overnight below weekly average.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "22 so far",
+      "context": "Partial morning; sleep stress 23.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "55 on waking",
+      "context": "Garmin estimate.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "65 · moderate",
+      "context": "Recovery time 894 minutes (14h 54m) at 06:17.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "573 acute",
+      "context": "Garmin readiness reading.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "9.17 km run",
+    "summary": "9.17 km in 54:04 (5:54/km); average HR 148, maximum 175. Load 156; aerobic effect 3.7, anaerobic 0.4.",
+    "adherence_verdict": "not_assessable",
+    "prescribed": "No 5 November daily report was published.",
+    "completed": "One running activity: 9.17 km in 54:04.",
+    "adherence_assessment": "No same-day published prescription is available for comparison.",
+    "adherence_evidence": [
+      "Garmin records one run on 5 November.",
+      "The preceding daily report for 5 November is unavailable."
+    ],
+    "adherence_caveats": [
+      "Perceived effort, sensor source and pain are not confirmed."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device: 21–27°C.",
+      "humidity_dew_point_context": "Reliable hourly city humidity and dew point unavailable.",
+      "heat_impact_interpretation": "Warmth may influence heart rate and pace; its individual effect cannot be determined.",
+      "limitations": "Device temperature is not a city weather observation."
+    }
+  },
+  "recommendation": {
+    "title": "Rest from running",
+    "details": [
+      "Rest today after two consecutive runs and the earlier tempo session.",
+      "If comfortable, take a gentle 20–30 minute walk at RPE 1–2."
+    ],
+    "alternative": "Complete rest if tired, sore or unwell.",
+    "reduce_or_stop": "Stop for pain that changes gait, dizziness or illness; follow medical advice."
+  },
+  "signals": [
+    {
+      "label": "Recent running",
+      "value": "12.01 km Wednesday + 9.17 km Thursday",
+      "interpretation": "Two consecutive runs support a recovery day."
+    },
+    {
+      "label": "HRV",
+      "value": "35 ms vs 43 ms weekly",
+      "interpretation": "Overnight reading is below the weekly average."
+    },
+    {
+      "label": "Resting HR",
+      "value": "62 vs 59 bpm weekly",
+      "interpretation": "A modest rise adds context for taking it easy."
+    }
+  ],
+  "caveats": [
+    "Garmin measurements are estimates; symptoms and medical advice take precedence.",
+    "A prior-day daily report was not published."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-11-05",
+      "activity_type": "running",
+      "assessment": "9.17 km in 54:04 (5:54/km), average HR 148, max 175, training load 156, aerobic effect 3.7, anaerobic 0.4. Garmin device temperature 21–27°C; warm conditions could influence HR. Sensor source unconfirmed."
+    }
+  ],
+  "status": "published"
+}
