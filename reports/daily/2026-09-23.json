@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-11-05T21:23:04.202Z",
+  "snapshot_generated_at": "2026-09-27T22:42:25.893684+00:00",
+  "headline": "Retrospective travel record",
+  "summary": "Reconstructed after travel from completed UTC sleep timestamps; no daily coaching was issued on this date.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "Duration and score unavailable",
+      "context": "Completed sleep window 8.6 hours; window is not sleep duration.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "67 bpm",
+      "context": "Garmin source date 2026-09-23; UTC sleep end maps to 2026-09-23 in California.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "61 bpm",
+      "context": "Historical Garmin record.",
+      "status": "neutral"
+    },
+    {
+      "label": "Other recovery metrics",
+      "value": "Unavailable",
+      "context": "Historical sleep score, HRV, stress, Body Battery, readiness and load not available in this snapshot.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Previous day",
+    "summary": "running: 2.63 km in 16:06; average HR 139 bpm, load 43, aerobic effect 2.299999952316284, device temperature 18–27°C. running: 2.65 km in 16:56; average HR 138 bpm, load 40, aerobic effect 2.299999952316284, device temperature 17–26°C.",
+    "adherence_verdict": "not_assessable",
+    "prescribed": "No contemporaneous California-local daily report available for reliable comparison.",
+    "completed": "running: 2.63 km in 16:06; average HR 139 bpm, load 43, aerobic effect 2.299999952316284, device temperature 18–27°C. running: 2.65 km in 16:56; average HR 138 bpm, load 40, aerobic effect 2.299999952316284, device temperature 17–26°C.",
+    "adherence_assessment": "No reliable prior prescription for this local day.",
+    "adherence_evidence": [
+      "Previous-day activities matched by UTC start time to California date."
+    ],
+    "adherence_caveats": [
+      "Unrecorded activity, effort and sensor source cannot be inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device temperatures shown where present.",
+      "humidity_dew_point_context": "Hourly weather unavailable.",
+      "heat_impact_interpretation": "Travel and heat may affect performance; cause cannot be isolated.",
+      "limitations": "Historical city weather unavailable."
+    }
+  },
+  "recommendation": {
+    "title": "Historical record only",
+    "details": [
+      "This entry was reconstructed retrospectively; no recommendation was issued on this date."
+    ],
+    "alternative": "Not applicable to a past date.",
+    "reduce_or_stop": "Not applicable to a past date."
+  },
+  "signals": [],
+  "caveats": [
+    "The sleep record is reconciled by UTC timestamps to California local time.",
+    "Sleep-window length is not measured sleep duration."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-09-22",
+      "activity_type": "running",
+      "assessment": "running: 2.63 km in 16:06; average HR 139 bpm, load 43, aerobic effect 2.299999952316284, device temperature 18–27°C."
+    },
+    {
+      "activity_date": "2026-09-22",
+      "activity_type": "running",
+      "assessment": "running: 2.65 km in 16:56; average HR 138 bpm, load 40, aerobic effect 2.299999952316284, device temperature 17–26°C."
+    }
+  ],
+  "status": "published"
+}
