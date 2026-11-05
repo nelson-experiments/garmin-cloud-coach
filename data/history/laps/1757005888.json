@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-11-05T19:57:43.988943+00:00",
+  "activity": {
+    "activityId": 1757005888,
+    "activityName": "San Francisco Road Cycling",
+    "startTimeLocal": "2017-05-24 17:49:50",
+    "startTimeGMT": "2017-05-25 00:49:50",
+    "activityType": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventType": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "isFavorite": false,
+    "isPR": false,
+    "isAutoCalcCalories": false,
+    "isParent": false,
+    "distance": 11843.23046875,
+    "duration": 1694.2139892578125,
+    "elapsedDuration": 1757.2080078125,
+    "elevationGain": 52.0,
+    "elevationLoss": 45.0,
+    "averageSpeed": 6.989999771118165,
+    "maxSpeed": 13.230999946594238,
+    "startLatitude": 37.795442920178175,
+    "startLongitude": -122.39392708986998,
+    "hasPolyline": true,
+    "hasImages": false,
+    "ownerId": 48013387,
+    "ownerDisplayName": "nelson.tam",
+    "ownerFullName": "Nelson Tam",
+    "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+    "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+    "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+    "calories": 375.0,
+    "userRoles": [
+      "SCOPE_ATP_READ",
+      "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+      "SCOPE_GCX_KID_WRITE",
+      "SCOPE_CIQ_APPSTORE_SERVICES_CREATE",
+      "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+      "SCOPE_COMMUNITY_COURSE_WRITE",
+      "SCOPE_GCX_KID_ADMIN_READ",
+      "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+      "SCOPE_ACTIVITY_DETECTION_READ",
+      "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+      "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+      "SCOPE_CONNECT_READ",
+      "SCOPE_GCX_PET_READ",
+      "SCOPE_GOLF_API_READ",
+      "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+      "SCOPE_GCX_PET_WRITE",
+      "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+      "SCOPE_DIVE_API_WRITE",
+      "SCOPE_DIVE_API_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_READ",
+      "SCOPE_CONNECT_WRITE",
+      "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+      "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+      "SCOPE_MESSAGE_GENERATION_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+      "SCOPE_GCS_RACEINSIGHTS_ADMIN_READ",
+      "SCOPE_GCX_PET_ADMIN_READ",
+      "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+      "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+      "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+      "SCOPE_ATP_WRITE",
+      "SCOPE_GCX_KID_READ",
+      "ROLE_CONNECTUSER",
+      "ROLE_FITNESS_USER",
+      "ROLE_WELLNESS_USER",
+      "ROLE_OUTDOOR_USER",
+      "ROLE_CONNECT_2_USER",
+      "ROLE_GARMIN_USER",
+      "ROLE_GCM_USER"
+    ],
+    "privacy": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "userPro": false,
+    "hasVideo": false,
+    "isPurposeful": false,
+    "timeZoneId": 121,
+    "beginTimestamp": 1495673390000,
+    "sportTypeId": 0,
+    "deviceId": 3943292122,
+    "minTemperature": 11.0,
+    "maxTemperature": 15.0,
+    "minElevation": 8.600000381469727,
+    "maxElevation": 33.599998474121094,
+    "isElevationCorrected": false,
+    "summarizedExerciseSets": [],
+    "splitSummaries": [],
+    "isManualActivity": false,
+    "hasHeatMap": false,
+    "endTimeGMT": "2017-05-25 01:19:07",
+    "qualifyingDive": false,
+    "activityUUID": "302587bd-01f8-4bbd-9c0f-f261ab19c713",
+    "purposeful": false,
+    "parent": false,
+    "elevationCorrected": false,
+    "autoCalcCalories": false,
+    "pr": false,
+    "favorite": false,
+    "manualActivity": false
+  },
+  "splits": {
+    "activityId": 1757005888,
+    "lapDTOs": [
+      {
+        "startTimeGMT": "2017-05-25T00:49:50.0",
+        "startLatitude": 37.795442920178175,
+        "startLongitude": -122.39392708986998,
+        "distance": 11843.23,
+        "duration": 1694.214,
+        "movingDuration": 1684.0,
+        "elapsedDuration": 1755.0,
+        "elevationGain": 52.0,
+        "elevationLoss": 45.0,
+        "maxElevation": 33.6,
+        "minElevation": 8.6,
+        "averageSpeed": 6.989999771118165,
+        "averageMovingSpeed": 7.032797190469121,
+        "maxSpeed": 13.230999946594238,
+        "calories": 1571.0,
+        "averageTemperature": 12.794917257683215,
+        "maxTemperature": 15.0,
+        "minTemperature": 11.0,
+        "endLatitude": 37.798212049528956,
+        "endLongitude": -122.4356622621417,
+        "lapIndex": 1,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      }
+    ],
+    "eventDTOs": [
+      {
+        "startTimeGMT": "2017-05-25T00:49:50.0",
+        "startTimeGMTDoubleValue": 1495673390000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-05-25T00:54:40.0",
+        "startTimeGMTDoubleValue": 1495673680000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-05-25T00:54:50.0",
+        "startTimeGMTDoubleValue": 1495673690000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-05-25T00:55:33.0",
+        "startTimeGMTDoubleValue": 1495673733000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-05-25T00:55:45.0",
+        "startTimeGMTDoubleValue": 1495673745000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-05-25T01:15:25.0",
+        "startTimeGMTDoubleValue": 1495674925000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-05-25T01:16:06.0",
+        "startTimeGMTDoubleValue": 1495674966000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-05-25T01:19:07.0",
+        "startTimeGMTDoubleValue": 1495675147000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-05-25T01:20:10.0",
+        "startTimeGMTDoubleValue": 1495675210000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "activityId": 1757005888,
+    "activityUUID": {
+      "uuid": "302587bd-01f8-4bbd-9c0f-f261ab19c713"
+    },
+    "activityName": "San Francisco Road Cycling",
+    "userProfileId": 48013387,
+    "isMultiSportParent": false,
+    "activityTypeDTO": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventTypeDTO": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "accessControlRuleDTO": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "timeZoneUnitDTO": {
+      "unitId": 121,
+      "unitKey": "America/Los_Angeles",
+      "factor": 0.0,
+      "timeZone": "America/Los_Angeles"
+    },
+    "metadataDTO": {
+      "isOriginal": true,
+      "deviceApplicationInstallationId": 822274,
+      "agentApplicationInstallationId": null,
+      "agentString": null,
+      "fileFormat": {
+        "formatId": 7,
+        "formatKey": "fit"
+      },
+      "associatedCourseId": null,
+      "lastUpdateDate": "2017-05-24T20:20:44.0",
+      "uploadedDate": "2017-05-24T20:20:44.0",
+      "videoUrl": null,
+      "hasPolyline": true,
+      "hasChartData": true,
+      "hasHrTimeInZones": false,
+      "hasPowerTimeInZones": false,
+      "userInfoDto": {
+        "userProfilePk": 48013387,
+        "displayname": "nelson.tam",
+        "fullname": "Nelson Tam",
+        "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+        "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+        "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+        "userPro": false
+      },
+      "childIds": [],
+      "childActivityTypes": [],
+      "sensors": [],
+      "activityImages": [],
+      "manufacturer": "",
+      "diveNumber": null,
+      "lapCount": 1,
+      "associatedWorkoutId": null,
+      "isAtpActivity": null,
+      "deviceMetaDataDTO": {
+        "deviceId": "3943292122",
+        "deviceTypePk": 33956,
+        "deviceVersionPk": 822274
+      },
+      "hasIntensityIntervals": false,
+      "hasSplits": false,
+      "eBikeMaxAssistModes": null,
+      "eBikeBatteryUsage": null,
+      "eBikeBatteryRemaining": null,
+      "eBikeAssistModeInfoDTOList": null,
+      "hasRunPowerWindData": null,
+      "calendarEventInfo": null,
+      "groupRideUUID": null,
+      "hasHeatMap": false,
+      "hasMultiDayActivities": false,
+      "thirdPartyGymEquipment": [],
+      "personalRecord": false,
+      "gcj02": false,
+      "runPowerWindDataEnabled": null,
+      "elevationCorrected": false,
+      "autoCalcCalories": false,
+      "favorite": false,
+      "manualActivity": false,
+      "trimmed": false
+    },
+    "summaryDTO": {
+      "startTimeLocal": "2017-05-24T17:49:50.0",
+      "startTimeGMT": "2017-05-25T00:49:50.0",
+      "distance": 11843.23,
+      "duration": 1694.214,
+      "movingDuration": 1684.0,
+      "elapsedDuration": 1757.208,
+      "elevationGain": 52.0,
+      "elevationLoss": 45.0,
+      "maxElevation": 33.6,
+      "minElevation": 8.6,
+      "averageSpeed": 6.989999771118165,
+      "averageMovingSpeed": 7.032797190469121,
+      "maxSpeed": 13.230999946594238,
+      "calories": 374.9385444460886,
+      "averageTemperature": 12.794917257683215,
+      "maxTemperature": 15.0,
+      "minTemperature": 11.0
+    }
+  }
+}

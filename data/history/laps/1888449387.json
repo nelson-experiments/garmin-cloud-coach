@@ -1,0 +1,646 @@
+{
+  "generated_at": "2026-11-05T19:57:34.245487+00:00",
+  "activity": {
+    "activityId": 1888449387,
+    "activityName": "Pyrmont Road Cycling",
+    "startTimeLocal": "2017-08-01 17:18:05",
+    "startTimeGMT": "2017-08-01 07:18:05",
+    "activityType": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "trimmable": true,
+      "restricted": false
+    },
+    "eventType": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "isFavorite": false,
+    "isPR": false,
+    "isAutoCalcCalories": false,
+    "isParent": false,
+    "distance": 12815.1298828125,
+    "duration": 2021.0760498046875,
+    "elapsedDuration": 2301.052978515625,
+    "elevationGain": 162.0,
+    "elevationLoss": 150.0,
+    "averageSpeed": 6.341000080108643,
+    "maxSpeed": 15.031999588012695,
+    "startLatitude": -33.869756776839495,
+    "startLongitude": 151.19387791492045,
+    "hasPolyline": true,
+    "hasImages": false,
+    "ownerId": 48013387,
+    "ownerDisplayName": "nelson.tam",
+    "ownerFullName": "Nelson Tam",
+    "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+    "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+    "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+    "calories": 449.0,
+    "averageBikingCadenceInRevPerMinute": 75.0,
+    "maxBikingCadenceInRevPerMinute": 106.0,
+    "userRoles": [
+      "SCOPE_ATP_READ",
+      "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+      "SCOPE_GCX_KID_WRITE",
+      "SCOPE_CIQ_APPSTORE_SERVICES_CREATE",
+      "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+      "SCOPE_COMMUNITY_COURSE_WRITE",
+      "SCOPE_GCX_KID_ADMIN_READ",
+      "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+      "SCOPE_ACTIVITY_DETECTION_READ",
+      "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+      "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+      "SCOPE_CONNECT_READ",
+      "SCOPE_GCX_PET_READ",
+      "SCOPE_GOLF_API_READ",
+      "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+      "SCOPE_GCX_PET_WRITE",
+      "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+      "SCOPE_DIVE_API_WRITE",
+      "SCOPE_DIVE_API_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_READ",
+      "SCOPE_CONNECT_WRITE",
+      "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+      "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+      "SCOPE_MESSAGE_GENERATION_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+      "SCOPE_GCS_RACEINSIGHTS_ADMIN_READ",
+      "SCOPE_GCX_PET_ADMIN_READ",
+      "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+      "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+      "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+      "SCOPE_ATP_WRITE",
+      "SCOPE_GCX_KID_READ",
+      "ROLE_CONNECTUSER",
+      "ROLE_FITNESS_USER",
+      "ROLE_WELLNESS_USER",
+      "ROLE_OUTDOOR_USER",
+      "ROLE_CONNECT_2_USER",
+      "ROLE_GARMIN_USER",
+      "ROLE_GCM_USER"
+    ],
+    "privacy": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "userPro": false,
+    "hasVideo": false,
+    "isPurposeful": false,
+    "timeZoneId": 136,
+    "beginTimestamp": 1501571885000,
+    "sportTypeId": 0,
+    "strokes": 1811.0,
+    "deviceId": 3943292122,
+    "minTemperature": 11.0,
+    "maxTemperature": 14.0,
+    "minElevation": 3.4000000953674316,
+    "maxElevation": 47.79999923706055,
+    "isElevationCorrected": false,
+    "summarizedExerciseSets": [],
+    "locationName": "Pyrmont",
+    "splitSummaries": [],
+    "isManualActivity": false,
+    "hasHeatMap": false,
+    "endTimeGMT": "2017-08-01 07:56:26",
+    "qualifyingDive": false,
+    "activityUUID": "f9f71dcf-06c9-4da8-bf10-5f5b08423348",
+    "purposeful": false,
+    "manualActivity": false,
+    "parent": false,
+    "elevationCorrected": false,
+    "pr": false,
+    "autoCalcCalories": false,
+    "favorite": false
+  },
+  "splits": {
+    "activityId": 1888449387,
+    "lapDTOs": [
+      {
+        "startTimeGMT": "2017-08-01T07:18:05.0",
+        "startLatitude": -33.869756776839495,
+        "startLongitude": 151.19387791492045,
+        "distance": 12815.13,
+        "duration": 2021.076,
+        "movingDuration": 1967.0,
+        "elapsedDuration": 2296.0,
+        "elevationGain": 162.0,
+        "elevationLoss": 150.0,
+        "maxElevation": 47.8,
+        "minElevation": 3.4,
+        "averageSpeed": 6.341000080108643,
+        "averageMovingSpeed": 6.515063488974326,
+        "maxSpeed": 15.031999588012695,
+        "calories": 1881.0,
+        "averageBikeCadence": 75.0,
+        "maxBikeCadence": 106.0,
+        "averageTemperature": 11.510416666666666,
+        "maxTemperature": 14.0,
+        "minTemperature": 11.0,
+        "totalNumberOfStrokes": 1811,
+        "endLatitude": -33.89256116934121,
+        "endLongitude": 151.09007525257766,
+        "lapIndex": 1,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      }
+    ],
+    "eventDTOs": [
+      {
+        "startTimeGMT": "2017-08-01T07:18:05.0",
+        "startTimeGMTDoubleValue": 1501571885000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:23:49.0",
+        "startTimeGMTDoubleValue": 1501572229000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:23:52.0",
+        "startTimeGMTDoubleValue": 1501572232000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:27:41.0",
+        "startTimeGMTDoubleValue": 1501572461000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:27:46.0",
+        "startTimeGMTDoubleValue": 1501572466000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:27:47.0",
+        "startTimeGMTDoubleValue": 1501572467000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:27:52.0",
+        "startTimeGMTDoubleValue": 1501572472000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:27:53.0",
+        "startTimeGMTDoubleValue": 1501572473000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:27:55.0",
+        "startTimeGMTDoubleValue": 1501572475000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:27:58.0",
+        "startTimeGMTDoubleValue": 1501572478000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:28:05.0",
+        "startTimeGMTDoubleValue": 1501572485000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:28:06.0",
+        "startTimeGMTDoubleValue": 1501572486000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:28:20.0",
+        "startTimeGMTDoubleValue": 1501572500000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:33:01.0",
+        "startTimeGMTDoubleValue": 1501572781000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:33:05.0",
+        "startTimeGMTDoubleValue": 1501572785000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:35:32.0",
+        "startTimeGMTDoubleValue": 1501572932000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:35:56.0",
+        "startTimeGMTDoubleValue": 1501572956000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:37:20.0",
+        "startTimeGMTDoubleValue": 1501573040000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:37:21.0",
+        "startTimeGMTDoubleValue": 1501573041000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:37:22.0",
+        "startTimeGMTDoubleValue": 1501573042000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:38:08.0",
+        "startTimeGMTDoubleValue": 1501573088000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:38:15.0",
+        "startTimeGMTDoubleValue": 1501573095000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:39:43.0",
+        "startTimeGMTDoubleValue": 1501573183000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:43:30.0",
+        "startTimeGMTDoubleValue": 1501573410000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:43:33.0",
+        "startTimeGMTDoubleValue": 1501573413000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:44:37.0",
+        "startTimeGMTDoubleValue": 1501573477000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:45:14.0",
+        "startTimeGMTDoubleValue": 1501573514000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:48:12.0",
+        "startTimeGMTDoubleValue": 1501573692000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:48:20.0",
+        "startTimeGMTDoubleValue": 1501573700000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:50:42.0",
+        "startTimeGMTDoubleValue": 1501573842000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:50:45.0",
+        "startTimeGMTDoubleValue": 1501573845000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:50:49.0",
+        "startTimeGMTDoubleValue": 1501573849000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:50:50.0",
+        "startTimeGMTDoubleValue": 1501573850000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:51:32.0",
+        "startTimeGMTDoubleValue": 1501573892000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:51:40.0",
+        "startTimeGMTDoubleValue": 1501573900000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:51:41.0",
+        "startTimeGMTDoubleValue": 1501573901000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:51:59.0",
+        "startTimeGMTDoubleValue": 1501573919000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:55:57.0",
+        "startTimeGMTDoubleValue": 1501574157000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T07:56:00.0",
+        "startTimeGMTDoubleValue": 1501574160000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "activityId": 1888449387,
+    "activityUUID": {
+      "uuid": "f9f71dcf-06c9-4da8-bf10-5f5b08423348"
+    },
+    "activityName": "Pyrmont Road Cycling",
+    "userProfileId": 48013387,
+    "isMultiSportParent": false,
+    "activityTypeDTO": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventTypeDTO": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "accessControlRuleDTO": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "timeZoneUnitDTO": {
+      "unitId": 136,
+      "unitKey": "Pacific/Port_Moresby",
+      "factor": 0.0,
+      "timeZone": "Pacific/Port_Moresby"
+    },
+    "metadataDTO": {
+      "isOriginal": true,
+      "deviceApplicationInstallationId": 823734,
+      "agentApplicationInstallationId": null,
+      "agentString": null,
+      "fileFormat": {
+        "formatId": 7,
+        "formatKey": "fit"
+      },
+      "associatedCourseId": null,
+      "lastUpdateDate": "2017-08-01T02:57:03.0",
+      "uploadedDate": "2017-08-01T02:57:03.0",
+      "videoUrl": null,
+      "hasPolyline": true,
+      "hasChartData": true,
+      "hasHrTimeInZones": false,
+      "hasPowerTimeInZones": false,
+      "userInfoDto": {
+        "userProfilePk": 48013387,
+        "displayname": "nelson.tam",
+        "fullname": "Nelson Tam",
+        "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+        "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+        "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+        "userPro": false
+      },
+      "childIds": [],
+      "childActivityTypes": [],
+      "sensors": [
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8906429,
+          "sku": "006-B0010-00",
+          "fitProductNumber": 10,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE",
+          "softwareVersion": 2.3,
+          "batteryStatus": "OK"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8935010,
+          "sku": "006-B0009-00",
+          "fitProductNumber": 9,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED",
+          "softwareVersion": 2.5,
+          "batteryStatus": "OK"
+        }
+      ],
+      "activityImages": [],
+      "manufacturer": "",
+      "diveNumber": null,
+      "lapCount": 1,
+      "associatedWorkoutId": null,
+      "isAtpActivity": null,
+      "deviceMetaDataDTO": {
+        "deviceId": "3943292122",
+        "deviceTypePk": 33956,
+        "deviceVersionPk": 823734
+      },
+      "hasIntensityIntervals": false,
+      "hasSplits": false,
+      "eBikeMaxAssistModes": null,
+      "eBikeBatteryUsage": null,
+      "eBikeBatteryRemaining": null,
+      "eBikeAssistModeInfoDTOList": null,
+      "hasRunPowerWindData": null,
+      "calendarEventInfo": null,
+      "groupRideUUID": null,
+      "hasHeatMap": false,
+      "hasMultiDayActivities": false,
+      "thirdPartyGymEquipment": [],
+      "personalRecord": false,
+      "gcj02": false,
+      "runPowerWindDataEnabled": null,
+      "autoCalcCalories": false,
+      "favorite": false,
+      "manualActivity": false,
+      "trimmed": false,
+      "elevationCorrected": false
+    },
+    "summaryDTO": {
+      "startTimeLocal": "2017-08-01T17:18:05.0",
+      "startTimeGMT": "2017-08-01T07:18:05.0",
+      "startLatitude": -33.869756776839495,
+      "startLongitude": 151.19387791492045,
+      "distance": 12815.13,
+      "duration": 2021.076,
+      "movingDuration": 1967.0,
+      "elapsedDuration": 2301.053,
+      "elevationGain": 162.0,
+      "elevationLoss": 150.0,
+      "maxElevation": 47.8,
+      "minElevation": 3.4,
+      "averageSpeed": 6.341000080108643,
+      "averageMovingSpeed": 6.515063488974326,
+      "maxSpeed": 15.031999588012695,
+      "calories": 448.92387148510034,
+      "averageBikeCadence": 75.0,
+      "maxBikeCadence": 106.0,
+      "averageTemperature": 11.510416666666666,
+      "maxTemperature": 14.0,
+      "minTemperature": 11.0,
+      "totalNumberOfStrokes": 1811,
+      "endLatitude": -33.89256116934121,
+      "endLongitude": 151.09007525257766
+    },
+    "locationName": "Pyrmont"
+  }
+}

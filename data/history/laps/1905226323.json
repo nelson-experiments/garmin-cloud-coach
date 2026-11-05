@@ -1,0 +1,622 @@
+{
+  "generated_at": "2026-11-05T19:57:31.738940+00:00",
+  "activity": {
+    "activityId": 1905226323,
+    "activityName": "Queen Victoria Building Road Cycling",
+    "startTimeLocal": "2017-08-09 19:38:00",
+    "startTimeGMT": "2017-08-09 09:38:00",
+    "activityType": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "trimmable": true,
+      "restricted": false
+    },
+    "eventType": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "isFavorite": false,
+    "isPR": false,
+    "isAutoCalcCalories": false,
+    "isParent": false,
+    "distance": 14839.58984375,
+    "duration": 2234.98388671875,
+    "elapsedDuration": 2548.9619140625,
+    "movingDuration": 2178.0,
+    "elevationGain": 176.0,
+    "elevationLoss": 167.0,
+    "averageSpeed": 6.639999866485596,
+    "maxSpeed": 15.348999977111816,
+    "startLatitude": -33.87091230601072,
+    "startLongitude": 151.20671035721898,
+    "hasPolyline": true,
+    "hasImages": false,
+    "ownerId": 48013387,
+    "ownerDisplayName": "nelson.tam",
+    "ownerFullName": "Nelson Tam",
+    "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+    "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+    "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+    "calories": 543.0,
+    "averageBikingCadenceInRevPerMinute": 75.0,
+    "maxBikingCadenceInRevPerMinute": 115.0,
+    "userRoles": [
+      "SCOPE_ATP_READ",
+      "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+      "SCOPE_GCX_KID_WRITE",
+      "SCOPE_CIQ_APPSTORE_SERVICES_CREATE",
+      "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+      "SCOPE_COMMUNITY_COURSE_WRITE",
+      "SCOPE_GCX_KID_ADMIN_READ",
+      "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+      "SCOPE_ACTIVITY_DETECTION_READ",
+      "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+      "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+      "SCOPE_CONNECT_READ",
+      "SCOPE_GCX_PET_READ",
+      "SCOPE_GOLF_API_READ",
+      "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+      "SCOPE_GCX_PET_WRITE",
+      "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+      "SCOPE_DIVE_API_WRITE",
+      "SCOPE_DIVE_API_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_READ",
+      "SCOPE_CONNECT_WRITE",
+      "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+      "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+      "SCOPE_MESSAGE_GENERATION_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+      "SCOPE_GCS_RACEINSIGHTS_ADMIN_READ",
+      "SCOPE_GCX_PET_ADMIN_READ",
+      "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+      "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+      "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+      "SCOPE_ATP_WRITE",
+      "SCOPE_GCX_KID_READ",
+      "ROLE_CONNECTUSER",
+      "ROLE_FITNESS_USER",
+      "ROLE_WELLNESS_USER",
+      "ROLE_OUTDOOR_USER",
+      "ROLE_CONNECT_2_USER",
+      "ROLE_GARMIN_USER",
+      "ROLE_GCM_USER"
+    ],
+    "privacy": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "userPro": false,
+    "hasVideo": false,
+    "isPurposeful": false,
+    "timeZoneId": 140,
+    "beginTimestamp": 1502271480000,
+    "sportTypeId": 0,
+    "strokes": 2097.0,
+    "deviceId": 3943292122,
+    "minTemperature": 8.0,
+    "maxTemperature": 20.0,
+    "minElevation": -5.599999904632568,
+    "maxElevation": 37.599998474121094,
+    "isElevationCorrected": false,
+    "summarizedExerciseSets": [],
+    "locationName": "Queen Victoria Building",
+    "splitSummaries": [],
+    "isManualActivity": false,
+    "hasHeatMap": false,
+    "endTimeGMT": "2017-08-09 10:20:28",
+    "qualifyingDive": false,
+    "activityUUID": "e07dcb53-5eb8-45b6-93b6-7f8d9ebf045c",
+    "purposeful": false,
+    "manualActivity": false,
+    "parent": false,
+    "elevationCorrected": false,
+    "pr": false,
+    "autoCalcCalories": false,
+    "favorite": false
+  },
+  "splits": {
+    "activityId": 1905226323,
+    "lapDTOs": [
+      {
+        "startTimeGMT": "2017-08-09T09:38:00.0",
+        "startLatitude": -33.87091230601072,
+        "startLongitude": 151.20671035721898,
+        "distance": 14839.59,
+        "duration": 2234.984,
+        "movingDuration": 2178.0,
+        "elapsedDuration": 2547.0,
+        "elevationGain": 176.0,
+        "elevationLoss": 167.0,
+        "maxElevation": 37.6,
+        "minElevation": -5.6,
+        "averageSpeed": 6.639999866485596,
+        "averageMovingSpeed": 6.813402132116622,
+        "maxSpeed": 15.348999977111816,
+        "calories": 2275.0,
+        "averageBikeCadence": 75.0,
+        "maxBikeCadence": 115.0,
+        "averageTemperature": 11.627854903716973,
+        "maxTemperature": 20.0,
+        "minTemperature": 8.0,
+        "totalNumberOfStrokes": 2097,
+        "endLatitude": -33.89250450767577,
+        "endLongitude": 151.08982597477734,
+        "lapIndex": 1,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      }
+    ],
+    "eventDTOs": [
+      {
+        "startTimeGMT": "2017-08-09T09:38:00.0",
+        "startTimeGMTDoubleValue": 1502271480000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:38:44.0",
+        "startTimeGMTDoubleValue": 1502271524000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:38:49.0",
+        "startTimeGMTDoubleValue": 1502271529000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:39:15.0",
+        "startTimeGMTDoubleValue": 1502271555000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:39:27.0",
+        "startTimeGMTDoubleValue": 1502271567000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:40:16.0",
+        "startTimeGMTDoubleValue": 1502271616000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:41:06.0",
+        "startTimeGMTDoubleValue": 1502271666000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:41:29.0",
+        "startTimeGMTDoubleValue": 1502271689000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:41:38.0",
+        "startTimeGMTDoubleValue": 1502271698000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:44:00.0",
+        "startTimeGMTDoubleValue": 1502271840000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:44:03.0",
+        "startTimeGMTDoubleValue": 1502271843000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:44:44.0",
+        "startTimeGMTDoubleValue": 1502271884000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:45:50.0",
+        "startTimeGMTDoubleValue": 1502271950000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:46:14.0",
+        "startTimeGMTDoubleValue": 1502271974000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:46:20.0",
+        "startTimeGMTDoubleValue": 1502271980000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:46:21.0",
+        "startTimeGMTDoubleValue": 1502271981000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:46:55.0",
+        "startTimeGMTDoubleValue": 1502272015000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:52:34.0",
+        "startTimeGMTDoubleValue": 1502272354000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:52:35.0",
+        "startTimeGMTDoubleValue": 1502272355000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:56:11.0",
+        "startTimeGMTDoubleValue": 1502272571000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:56:44.0",
+        "startTimeGMTDoubleValue": 1502272604000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:58:02.0",
+        "startTimeGMTDoubleValue": 1502272682000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T09:58:40.0",
+        "startTimeGMTDoubleValue": 1502272720000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:01:57.0",
+        "startTimeGMTDoubleValue": 1502272917000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:02:04.0",
+        "startTimeGMTDoubleValue": 1502272924000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:05:42.0",
+        "startTimeGMTDoubleValue": 1502273142000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:05:48.0",
+        "startTimeGMTDoubleValue": 1502273148000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:05:54.0",
+        "startTimeGMTDoubleValue": 1502273154000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:06:07.0",
+        "startTimeGMTDoubleValue": 1502273167000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:11:04.0",
+        "startTimeGMTDoubleValue": 1502273464000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:11:18.0",
+        "startTimeGMTDoubleValue": 1502273478000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:19:42.0",
+        "startTimeGMTDoubleValue": 1502273982000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:19:59.0",
+        "startTimeGMTDoubleValue": 1502273999000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-09T10:20:29.0",
+        "startTimeGMTDoubleValue": 1502274029000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "activityId": 1905226323,
+    "activityUUID": {
+      "uuid": "e07dcb53-5eb8-45b6-93b6-7f8d9ebf045c"
+    },
+    "activityName": "Queen Victoria Building Road Cycling",
+    "userProfileId": 48013387,
+    "isMultiSportParent": false,
+    "activityTypeDTO": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventTypeDTO": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "accessControlRuleDTO": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "timeZoneUnitDTO": {
+      "unitId": 140,
+      "unitKey": "Australia/Sydney",
+      "factor": 0.0,
+      "timeZone": "Australia/Sydney"
+    },
+    "metadataDTO": {
+      "isOriginal": true,
+      "deviceApplicationInstallationId": 823734,
+      "agentApplicationInstallationId": null,
+      "agentString": null,
+      "fileFormat": {
+        "formatId": 7,
+        "formatKey": "fit"
+      },
+      "associatedCourseId": null,
+      "lastUpdateDate": "2017-08-09T05:21:21.0",
+      "uploadedDate": "2017-08-09T05:21:21.0",
+      "videoUrl": null,
+      "hasPolyline": true,
+      "hasChartData": true,
+      "hasHrTimeInZones": false,
+      "hasPowerTimeInZones": false,
+      "userInfoDto": {
+        "userProfilePk": 48013387,
+        "displayname": "nelson.tam",
+        "fullname": "Nelson Tam",
+        "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+        "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+        "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+        "userPro": false
+      },
+      "childIds": [],
+      "childActivityTypes": [],
+      "sensors": [
+        {
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8935010,
+          "sku": "006-B0009-00",
+          "fitProductNumber": 9,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED",
+          "softwareVersion": 2.5
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8906429,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE",
+          "batteryStatus": "OK"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8906429,
+          "sku": "006-B0010-00",
+          "fitProductNumber": 10,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE",
+          "softwareVersion": 2.3,
+          "batteryStatus": "OK"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8935010,
+          "sku": "006-B0009-00",
+          "fitProductNumber": 9,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED",
+          "softwareVersion": 2.5,
+          "batteryStatus": "OK"
+        }
+      ],
+      "activityImages": [],
+      "manufacturer": "",
+      "diveNumber": null,
+      "lapCount": 1,
+      "associatedWorkoutId": null,
+      "isAtpActivity": null,
+      "deviceMetaDataDTO": {
+        "deviceId": "3943292122",
+        "deviceTypePk": 33956,
+        "deviceVersionPk": 823734
+      },
+      "hasIntensityIntervals": false,
+      "hasSplits": false,
+      "eBikeMaxAssistModes": null,
+      "eBikeBatteryUsage": null,
+      "eBikeBatteryRemaining": null,
+      "eBikeAssistModeInfoDTOList": null,
+      "hasRunPowerWindData": null,
+      "calendarEventInfo": null,
+      "groupRideUUID": null,
+      "hasHeatMap": false,
+      "hasMultiDayActivities": false,
+      "thirdPartyGymEquipment": [],
+      "personalRecord": false,
+      "gcj02": false,
+      "runPowerWindDataEnabled": null,
+      "elevationCorrected": false,
+      "trimmed": false,
+      "manualActivity": false,
+      "autoCalcCalories": false,
+      "favorite": false
+    },
+    "summaryDTO": {
+      "startTimeLocal": "2017-08-09T19:38:00.0",
+      "startTimeGMT": "2017-08-09T09:38:00.0",
+      "startLatitude": -33.87091230601072,
+      "startLongitude": 151.20671035721898,
+      "distance": 14839.59,
+      "duration": 2234.984,
+      "movingDuration": 2178.0,
+      "elapsedDuration": 2548.962,
+      "elevationGain": 176.0,
+      "elevationLoss": 167.0,
+      "maxElevation": 37.6,
+      "minElevation": -5.6,
+      "averageSpeed": 6.639999866485596,
+      "averageMovingSpeed": 6.813402132116622,
+      "maxSpeed": 15.348999977111816,
+      "calories": 542.9568355282314,
+      "averageBikeCadence": 75.0,
+      "maxBikeCadence": 115.0,
+      "averageTemperature": 11.627854903716973,
+      "maxTemperature": 20.0,
+      "minTemperature": 8.0,
+      "totalNumberOfStrokes": 2097,
+      "endLatitude": -33.89250450767577,
+      "endLongitude": 151.08982597477734
+    },
+    "locationName": "Queen Victoria Building"
+  }
+}

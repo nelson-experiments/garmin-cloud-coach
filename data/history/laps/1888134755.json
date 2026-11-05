@@ -1,0 +1,573 @@
+{
+  "generated_at": "2026-11-05T19:57:34.730902+00:00",
+  "activity": {
+    "activityId": 1888134755,
+    "activityName": "Burwood Heights Road Cycling",
+    "startTimeLocal": "2017-08-01 11:05:06",
+    "startTimeGMT": "2017-08-01 01:05:06",
+    "activityType": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "trimmable": true,
+      "restricted": false
+    },
+    "eventType": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "isFavorite": false,
+    "isPR": false,
+    "isAutoCalcCalories": false,
+    "isParent": false,
+    "distance": 14485.7998046875,
+    "duration": 2024.56298828125,
+    "elapsedDuration": 2429.552001953125,
+    "elevationGain": 159.0,
+    "elevationLoss": 169.0,
+    "averageSpeed": 7.15500020980835,
+    "maxSpeed": 13.39900016784668,
+    "startLatitude": -33.893657019361854,
+    "startLongitude": 151.09392380341887,
+    "hasPolyline": true,
+    "hasImages": false,
+    "ownerId": 48013387,
+    "ownerDisplayName": "nelson.tam",
+    "ownerFullName": "Nelson Tam",
+    "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+    "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+    "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+    "calories": 594.0,
+    "averageBikingCadenceInRevPerMinute": 76.0,
+    "maxBikingCadenceInRevPerMinute": 108.0,
+    "userRoles": [
+      "SCOPE_ATP_READ",
+      "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+      "SCOPE_GCX_KID_WRITE",
+      "SCOPE_CIQ_APPSTORE_SERVICES_CREATE",
+      "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+      "SCOPE_COMMUNITY_COURSE_WRITE",
+      "SCOPE_GCX_KID_ADMIN_READ",
+      "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+      "SCOPE_ACTIVITY_DETECTION_READ",
+      "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+      "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+      "SCOPE_CONNECT_READ",
+      "SCOPE_GCX_PET_READ",
+      "SCOPE_GOLF_API_READ",
+      "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+      "SCOPE_GCX_PET_WRITE",
+      "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+      "SCOPE_DIVE_API_WRITE",
+      "SCOPE_DIVE_API_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_READ",
+      "SCOPE_CONNECT_WRITE",
+      "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+      "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+      "SCOPE_MESSAGE_GENERATION_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+      "SCOPE_GCS_RACEINSIGHTS_ADMIN_READ",
+      "SCOPE_GCX_PET_ADMIN_READ",
+      "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+      "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+      "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+      "SCOPE_ATP_WRITE",
+      "SCOPE_GCX_KID_READ",
+      "ROLE_CONNECTUSER",
+      "ROLE_FITNESS_USER",
+      "ROLE_WELLNESS_USER",
+      "ROLE_OUTDOOR_USER",
+      "ROLE_CONNECT_2_USER",
+      "ROLE_GARMIN_USER",
+      "ROLE_GCM_USER"
+    ],
+    "privacy": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "userPro": false,
+    "hasVideo": false,
+    "isPurposeful": false,
+    "timeZoneId": 140,
+    "beginTimestamp": 1501549506000,
+    "sportTypeId": 0,
+    "strokes": 1894.0,
+    "deviceId": 3943292122,
+    "minTemperature": 12.0,
+    "maxTemperature": 17.0,
+    "minElevation": -81.19999694824219,
+    "maxElevation": 38.599998474121094,
+    "isElevationCorrected": false,
+    "summarizedExerciseSets": [],
+    "locationName": "Burwood Heights",
+    "splitSummaries": [],
+    "isManualActivity": false,
+    "hasHeatMap": false,
+    "endTimeGMT": "2017-08-01 01:45:35",
+    "qualifyingDive": false,
+    "activityUUID": "34dea1e4-9058-45b7-b4f8-3e650bb82013",
+    "purposeful": false,
+    "manualActivity": false,
+    "parent": false,
+    "elevationCorrected": false,
+    "pr": false,
+    "autoCalcCalories": false,
+    "favorite": false
+  },
+  "splits": {
+    "activityId": 1888134755,
+    "lapDTOs": [
+      {
+        "startTimeGMT": "2017-08-01T01:05:06.0",
+        "startLatitude": -33.893657019361854,
+        "startLongitude": 151.09392380341887,
+        "distance": 14485.8,
+        "duration": 2024.563,
+        "movingDuration": 1943.0,
+        "elapsedDuration": 2425.0,
+        "elevationGain": 159.0,
+        "elevationLoss": 169.0,
+        "maxElevation": 38.6,
+        "minElevation": -81.2,
+        "averageSpeed": 7.15500020980835,
+        "averageMovingSpeed": 7.455378180487648,
+        "maxSpeed": 13.39900016784668,
+        "calories": 2489.0,
+        "averageBikeCadence": 76.0,
+        "maxBikeCadence": 108.0,
+        "averageTemperature": 15.986633663366337,
+        "maxTemperature": 17.0,
+        "minTemperature": 12.0,
+        "totalNumberOfStrokes": 1894,
+        "endLatitude": -33.870612904429436,
+        "endLongitude": 151.2061207741499,
+        "lapIndex": 1,
+        "lengthDTOs": [],
+        "connectIQMeasurement": []
+      }
+    ],
+    "eventDTOs": [
+      {
+        "startTimeGMT": "2017-08-01T01:05:06.0",
+        "startTimeGMTDoubleValue": 1501549506000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:05:17.0",
+        "startTimeGMTDoubleValue": 1501549517000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:05:19.0",
+        "startTimeGMTDoubleValue": 1501549519000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:08:57.0",
+        "startTimeGMTDoubleValue": 1501549737000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:09:38.0",
+        "startTimeGMTDoubleValue": 1501549778000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:13:55.0",
+        "startTimeGMTDoubleValue": 1501550035000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:14:53.0",
+        "startTimeGMTDoubleValue": 1501550093000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:18:15.0",
+        "startTimeGMTDoubleValue": 1501550295000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:18:28.0",
+        "startTimeGMTDoubleValue": 1501550308000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:18:48.0",
+        "startTimeGMTDoubleValue": 1501550328000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:19:15.0",
+        "startTimeGMTDoubleValue": 1501550355000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:20:35.0",
+        "startTimeGMTDoubleValue": 1501550435000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:20:56.0",
+        "startTimeGMTDoubleValue": 1501550456000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:26:56.0",
+        "startTimeGMTDoubleValue": 1501550816000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:27:17.0",
+        "startTimeGMTDoubleValue": 1501550837000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:28:40.0",
+        "startTimeGMTDoubleValue": 1501550920000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:29:21.0",
+        "startTimeGMTDoubleValue": 1501550961000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:32:46.0",
+        "startTimeGMTDoubleValue": 1501551166000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:32:58.0",
+        "startTimeGMTDoubleValue": 1501551178000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:37:42.0",
+        "startTimeGMTDoubleValue": 1501551462000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:38:22.0",
+        "startTimeGMTDoubleValue": 1501551502000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:38:51.0",
+        "startTimeGMTDoubleValue": 1501551531000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:39:17.0",
+        "startTimeGMTDoubleValue": 1501551557000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:42:20.0",
+        "startTimeGMTDoubleValue": 1501551740000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:42:58.0",
+        "startTimeGMTDoubleValue": 1501551778000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:43:36.0",
+        "startTimeGMTDoubleValue": 1501551816000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:43:46.0",
+        "startTimeGMTDoubleValue": 1501551826000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:44:02.0",
+        "startTimeGMTDoubleValue": 1501551842000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      },
+      {
+        "startTimeGMT": "2017-08-01T01:44:57.0",
+        "startTimeGMTDoubleValue": 1501551897000.0,
+        "sectionTypeDTO": {
+          "id": 4,
+          "key": "timerTrigger",
+          "sectionTypeKey": "TIMER_TRIGGER"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "activityId": 1888134755,
+    "activityUUID": {
+      "uuid": "34dea1e4-9058-45b7-b4f8-3e650bb82013"
+    },
+    "activityName": "Burwood Heights Road Cycling",
+    "userProfileId": 48013387,
+    "isMultiSportParent": false,
+    "activityTypeDTO": {
+      "typeId": 10,
+      "typeKey": "road_biking",
+      "parentTypeId": 2,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventTypeDTO": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "accessControlRuleDTO": {
+      "typeId": 4,
+      "typeKey": "groups"
+    },
+    "timeZoneUnitDTO": {
+      "unitId": 140,
+      "unitKey": "Australia/Sydney",
+      "factor": 0.0,
+      "timeZone": "Australia/Sydney"
+    },
+    "metadataDTO": {
+      "isOriginal": true,
+      "deviceApplicationInstallationId": 823734,
+      "agentApplicationInstallationId": null,
+      "agentString": null,
+      "fileFormat": {
+        "formatId": 7,
+        "formatKey": "fit"
+      },
+      "associatedCourseId": null,
+      "lastUpdateDate": "2017-07-31T20:45:47.0",
+      "uploadedDate": "2017-07-31T20:45:47.0",
+      "videoUrl": null,
+      "hasPolyline": true,
+      "hasChartData": true,
+      "hasHrTimeInZones": false,
+      "hasPowerTimeInZones": false,
+      "userInfoDto": {
+        "userProfilePk": 48013387,
+        "displayname": "nelson.tam",
+        "fullname": "Nelson Tam",
+        "profileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/4456667e-f060-4efc-ba70-8e9a24430200-48013387.png",
+        "profileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/20701414-8430-408f-b683-f451ab6097cf-48013387.png",
+        "profileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/ed00be07-04a0-4c2e-9f60-8581c151b457-48013387.png",
+        "userPro": false
+      },
+      "childIds": [],
+      "childActivityTypes": [],
+      "sensors": [
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8906429,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE"
+        },
+        {
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8935010,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED",
+          "batteryStatus": "OK"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8906429,
+          "sku": "006-B0010-00",
+          "fitProductNumber": 10,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_CADENCE",
+          "softwareVersion": 2.3,
+          "batteryStatus": "OK"
+        },
+        {
+          "manufacturer": "GARMIN",
+          "serialNumber": 8935010,
+          "sku": "006-B0009-00",
+          "fitProductNumber": 9,
+          "sourceType": "ANTPLUS",
+          "antplusDeviceType": "BIKE_SPEED",
+          "softwareVersion": 2.5,
+          "batteryStatus": "OK"
+        }
+      ],
+      "activityImages": [],
+      "manufacturer": "",
+      "diveNumber": null,
+      "lapCount": 1,
+      "associatedWorkoutId": null,
+      "isAtpActivity": null,
+      "deviceMetaDataDTO": {
+        "deviceId": "3943292122",
+        "deviceTypePk": 33956,
+        "deviceVersionPk": 823734
+      },
+      "hasIntensityIntervals": false,
+      "hasSplits": false,
+      "eBikeMaxAssistModes": null,
+      "eBikeBatteryUsage": null,
+      "eBikeBatteryRemaining": null,
+      "eBikeAssistModeInfoDTOList": null,
+      "hasRunPowerWindData": null,
+      "calendarEventInfo": null,
+      "groupRideUUID": null,
+      "hasHeatMap": false,
+      "hasMultiDayActivities": false,
+      "thirdPartyGymEquipment": [],
+      "runPowerWindDataEnabled": null,
+      "elevationCorrected": false,
+      "trimmed": false,
+      "manualActivity": false,
+      "autoCalcCalories": false,
+      "favorite": false,
+      "personalRecord": false,
+      "gcj02": false
+    },
+    "summaryDTO": {
+      "startTimeLocal": "2017-08-01T11:05:06.0",
+      "startTimeGMT": "2017-08-01T01:05:06.0",
+      "startLatitude": -33.893657019361854,
+      "startLongitude": 151.09392380341887,
+      "distance": 14485.8,
+      "duration": 2024.563,
+      "movingDuration": 1943.0,
+      "elapsedDuration": 2429.552,
+      "elevationGain": 159.0,
+      "elevationLoss": 169.0,
+      "maxElevation": 38.6,
+      "minElevation": -81.2,
+      "averageSpeed": 7.15500020980835,
+      "averageMovingSpeed": 7.455378180487648,
+      "maxSpeed": 13.39900016784668,
+      "calories": 594.0305774196783,
+      "averageBikeCadence": 76.0,
+      "maxBikeCadence": 108.0,
+      "averageTemperature": 15.986633663366337,
+      "maxTemperature": 17.0,
+      "minTemperature": 12.0,
+      "totalNumberOfStrokes": 1894,
+      "endLatitude": -33.870612904429436,
+      "endLongitude": 151.2061207741499
+    },
+    "locationName": "Burwood Heights"
+  }
+}
