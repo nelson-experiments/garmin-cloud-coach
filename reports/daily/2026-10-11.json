@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-11-05T21:21:53.146Z",
+  "snapshot_generated_at": "2026-10-10T23:06:03.590592+00:00",
+  "headline": "Retrospective recovery record",
+  "summary": "Backfilled after the fact from an archived Garmin snapshot; no same-day coaching was issued.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 53m · score 52",
+      "context": "Garmin completed overnight record.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "69 bpm",
+      "context": "Prior 7 nights 65.1 bpm; prior 14 nights 66.7 bpm; available records only.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "62 bpm",
+      "context": "Garmin estimate.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "36 ms overnight · 41 ms weekly",
+      "context": "Garmin measurement.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "23",
+      "context": "Snapshot average, may be partial.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "43 on waking",
+      "context": "Garmin estimate.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "26",
+      "context": "Recovery time 1535 minutes at reading.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "624 acute",
+      "context": "Garmin estimate.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Previous day",
+    "summary": "running: 18.14 km, 130:38, 7:12/km, average HR 140 bpm, load 125, aerobic 3.5999999046325684, anaerobic 0, device temperature 19–26°C.",
+    "adherence_verdict": "followed",
+    "prescribed": "Recovery for the rest of today; full rest Sunday",
+    "completed": "running: 18.14 km, 130:38, 7:12/km, average HR 140 bpm, load 125, aerobic 3.5999999046325684, anaerobic 0, device temperature 19–26°C.",
+    "adherence_assessment": "No recorded workout conflicts with the rest recommendation.",
+    "adherence_evidence": [
+      "Comparison with 2026-10-10 report and recorded activity."
+    ],
+    "adherence_caveats": [
+      "Unrecorded activity, perceived effort and sensor source cannot be inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin activity temperature where available above.",
+      "humidity_dew_point_context": "Hourly weather unavailable.",
+      "heat_impact_interpretation": "Heat may affect HR and pace; causation cannot be determined.",
+      "limitations": "Device measurements are not city weather estimates."
+    }
+  },
+  "recommendation": {
+    "title": "Historical record only",
+    "details": [
+      "This entry was reconstructed retrospectively; it was not a recommendation issued on this date."
+    ],
+    "alternative": "Not applicable to a past date.",
+    "reduce_or_stop": "Not applicable to a past date."
+  },
+  "signals": [],
+  "caveats": [
+    "Backfilled from archived data; incomplete values are marked unavailable.",
+    "Historical entry does not create a retroactive training prescription."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-10-10",
+      "activity_type": "running",
+      "assessment": "running: 18.14 km, 130:38, 7:12/km, average HR 140 bpm, load 125, aerobic 3.5999999046325684, anaerobic 0, device temperature 19–26°C."
+    }
+  ],
+  "status": "published"
+}
