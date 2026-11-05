@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-11-05T21:22:57.426Z",
+  "snapshot_generated_at": "2026-09-27T22:42:25.893684+00:00",
+  "headline": "Retrospective travel record",
+  "summary": "Reconstructed after travel from completed UTC sleep timestamps; no daily coaching was issued on this date.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "Duration and score unavailable",
+      "context": "Completed sleep window 8.4 hours; window is not sleep duration.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "66 bpm",
+      "context": "Garmin source date 2026-09-22; UTC sleep end maps to 2026-09-22 in California.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "60 bpm",
+      "context": "Historical Garmin record.",
+      "status": "neutral"
+    },
+    {
+      "label": "Other recovery metrics",
+      "value": "Unavailable",
+      "context": "Historical sleep score, HRV, stress, Body Battery, readiness and load not available in this snapshot.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "Previous day",
+    "summary": "No recorded activities.",
+    "adherence_verdict": "not_assessable",
+    "prescribed": "No contemporaneous California-local daily report available for reliable comparison.",
+    "completed": "No recorded activities.",
+    "adherence_assessment": "No reliable prior prescription for this local day.",
+    "adherence_evidence": [
+      "Previous-day activities matched by UTC start time to California date."
+    ],
+    "adherence_caveats": [
+      "Unrecorded activity, effort and sensor source cannot be inferred."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device temperatures shown where present.",
+      "humidity_dew_point_context": "Hourly weather unavailable.",
+      "heat_impact_interpretation": "Travel and heat may affect performance; cause cannot be isolated.",
+      "limitations": "Historical city weather unavailable."
+    }
+  },
+  "recommendation": {
+    "title": "Historical record only",
+    "details": [
+      "This entry was reconstructed retrospectively; no recommendation was issued on this date."
+    ],
+    "alternative": "Not applicable to a past date.",
+    "reduce_or_stop": "Not applicable to a past date."
+  },
+  "signals": [],
+  "caveats": [
+    "The sleep record is reconciled by UTC timestamps to California local time.",
+    "Sleep-window length is not measured sleep duration."
+  ],
+  "run_assessments": [],
+  "status": "published"
+}
