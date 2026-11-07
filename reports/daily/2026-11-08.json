@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-07T20:35:46.287Z",
+  "snapshot_generated_at": "2026-11-07T20:34:48.225137+00:00",
+  "headline": "Rest after yesterday’s run",
+  "summary": "Rest from running today; a short, gentle walk is optional. Sleep and recovery signals favour an easier day.",
+  "recovery": [
+    {
+      "label": "Sleep",
+      "value": "5h 58m · score 67",
+      "context": "Completed overnight record.",
+      "status": "neutral"
+    },
+    {
+      "label": "Sleeping HR",
+      "value": "68 bpm",
+      "context": "Prior seven nights 64.1 bpm; prior 14 nights 63.6 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "Resting HR",
+      "value": "63 bpm",
+      "context": "Seven-day average 59 bpm.",
+      "status": "neutral"
+    },
+    {
+      "label": "HRV",
+      "value": "34 ms overnight · 44 ms weekly",
+      "context": "Overnight below weekly average.",
+      "status": "neutral"
+    },
+    {
+      "label": "Stress",
+      "value": "29 so far",
+      "context": "Partial morning; sleep stress 26.",
+      "status": "neutral"
+    },
+    {
+      "label": "Body Battery",
+      "value": "42 on waking",
+      "context": "Garmin estimate.",
+      "status": "neutral"
+    },
+    {
+      "label": "Training Readiness",
+      "value": "54 · moderate",
+      "context": "Recovery time 218 minutes (3h 38m) at 06:32.",
+      "status": "neutral"
+    },
+    {
+      "label": "Recent load",
+      "value": "489 acute",
+      "context": "Garmin readiness reading.",
+      "status": "neutral"
+    }
+  ],
+  "yesterday": {
+    "title": "12.37 km run",
+    "summary": "12.37 km in 1:24:05 (6:48/km); average HR 139, maximum 162. Load 108; aerobic effect 3.3, anaerobic 0.0.",
+    "adherence_verdict": "not_assessable",
+    "prescribed": "No 7 November daily report was published.",
+    "completed": "One running activity: 12.37 km in 1:24:05.",
+    "adherence_assessment": "No same-day published prescription is available for comparison.",
+    "adherence_evidence": [
+      "Garmin records one run on 7 November.",
+      "The preceding daily report is unavailable."
+    ],
+    "adherence_caveats": [
+      "Perceived effort, sensor source and pain are not confirmed."
+    ],
+    "environment": {
+      "observed_temperature_range": "Garmin device: 23–28°C.",
+      "humidity_dew_point_context": "Reliable hourly city humidity and dew point unavailable.",
+      "heat_impact_interpretation": "Warmth may affect heart rate and pace; its individual effect cannot be determined.",
+      "limitations": "Device temperature is not a city weather observation."
+    }
+  },
+  "recommendation": {
+    "title": "Rest from running",
+    "details": [
+      "Rest today after yesterday’s 12.37 km run.",
+      "If comfortable, take a gentle 20–30 minute walk at RPE 1–2."
+    ],
+    "alternative": "Complete rest if tired, sore or unwell.",
+    "reduce_or_stop": "Stop for pain that changes gait, dizziness or illness; follow medical advice."
+  },
+  "signals": [
+    {
+      "label": "Recent running",
+      "value": "12.37 km yesterday",
+      "interpretation": "A substantial run supports an easier day."
+    },
+    {
+      "label": "HRV",
+      "value": "34 ms vs 44 ms weekly",
+      "interpretation": "Overnight reading is below the weekly average."
+    },
+    {
+      "label": "Sleep and resting HR",
+      "value": "5h 58m · 63 vs 59 bpm",
+      "interpretation": "Short sleep and elevated resting HR support recovery."
+    }
+  ],
+  "caveats": [
+    "Garmin measurements are estimates; symptoms and medical advice take precedence.",
+    "A prior-day daily report was not published."
+  ],
+  "run_assessments": [
+    {
+      "activity_date": "2026-11-07",
+      "activity_type": "running",
+      "assessment": "12.37 km in 1:24:05 (6:48/km), average HR 139, max 162, training load 108, aerobic effect 3.3, anaerobic 0.0. Garmin device temperature 23–28°C; warm conditions could influence HR. Sensor source unconfirmed."
+    }
+  ],
+  "status": "published"
+}
